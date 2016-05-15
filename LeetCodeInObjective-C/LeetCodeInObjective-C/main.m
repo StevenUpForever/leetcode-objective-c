@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Problem1To10.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Problem1To10 *problem1 = [[Problem1To10 alloc]init];
+        NSLog(@"%@", [problem1 twoSum:@[@2, @7, @11, @15] target:9]);
     }
     return 0;
 }

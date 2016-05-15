@@ -10,4 +10,6 @@
 
 @interface Problem1To10 : NSObject
 
+- (NSArray<NSNumber *> *)twoSum: (NSArray<NSNumber *> *)nums target: (NSInteger)target;
+
 @end
