@@ -8,8 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@class ListNode;
 @interface Problem1To10 : NSObject
 
 - (NSArray<NSNumber *> *)twoSum: (NSArray<NSNumber *> *)nums target: (NSInteger)target;
+- (ListNode *)addTwoNumbers: (ListNode *)l1 listNode2: (ListNode *)l2;
+- (NSInteger)lengthOfLongestSubstring: (NSString *)s;
+- (double)findMedianSortedArrays: (NSArray<NSNumber *> *)num1 andNum2: (NSArray<NSNumber *> *)num2;
 
 @end

@@ -95,5 +95,31 @@
     return result;
 }
 
+/*4. Median of Two Sorted Arrays
+ There are two sorted arrays nums1 and nums2 of size m and n respectively. Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).
+ */
+- (double)findMedianSortedArrays: (NSArray<NSNumber *> *)num1 andNum2: (NSArray<NSNumber *> *)num2 {
+    NSMutableArray *resultArray = [[NSMutableArray alloc]init];
+    NSInteger index1 = 0, index2 = 0;
+    while (index1 < num1.count && index2 < num2.count) {
+        if ([num1[index1] integerValue] <= [num2[index2] integerValue]) {
+            [resultArray addObject:num1[index1]];
+            index1++;
+        } else {
+            [resultArray addObject:num2[index2]];
+            index2++;
+        }
+    }
+    if (index1 < num1.count) {
+        [resultArray addObjectsFromArray:[num1 subarrayWithRange:NSMakeRange(index1, num1.count - index1)]];
+    } else if (index2 < num2.count) {
+        [resultArray addObjectsFromArray:[num2 subarrayWithRange:NSMakeRange(index2, num2.count - index2)]];
+    }
+    NSLog(@"%@", resultArray);
+    NSInteger len = resultArray.count;
+    return len % 2 == 0 ? (double)([resultArray[len/2] integerValue] + [resultArray[len/2 - 1] integerValue])/2 : (double)[resultArray[len/2] integerValue];
+}
+
+
 @end
 
