@@ -120,6 +120,30 @@
     return len % 2 == 0 ? (double)([resultArray[len/2] integerValue] + [resultArray[len/2 - 1] integerValue])/2 : (double)[resultArray[len/2] integerValue];
 }
 
+/*
+ 5. Longest Palindromic Substring
+ Given a string S, find the longest palindromic substring in S. You may assume that the maximum length of S is 1000, and there exists one unique longest palindromic substring.
+ */
+- (NSString *)longestPalindrome: (NSString *)s {
+    
+    NSRange range = NSMakeRange(0, 1);
+    for (int index = 0; index < s.length - 1; index++) {
+        NSRange resultRange = [self palindromeString:s startIndex:index endIndex:index];
+        NSRange resultRange2 = [self palindromeString:s startIndex:index endIndex:index + 1];
+        NSRange comparedRange = resultRange.length > resultRange2.length ? resultRange : resultRange2;
+        range = comparedRange.length > range.length ? comparedRange : range;
+    }
+    return [s substringWithRange:range];
+}
+
+- (NSRange)palindromeString: (NSString *)str startIndex: (NSInteger)startIndex endIndex: (NSInteger)endIndex {
+    while (startIndex >= 0 && endIndex < str.length && [str characterAtIndex:startIndex] == [str characterAtIndex:endIndex]) {
+        startIndex--;
+        endIndex++;
+    }
+    return NSMakeRange(startIndex + 1, endIndex - startIndex - 1);
+}
+
 
 @end
 

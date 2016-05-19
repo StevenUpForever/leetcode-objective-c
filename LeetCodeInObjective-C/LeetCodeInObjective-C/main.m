@@ -14,6 +14,8 @@ int main(int argc, const char * argv[]) {
         Problem1To10 *problem1 = [[Problem1To10 alloc]init];
         NSLog(@"%@", [problem1 twoSum:@[@2, @7, @11, @15] target:9]);
         NSLog(@"%f", [problem1 findMedianSortedArrays:@[@1, @3, @5] andNum2:@[@2, @4, @9]]);
+        NSLog(@"%ld", (long)[problem1 lengthOfLongestSubstring:@"wke"]);
+        NSLog(@"%@", [problem1 longestPalindrome:@"aaaaaaaaaaaaaaaaaabcaaaaaaaaaaaaaaaaa"]);
         
     }
     return 0;
