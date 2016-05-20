@@ -23,6 +23,7 @@ int main(int argc, const char * argv[]) {
         NSArray *sortArray = @[@1, @3, @6, @2, @5, @4, @9, @7, @8, @0];
         NSLog(@"%@", [sort bubbleSort:sortArray]);
         NSLog(@"%@", [sort selectionSort:sortArray]);
+        NSLog(@"%@", [sort insertionSort:sortArray]);
     }
     return 0;
 }
