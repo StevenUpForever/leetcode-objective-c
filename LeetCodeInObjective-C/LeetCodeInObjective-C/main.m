@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%f", [problem1 findMedianSortedArrays:@[@1, @3, @5] andNum2:@[@2, @4, @9]]);
         NSLog(@"%ld", (long)[problem1 lengthOfLongestSubstring:@"wke"]);
         NSLog(@"%@", [problem1 longestPalindrome:@"aaaaaaaaaaaaaaaaaabcaaaaaaaaaaaaaaaaa"]);
-        
+        NSLog(@"%li", [problem1 myAtoi:@"    -13   45asda23232ads1"]);
     }
     return 0;
 }

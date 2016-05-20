@@ -144,6 +144,39 @@
     return NSMakeRange(startIndex + 1, endIndex - startIndex - 1);
 }
 
+/*
+ 8. String to Integer (atoi)
+ Implement atoi to convert a string to an integer.
+ 
+ Hint: Carefully consider all possible input cases. If you want a challenge, please do not see below and ask yourself what are the possible input cases.
+ 
+ Notes: It is intended for this problem to be specified vaguely (ie, no given input specs). You are responsible to gather all the input requirements up front.
+ 
+ Update (2015-02-10):
+ The signature of the C++ function had been updated. If you still see your function signature accepts a const char * argument, please click the reload button  to reset your code definition.
+ 
+ spoilers alert... click to show requirements for atoi.
+ */
+- (NSInteger)myAtoi: (NSString *)str {
+    if (str.length < 1) return 0;
+    NSInteger index = 0;
+    NSInteger len = str.length;
+    while (index < len && [str characterAtIndex:index] == ' ') {
+        index++;
+    }
+    BOOL positiveNum = YES;
+    if (index < len && ([str characterAtIndex:index] == '+' || [str characterAtIndex:index] == '-')) {
+        positiveNum = [str characterAtIndex:index] == '+';
+        index++;
+    }
+    NSInteger result = 0;
+    while (index < len && [str characterAtIndex:index] - '0' >= 0 && [str characterAtIndex:index] - '0' <= 9) {
+        result = result * 10 + ([str characterAtIndex:index] - '0');
+        index++;
+    }
+    return positiveNum ? (result > INT_MAX ? INT_MAX : result) : (-result < INT_MIN ? INT_MIN : -result);
+}
+
 
 @end
 
