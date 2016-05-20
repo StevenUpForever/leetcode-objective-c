@@ -10,4 +10,7 @@
 
 @interface Sort : NSObject
 
+- (NSArray *)bubbleSort: (NSArray *)ary;
+- (NSArray *)selectionSort: (NSArray *)ary;
+
 @end
