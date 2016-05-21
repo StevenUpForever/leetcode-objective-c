@@ -13,5 +13,6 @@
 - (NSArray *)bubbleSort: (NSArray *)ary;
 - (NSArray *)selectionSort: (NSArray *)ary;
 - (NSArray *)insertionSort: (NSArray *)ary;
+- (NSArray *)quickSortOne: (NSArray *)ary;
 
 @end

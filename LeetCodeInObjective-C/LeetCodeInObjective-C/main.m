@@ -24,6 +24,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", [sort bubbleSort:sortArray]);
         NSLog(@"%@", [sort selectionSort:sortArray]);
         NSLog(@"%@", [sort insertionSort:sortArray]);
+        NSLog(@"%@", [sort quickSortOne:sortArray]);
     }
     return 0;
 }

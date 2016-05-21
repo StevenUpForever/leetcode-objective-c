@@ -68,9 +68,23 @@
     return [mutableArray copy];
 }
 
-- (NSArray *)quickSort: (NSArray *)ary {
+- (NSArray *)quickSortOne: (NSArray *)ary {
     if (ary.count <= 1) return ary;
-    
+    NSMutableArray *smallArray = [[NSMutableArray alloc]init];
+    NSMutableArray *bigArray = [[NSMutableArray alloc]init];
+    int pivot = arc4random()%ary.count;
+    NSNumber *pivotNum = ary[pivot];
+    for (NSNumber *num in ary) {
+        if ([pivotNum integerValue] > [num integerValue]) {
+            [smallArray addObject:num];
+        } else {
+            [bigArray addObject:num];
+        }
+    }
+    NSMutableArray *result = [[NSMutableArray alloc]init];
+    [result addObjectsFromArray:[self quickSortOne:smallArray]];
+    [result addObjectsFromArray:[self quickSortOne:bigArray]];
+    return result;
 }
 
 @end
