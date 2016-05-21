@@ -68,6 +68,9 @@
     return [mutableArray copy];
 }
 
-
+- (NSArray *)quickSort: (NSArray *)ary {
+    if (ary.count <= 1) return ary;
+    
+}
 
 @end
