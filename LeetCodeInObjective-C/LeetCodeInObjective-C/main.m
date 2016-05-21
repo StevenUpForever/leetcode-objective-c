@@ -25,6 +25,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", [sort selectionSort:sortArray]);
         NSLog(@"%@", [sort insertionSort:sortArray]);
         NSLog(@"%@", [sort quickSortOne:sortArray]);
+        NSLog(@"%@", [sort quickSortTwo:sortArray]);
     }
     return 0;
 }

@@ -68,6 +68,12 @@
     return [mutableArray copy];
 }
 
+/*
+ Time complexity: O(nlogn) - O(n2)
+ Space complexity: O(nlogn)
+ unstable
+ */
+
 - (NSArray *)quickSortOne: (NSArray *)ary {
     if (ary.count <= 1) return ary;
     NSMutableArray *smallArray = [[NSMutableArray alloc]init];
@@ -85,6 +91,39 @@
     [result addObjectsFromArray:[self quickSortOne:smallArray]];
     [result addObjectsFromArray:[self quickSortOne:bigArray]];
     return result;
+}
+
+/*
+ Time complexity: O(nlogn) - O(n2)
+ Space complexity: O(1)
+ unstable
+ */
+
+- (NSArray *)quickSortTwo:(NSArray *)ary {
+    NSMutableArray *mutableArray = [ary mutableCopy];
+    [self quickSortProcess:mutableArray startIndex:0 endIndex:mutableArray.count - 1];
+    return [mutableArray copy];
+}
+
+- (void)quickSortProcess: (NSMutableArray *)input startIndex: (NSInteger)start endIndex: (NSInteger)end {
+    if (start < end) {
+        NSInteger pivot = [self partition:input startIndex:start endIndex:end];
+        [self quickSortProcess:input startIndex:start endIndex:pivot - 1];
+        [self quickSortProcess:input startIndex:pivot + 1 endIndex:end];
+    }
+}
+
+- (NSInteger)partition: (NSMutableArray *)inputArray startIndex: (NSInteger)start endIndex: (NSInteger)end {
+    NSNumber *pivot = inputArray[end];
+    NSInteger startIndex = start;
+    for (NSInteger index = start; index < end; index++) {
+        if ([inputArray[index] integerValue] < [pivot integerValue]) {
+            [inputArray exchangeObjectAtIndex:index withObjectAtIndex:startIndex];
+            startIndex++;
+        }
+    }
+    [inputArray exchangeObjectAtIndex:end withObjectAtIndex:startIndex];
+    return startIndex;
 }
 
 @end
