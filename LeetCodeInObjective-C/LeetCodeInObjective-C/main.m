@@ -20,7 +20,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%li", [problem1 myAtoi:@"    -13   45asda23232ads1"]);
         
         Sort *sort = [[Sort alloc]init];
-        NSArray *sortArray = @[@1, @3, @6, @2, @5, @4, @9, @7, @8, @0];
+        NSArray *sortArray = @[@13, @19, @9, @5, @12, @8, @7, @4, @21, @2, @6, @11];
         NSLog(@"%@", [sort bubbleSort:sortArray]);
         NSLog(@"%@", [sort selectionSort:sortArray]);
         NSLog(@"%@", [sort insertionSort:sortArray]);

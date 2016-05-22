@@ -11,11 +11,7 @@
 @implementation Sort
 
 /*
- Due to NSArray cannot be modified, so actually some sort algorithms in Objective-C should have space complexity at least O(n)
- */
-
-/*
- Time complexity: O(n2)
+ Time complexity: O(n) - O(n2)
  Space complexity: O(1)
  stable
  */
@@ -70,9 +66,11 @@
 
 /*
  Time complexity: O(nlogn) - O(n2)
- Space complexity: O(nlogn)
+ Space complexity: O(logn) - O(n)
  unstable
  */
+
+/**********Solution 1**********/
 
 - (NSArray *)quickSortOne: (NSArray *)ary {
     if (ary.count <= 1) return ary;
@@ -93,11 +91,7 @@
     return result;
 }
 
-/*
- Time complexity: O(nlogn) - O(n2)
- Space complexity: O(1)
- unstable
- */
+/**********Solution 2**********/
 
 - (NSArray *)quickSortTwo:(NSArray *)ary {
     NSMutableArray *mutableArray = [ary mutableCopy];
@@ -125,5 +119,7 @@
     [inputArray exchangeObjectAtIndex:end withObjectAtIndex:startIndex];
     return startIndex;
 }
+
+
 
 @end
