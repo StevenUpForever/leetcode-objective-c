@@ -48,18 +48,22 @@
 }
 
 /*
- Time complexity: O(n2)
+ Time complexity: O(n) - O(n2)
  Space comlexity: O(1)
  stable
  */
 - (NSArray *)insertionSort: (NSArray *)ary {
     NSMutableArray *mutableArray = [ary mutableCopy];
     for (int i = 1; i < ary.count; i++) {
-        for (int j = i; j > 0; j--) {
-            if (mutableArray[j] < mutableArray[j - 1]) {
-                [mutableArray exchangeObjectAtIndex:j withObjectAtIndex:j - 1];
+        NSNumber *temp = mutableArray[i];
+        NSInteger index = i;
+        for (int j = i - 1; j >= 0; j--) {
+            if (mutableArray[j] > temp) {
+                mutableArray[j + 1] = mutableArray[j];
+                index = j;
             }
         }
+        mutableArray[index] = temp;
     }
     return [mutableArray copy];
 }
