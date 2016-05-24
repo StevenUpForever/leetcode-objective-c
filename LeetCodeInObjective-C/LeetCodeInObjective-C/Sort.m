@@ -154,8 +154,9 @@
     while (m <= n) {
         sortedArray[k++] = unsortedArray[m++];
     }
-    for (k = start; k <= end; k++) {
-        unsortedArray[k] = sortedArray[k];
+    //Copy current sorted array to unsorted array to prepare for the next recursive use
+    for (NSInteger tempNum = start; tempNum <= end; tempNum++) {
+        unsortedArray[tempNum] = sortedArray[tempNum];
     }
 }
 
