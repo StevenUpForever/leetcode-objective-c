@@ -124,6 +124,40 @@
     return startIndex;
 }
 
+/*
+ merge sort
+ Time complexity: O(nlogn)
+ Space complexity: O(n)
+ Stable
+ */
+- (NSArray *)mergeSort:(NSArray *)input {
+    NSMutableArray *result = [NSMutableArray arrayWithCapacity:input.count];
+    NSMutableArray *tempInput = [input mutableCopy];
+    [self mergeProcess:tempInput sortedArray:result startIndex:0 endIndex:tempInput.count - 1];
+    return [result copy];
+}
+
+- (void)mergeProcess: (NSMutableArray *)unsortedArray sortedArray: (NSMutableArray *)sortedArray startIndex: (NSInteger)start endIndex: (NSInteger)end {
+    if (start >= end) return;
+    NSInteger middle = (start + end)/2;
+    NSInteger i = start, j = middle;
+    NSInteger m = middle + 1, n = end;
+    [self mergeProcess:unsortedArray sortedArray:sortedArray startIndex:i endIndex:j];
+    [self mergeProcess:unsortedArray sortedArray:sortedArray startIndex:m endIndex:n];
+    NSInteger k = start;
+    while (i <= j && m <= n) {
+        sortedArray[k++] = [unsortedArray[i] integerValue] < [unsortedArray[m] integerValue] ? unsortedArray[i++] : unsortedArray[m++];
+    }
+    while (i <= j) {
+        sortedArray[k++] = unsortedArray[i++];
+    }
+    while (m <= n) {
+        sortedArray[k++] = unsortedArray[m++];
+    }
+    for (k = start; k <= end; k++) {
+        unsortedArray[k] = sortedArray[k];
+    }
+}
 
 
 @end

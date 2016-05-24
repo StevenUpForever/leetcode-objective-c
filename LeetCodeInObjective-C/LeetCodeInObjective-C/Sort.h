@@ -15,5 +15,6 @@
 - (NSArray *)insertionSort: (NSArray *)ary;
 - (NSArray *)quickSortOne: (NSArray *)ary;
 - (NSArray *)quickSortTwo:(NSArray *)ary;
+- (NSArray *)mergeSort: (NSArray *)input;
 
 @end
