@@ -21,12 +21,13 @@ int main(int argc, const char * argv[]) {
         
         Sort *sort = [[Sort alloc]init];
         NSArray *sortArray = @[@13, @19, @9, @5, @12, @8, @7, @4, @21, @2, @6, @11];
-        NSLog(@"%@", [sort bubbleSort:sortArray]);
-        NSLog(@"%@", [sort selectionSort:sortArray]);
-        NSLog(@"%@", [sort insertionSort:sortArray]);
-        NSLog(@"%@", [sort quickSortOne:sortArray]);
-        NSLog(@"%@", [sort quickSortTwo:sortArray]);
-        NSLog(@"%@", [sort mergeSort:sortArray]);
+        NSLog(@"Bubble sort: %@", [sort bubbleSort:sortArray]);
+        NSLog(@"Quick sort 1: %@", [sort quickSortOne:sortArray]);
+        NSLog(@"Quick sort 2: %@", [sort quickSortTwo:sortArray]);
+        NSLog(@"Selection sort: %@", [sort selectionSort:sortArray]);
+        NSLog(@"Insertion sort: %@", [sort insertionSort:sortArray]);
+         NSLog(@"Shell sort: %@", [sort shellSort:sortArray]);
+        NSLog(@"Merge sort: %@", [sort mergeSort:sortArray]);
     }
     return 0;
 }

@@ -10,7 +10,10 @@
 
 @implementation Sort
 
+#pragma mark - exchange sort
+
 /*
+ Bubble sort
  Time complexity: O(n) - O(n2)
  Space complexity: O(1)
  stable
@@ -29,46 +32,7 @@
 }
 
 /*
- Time complexity: O(n2)
- Space complexity: O(1)
- unstable
- */
-- (NSArray *)selectionSort: (NSArray *)ary {
-    NSMutableArray *mutableArray = [ary mutableCopy];
-    for (int i = 0; i < mutableArray.count - 1; i++) {
-        NSInteger minIndex = i;
-        for (int j = i + 1; j < mutableArray.count; j++) {
-            if ([mutableArray[j] integerValue] < [mutableArray[minIndex]integerValue]) {
-                minIndex = j;
-            }
-        }
-        [mutableArray exchangeObjectAtIndex:i withObjectAtIndex:minIndex];
-    }
-    return [mutableArray copy];
-}
-
-/*
- Time complexity: O(n) - O(n2)
- Space comlexity: O(1)
- stable
- */
-- (NSArray *)insertionSort: (NSArray *)ary {
-    NSMutableArray *mutableArray = [ary mutableCopy];
-    for (int i = 1; i < ary.count; i++) {
-        NSNumber *temp = mutableArray[i];
-        NSInteger index = i;
-        for (int j = i - 1; j >= 0; j--) {
-            if (mutableArray[j] > temp) {
-                mutableArray[j + 1] = mutableArray[j];
-                index = j;
-            }
-        }
-        mutableArray[index] = temp;
-    }
-    return [mutableArray copy];
-}
-
-/*
+ quick sort
  Time complexity: O(nlogn) - O(n2)
  Space complexity: O(logn) - O(n)
  unstable
@@ -124,6 +88,79 @@
     return startIndex;
 }
 
+#pragma mark - selection sort
+
+/*
+ Selection sort
+ Time complexity: O(n2)
+ Space complexity: O(1)
+ unstable
+ */
+- (NSArray *)selectionSort: (NSArray *)ary {
+    NSMutableArray *mutableArray = [ary mutableCopy];
+    for (int i = 0; i < mutableArray.count - 1; i++) {
+        NSInteger minIndex = i;
+        for (int j = i + 1; j < mutableArray.count; j++) {
+            if ([mutableArray[j] integerValue] < [mutableArray[minIndex]integerValue]) {
+                minIndex = j;
+            }
+        }
+        [mutableArray exchangeObjectAtIndex:i withObjectAtIndex:minIndex];
+    }
+    return [mutableArray copy];
+}
+
+#pragma mark - insertion sort
+
+/*
+ insertion sort
+ Time complexity: O(n) - O(n2)
+ Space comlexity: O(1)
+ stable
+ */
+- (NSArray *)insertionSort: (NSArray *)ary {
+    NSMutableArray *mutableArray = [ary mutableCopy];
+    for (int i = 1; i < ary.count; i++) {
+        NSNumber *temp = mutableArray[i];
+        NSInteger index = i;
+        for (int j = i - 1; j >= 0; j--) {
+            if (mutableArray[j] > temp) {
+                mutableArray[j + 1] = mutableArray[j];
+                index = j;
+            }
+        }
+        mutableArray[index] = temp;
+    }
+    return [mutableArray copy];
+}
+
+/*
+Shell sort
+Time complexity: O(nlogn) - O(ns) (1<s<2)
+Space complexity: O(1)
+Unstable
+*/
+- (NSArray *)shellSort: (NSArray *)input {
+    NSInteger len = input.count;
+    NSMutableArray *mutableArray = [input mutableCopy];
+    for (NSInteger gap = len/2; gap > 0; gap /= 2) {
+        for (NSInteger i = 0; i < gap; i++) {
+            for (NSInteger j = i + gap; j < len; j++) {
+                NSNumber *tempNum = mutableArray[j];
+                NSInteger k = j - gap;
+                while (k >= 0 && [tempNum integerValue] < [mutableArray[k] integerValue]) {
+                    mutableArray[k + gap] = mutableArray[k];
+                    k -= gap;
+                }
+                mutableArray[k + gap] = tempNum;
+            }
+        }
+    }
+    return [mutableArray copy];
+}
+
+#pragma mark - merge sort
+
 /*
  merge sort
  Time complexity: O(nlogn)
@@ -159,6 +196,5 @@
         unsortedArray[tempNum] = sortedArray[tempNum];
     }
 }
-
 
 @end
