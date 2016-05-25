@@ -10,6 +10,7 @@
 #import "Problem1To10.h"
 #import "Problem151To160.h"
 #import "Sort.h"
+#import "OtherAlogrithms.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
@@ -33,6 +34,9 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Insertion sort: %@", [sort insertionSort:sortArray]);
          NSLog(@"Shell sort: %@", [sort shellSort:sortArray]);
         NSLog(@"Merge sort: %@", [sort mergeSort:sortArray]);
+        
+        OtherAlogrithms *other = [[OtherAlogrithms alloc]init];
+        NSLog(@"%@", [other wholeStringArrangementWithoutRepeat:@"abcde"]);
     }
     return 0;
 }
