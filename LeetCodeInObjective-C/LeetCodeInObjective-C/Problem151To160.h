@@ -10,4 +10,6 @@
 
 @interface Problem151To160 : NSObject
 
+- (NSString *)reverseWords: (NSString *)input;
+
 @end

@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Problem1To10.h"
+#import "Problem151To160.h"
 #import "Sort.h"
 
 int main(int argc, const char * argv[]) {
@@ -18,6 +19,9 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%ld", (long)[problem1 lengthOfLongestSubstring:@"wke"]);
         NSLog(@"%@", [problem1 longestPalindrome:@"aaaaaaaaaaaaaaaaaabcaaaaaaaaaaaaaaaaa"]);
         NSLog(@"%li", [problem1 myAtoi:@"    -13   45asda23232ads1"]);
+        
+        Problem151To160 *problem150 = [[Problem151To160 alloc]init];
+        NSLog(@"%@", [problem150 reverseWords:@"the sky is blue"]);
         
         Sort *sort = [[Sort alloc]init];
         NSArray *sortArray = @[@13, @19, @9, @5, @12, @8, @7, @4, @21, @2, @6, @11];
