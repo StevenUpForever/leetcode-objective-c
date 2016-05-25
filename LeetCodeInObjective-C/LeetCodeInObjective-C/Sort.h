@@ -10,12 +10,20 @@
 
 @interface Sort : NSObject
 
+/**********Exchange sort**********/
 - (NSArray *)bubbleSort: (NSArray *)ary;
-- (NSArray *)selectionSort: (NSArray *)ary;
-- (NSArray *)insertionSort: (NSArray *)ary;
 - (NSArray *)quickSortOne: (NSArray *)ary;
 - (NSArray *)quickSortTwo:(NSArray *)ary;
-- (NSArray *)mergeSort: (NSArray *)input;
+
+/**********Selection sort**********/
+- (NSArray *)selectionSort: (NSArray *)ary;
+- (NSArray *)heapSort: (NSArray *)input;
+
+/**********Insertion sort**********/
+- (NSArray *)insertionSort: (NSArray *)ary;
 - (NSArray *)shellSort: (NSArray *)input;
+
+/**********Merge sort**********/
+- (NSArray *)mergeSort: (NSArray *)input;
 
 @end

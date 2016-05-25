@@ -110,6 +110,38 @@
     return [mutableArray copy];
 }
 
+/*
+ Heap sort
+ Time complexity:O(nlogn)
+ Space complexity:O(1)
+ Unstable
+ */
+- (NSArray *)heapSort: (NSArray *)input {
+    NSMutableArray *mutableArray = [input mutableCopy];
+    NSInteger num = mutableArray.count;
+    for (NSInteger i = num/2 - 1; i >=0; i--) {
+        [self fixMinHeap:mutableArray index:i numerOfIndex:num];
+    }
+    for (NSInteger i = num - 1; i >= 1; i--) {
+        [mutableArray exchangeObjectAtIndex:i withObjectAtIndex:0];
+        [self fixMinHeap:mutableArray index:0 numerOfIndex:i];
+    }
+    return mutableArray;
+}
+
+- (void)fixMinHeap: (NSMutableArray *)array index: (NSInteger)i numerOfIndex: (NSInteger)n {
+    NSNumber *temp = array[i];
+    NSInteger j = 2 * i + 1;
+    while (j < n) {
+        if (j + 1 < n && array[j + 1] > array[j]) j++;
+        if (array[j] < temp) break;
+        array[i] = array[j];
+        i = j;
+        j = 2 * i + 1;
+    }
+    array[i] = temp;
+}
+
 #pragma mark - insertion sort
 
 /*
