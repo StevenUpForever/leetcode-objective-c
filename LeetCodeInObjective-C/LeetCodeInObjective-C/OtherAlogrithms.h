@@ -11,5 +11,8 @@
 @interface OtherAlogrithms : NSObject
 
 - (NSArray *)wholeStringArrangementWithoutRepeat: (NSString *)str;
+- (NSArray *)wholeStringArrangementWithRepeat: (NSString *)str;
+
+- (NSInteger)binarySearch: (NSArray *)searchArray target: (NSNumber *)target;
 
 @end

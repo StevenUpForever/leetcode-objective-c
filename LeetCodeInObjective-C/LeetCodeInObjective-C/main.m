@@ -36,7 +36,10 @@ int main(int argc, const char * argv[]) {
         NSLog(@"Merge sort: %@", [sort mergeSort:sortArray]);
         
         OtherAlogrithms *other = [[OtherAlogrithms alloc]init];
-        NSLog(@"%@", [other wholeStringArrangementWithoutRepeat:@"abcde"]);
+        NSLog(@"%@", [other wholeStringArrangementWithoutRepeat:@"abc"]);
+        NSLog(@"%@", [other wholeStringArrangementWithRepeat:@"abb"]);
+        
+        NSLog(@"%li", [other binarySearch:@[@1, @3, @5, @7, @9, @11] target:@3]);
     }
     return 0;
 }
