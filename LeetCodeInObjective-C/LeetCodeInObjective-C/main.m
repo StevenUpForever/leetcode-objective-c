@@ -10,6 +10,7 @@
 #import "Problem1To10.h"
 #import "Problem151To160.h"
 #import "Sort.h"
+#import "Search.h"
 #import "OtherAlogrithms.h"
 
 int main(int argc, const char * argv[]) {
@@ -39,7 +40,8 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%@", [other wholeStringArrangementWithoutRepeat:@"abc"]);
         NSLog(@"%@", [other wholeStringArrangementWithRepeat:@"abb"]);
         
-        NSLog(@"%li", [other binarySearch:@[@1, @3, @5, @7, @9, @11] target:@3]);
+        Search *search = [[Search alloc]init];
+        NSLog(@"%li", [search binarySearch:@[@1, @3, @5, @7, @9, @11] target:@3]);
     }
     return 0;
 }
