@@ -10,6 +10,13 @@
 
 @implementation Search
 
+#pragma mark - binary search
+
+/*
+ Time complexity: O(logn)
+ Space complexity: O(1) Because of recursive at the end will not cost on call/execution/control/runtime stack
+ */
+
 - (NSInteger)binarySearch: (NSArray *)searchArray target: (NSNumber *)target {
     return [self binarySearchProcess:searchArray target:target startIndex:0 endIndex:searchArray.count - 1];
 }
