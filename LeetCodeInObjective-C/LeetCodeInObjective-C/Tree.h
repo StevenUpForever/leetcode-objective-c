@@ -8,9 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+@class TreeNode;
 @interface Tree : NSObject
 
 - (TreeNode *)searchBinarySearchTree: (TreeNode *)node target: (NSInteger)target;
+- (TreeNode *)minimumNode: (TreeNode *)node;
+- (TreeNode *)maximumNode: (TreeNode *)node;
 
 @end
 

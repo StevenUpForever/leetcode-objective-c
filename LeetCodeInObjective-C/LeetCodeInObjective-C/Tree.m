@@ -17,6 +17,22 @@
     else return [self searchBinarySearchTree:node.leftNode target:target];
 }
 
+- (TreeNode *)minimumNode: (TreeNode *)node {
+    if (node == nil) return nil;
+    while (node.leftNode != nil) {
+        node = node.leftNode;
+    }
+    return node;
+}
+
+- (TreeNode *)maximumNode: (TreeNode *)node {
+    if (node == nil) return nil;
+    while (node.rightNode != nil) {
+        node = node.rightNode;
+    }
+    return node;
+}
+
 
 @end
 
