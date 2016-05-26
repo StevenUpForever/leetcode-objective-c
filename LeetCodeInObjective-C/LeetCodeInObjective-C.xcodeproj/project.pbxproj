@@ -15,6 +15,7 @@
 		AFA17A8B1CE707AA0046E395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA17A8A1CE707AA0046E395 /* main.m */; };
 		AFA17A931CE707BD0046E395 /* Problem1To10.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA17A921CE707BD0046E395 /* Problem1To10.m */; };
 		AFA17A971CE707E20046E395 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA17A961CE707E20046E395 /* Sort.m */; };
+		AFAEF7511CF7B13900E9C8B4 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAEF7501CF7B13900E9C8B4 /* Tree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		AFA17A921CE707BD0046E395 /* Problem1To10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem1To10.m; sourceTree = "<group>"; };
 		AFA17A951CE707E20046E395 /* Sort.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sort.h; sourceTree = "<group>"; };
 		AFA17A961CE707E20046E395 /* Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
+		AFAEF74F1CF7B13900E9C8B4 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
+		AFAEF7501CF7B13900E9C8B4 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 			children = (
 				AF582FF11CF6E09E005E4938 /* LinkedList.h */,
 				AF582FF21CF6E09E005E4938 /* LinkedList.m */,
+				AFAEF74F1CF7B13900E9C8B4 /* Tree.h */,
+				AFAEF7501CF7B13900E9C8B4 /* Tree.m */,
 			);
 			name = "Data structure";
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 				AF582FE91CF53469005E4938 /* Problem151To160.m in Sources */,
 				AFA17A8B1CE707AA0046E395 /* main.m in Sources */,
 				AFA17A931CE707BD0046E395 /* Problem1To10.m in Sources */,
+				AFAEF7511CF7B13900E9C8B4 /* Tree.m in Sources */,
 				AF948C941CE85E0D00411B66 /* ListNode.m in Sources */,
 				AF582FEF1CF6D713005E4938 /* Search.m in Sources */,
 			);

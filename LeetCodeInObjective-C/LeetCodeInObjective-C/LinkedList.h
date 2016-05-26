@@ -12,5 +12,7 @@
 @interface LinkedList : NSObject
 
 - (ListNode *)searchLinkedList: (ListNode *)node target: (NSInteger)val;
+- (void)insertNodeAtFirst: (ListNode *)old val:(NSInteger)val;
+- (void)deleteNode: (ListNode *)node target: (NSInteger)val;
 
 @end
