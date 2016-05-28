@@ -158,23 +158,23 @@
  spoilers alert... click to show requirements for atoi.
  */
 - (NSInteger)myAtoi: (NSString *)str {
-    if (str.length < 1) return 0;
-    NSInteger index = 0;
     NSInteger len = str.length;
-    while (index < len && [str characterAtIndex:index] == ' ') {
-        index++;
-    }
-    BOOL positiveNum = YES;
-    if (index < len && ([str characterAtIndex:index] == '+' || [str characterAtIndex:index] == '-')) {
+    if (len == 0) return 0;
+    NSInteger index = 0;
+    while (index < len && [str characterAtIndex:index] == ' ') index++;
+    NSInteger positiveNum = 1;
+    if ([str characterAtIndex:index] == '+' || [str characterAtIndex:index] == '-') {
         positiveNum = [str characterAtIndex:index] == '+';
         index++;
     }
     NSInteger result = 0;
-    while (index < len && [str characterAtIndex:index] - '0' >= 0 && [str characterAtIndex:index] - '0' <= 9) {
-        result = result * 10 + ([str characterAtIndex:index] - '0');
-        index++;
+    while (index < len) {
+        NSInteger tempNum = [str characterAtIndex:index] - '0';
+        if (tempNum < 0 || tempNum > 9) break;
+        if (result > INT_MAX/10 || (result == INT_MAX/10 && result % 10 > 7)) return positiveNum ? INT_MAX : INT_MIN;
+        result = result * 10 + tempNum;
     }
-    return positiveNum ? (result > INT_MAX ? INT_MAX : result) : (-result < INT_MIN ? INT_MIN : -result);
+    return positiveNum * result;
 }
 
 
