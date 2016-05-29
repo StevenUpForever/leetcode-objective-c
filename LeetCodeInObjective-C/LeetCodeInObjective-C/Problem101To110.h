@@ -13,4 +13,6 @@
 
 - (NSArray *)levelOrder: (TreeNode *)root;
 
+- (NSInteger)maxDepth: (TreeNode *)root;
+
 @end

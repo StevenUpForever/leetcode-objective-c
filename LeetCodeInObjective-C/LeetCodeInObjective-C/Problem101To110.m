@@ -59,4 +59,15 @@
     [self currentNodes:resultArray node:root.right currentHeight:height + 1];
 }
 
+/*
+ 104. Maximum Depth of Binary Tree
+ Given a binary tree, find its maximum depth.
+ 
+ The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
+ */
+- (NSInteger)maxDepth: (TreeNode *)root {
+    if (root == nil) return 0;
+    return 1 + MAX([self maxDepth:root.left], [self maxDepth:root.right]);
+}
+
 @end
