@@ -16,13 +16,3 @@
 - (TreeNode *)maximumNode: (TreeNode *)node;
 
 @end
-
-
-
-@interface TreeNode : NSObject
-
-@property (nonatomic, assign) NSInteger val;
-@property (nonatomic) TreeNode *leftNode;
-@property (nonatomic) TreeNode *rightNode;
-
-@end

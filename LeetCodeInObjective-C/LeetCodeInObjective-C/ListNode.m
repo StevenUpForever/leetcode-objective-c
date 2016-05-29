@@ -19,5 +19,17 @@
     return self;
 }
 
+@end
+
+@implementation TreeNode
+
+- (instancetype)initWithVal: (NSInteger)val
+{
+    self = [super init];
+    if (self) {
+        _val = val;
+    }
+    return self;
+}
 
 @end

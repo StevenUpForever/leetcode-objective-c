@@ -16,3 +16,11 @@
 - (instancetype)initWithVal: (NSInteger)x;
 
 @end
+
+@interface TreeNode : NSObject
+
+@property (nonatomic, assign) NSInteger val;
+@property (nonatomic) TreeNode *left;
+@property (nonatomic) TreeNode *right;
+
+@end
