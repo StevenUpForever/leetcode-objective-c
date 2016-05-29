@@ -42,6 +42,7 @@ int main(int argc, const char * argv[]) {
         
         Search *search = [[Search alloc]init];
         NSLog(@"%li", [search binarySearch:@[@1, @3, @5, @7, @9, @11] target:@3]);
+        
     }
     return 0;
 }
