@@ -18,6 +18,7 @@
 		AFA17A931CE707BD0046E395 /* Problem1To10.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA17A921CE707BD0046E395 /* Problem1To10.m */; };
 		AFA17A971CE707E20046E395 /* Sort.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA17A961CE707E20046E395 /* Sort.m */; };
 		AFAEF7511CF7B13900E9C8B4 /* Tree.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAEF7501CF7B13900E9C8B4 /* Tree.m */; };
+		AFE32B1C1CFBB1D000D0CEA1 /* Problem21To30.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B1B1CFBB1D000D0CEA1 /* Problem21To30.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,8 @@
 		AFA17A961CE707E20046E395 /* Sort.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sort.m; sourceTree = "<group>"; };
 		AFAEF74F1CF7B13900E9C8B4 /* Tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		AFAEF7501CF7B13900E9C8B4 /* Tree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tree.m; sourceTree = "<group>"; };
+		AFE32B1A1CFBB1D000D0CEA1 /* Problem21To30.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem21To30.h; sourceTree = "<group>"; };
+		AFE32B1B1CFBB1D000D0CEA1 /* Problem21To30.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem21To30.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 			children = (
 				AFA17A911CE707BD0046E395 /* Problem1To10.h */,
 				AFA17A921CE707BD0046E395 /* Problem1To10.m */,
+				AFE32B1A1CFBB1D000D0CEA1 /* Problem21To30.h */,
+				AFE32B1B1CFBB1D000D0CEA1 /* Problem21To30.m */,
 				AF407CEA1CFA7C2B00B6A543 /* Problem31To40.h */,
 				AF407CEB1CFA7C2B00B6A543 /* Problem31To40.m */,
 				AF407CF11CFAAE5E00B6A543 /* Problem101To110.h */,
@@ -188,6 +193,7 @@
 				AF407CF31CFAAE5E00B6A543 /* Problem101To110.m in Sources */,
 				AFA17A971CE707E20046E395 /* Sort.m in Sources */,
 				AF582FF31CF6E09E005E4938 /* LinkedList.m in Sources */,
+				AFE32B1C1CFBB1D000D0CEA1 /* Problem21To30.m in Sources */,
 				AF582FE91CF53469005E4938 /* Problem151To160.m in Sources */,
 				AF407CEC1CFA7C2B00B6A543 /* Problem31To40.m in Sources */,
 				AFA17A8B1CE707AA0046E395 /* main.m in Sources */,
