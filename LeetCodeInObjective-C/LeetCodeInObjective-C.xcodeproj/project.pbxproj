@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF407CEC1CFA7C2B00B6A543 /* Problem31To40.m in Sources */ = {isa = PBXBuildFile; fileRef = AF407CEB1CFA7C2B00B6A543 /* Problem31To40.m */; };
 		AF582FE91CF53469005E4938 /* Problem151To160.m in Sources */ = {isa = PBXBuildFile; fileRef = AF582FE81CF53469005E4938 /* Problem151To160.m */; };
 		AF582FEC1CF63771005E4938 /* OtherAlogrithms.m in Sources */ = {isa = PBXBuildFile; fileRef = AF582FEB1CF63771005E4938 /* OtherAlogrithms.m */; };
 		AF582FEF1CF6D713005E4938 /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = AF582FEE1CF6D713005E4938 /* Search.m */; };
@@ -31,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF407CEA1CFA7C2B00B6A543 /* Problem31To40.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem31To40.h; sourceTree = "<group>"; };
+		AF407CEB1CFA7C2B00B6A543 /* Problem31To40.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem31To40.m; sourceTree = "<group>"; };
 		AF582FE71CF53469005E4938 /* Problem151To160.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem151To160.h; sourceTree = "<group>"; };
 		AF582FE81CF53469005E4938 /* Problem151To160.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem151To160.m; sourceTree = "<group>"; };
 		AF582FEA1CF63771005E4938 /* OtherAlogrithms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherAlogrithms.h; sourceTree = "<group>"; };
@@ -94,6 +97,8 @@
 			children = (
 				AFA17A911CE707BD0046E395 /* Problem1To10.h */,
 				AFA17A921CE707BD0046E395 /* Problem1To10.m */,
+				AF407CEA1CFA7C2B00B6A543 /* Problem31To40.h */,
+				AF407CEB1CFA7C2B00B6A543 /* Problem31To40.m */,
 				AF582FE71CF53469005E4938 /* Problem151To160.h */,
 				AF582FE81CF53469005E4938 /* Problem151To160.m */,
 				AF948C921CE85E0D00411B66 /* ListNode.h */,
@@ -178,6 +183,7 @@
 				AFA17A971CE707E20046E395 /* Sort.m in Sources */,
 				AF582FF31CF6E09E005E4938 /* LinkedList.m in Sources */,
 				AF582FE91CF53469005E4938 /* Problem151To160.m in Sources */,
+				AF407CEC1CFA7C2B00B6A543 /* Problem31To40.m in Sources */,
 				AFA17A8B1CE707AA0046E395 /* main.m in Sources */,
 				AFA17A931CE707BD0046E395 /* Problem1To10.m in Sources */,
 				AFAEF7511CF7B13900E9C8B4 /* Tree.m in Sources */,
