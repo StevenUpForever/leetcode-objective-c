@@ -22,6 +22,7 @@
 		AFE32B211CFBE8D100D0CEA1 /* Problem131To140.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B201CFBE8D100D0CEA1 /* Problem131To140.m */; };
 		AFE32B271CFC0BA700D0CEA1 /* Problem141To150.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B261CFC0BA700D0CEA1 /* Problem141To150.m */; };
 		AFE32B311CFCEC3F00D0CEA1 /* Problem121To130.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B301CFCEC3F00D0CEA1 /* Problem121To130.m */; };
+		AFE32B3C1CFD181800D0CEA1 /* Problem41To50.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B3B1CFD181800D0CEA1 /* Problem41To50.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -67,6 +68,8 @@
 		AFE32B261CFC0BA700D0CEA1 /* Problem141To150.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem141To150.m; sourceTree = "<group>"; };
 		AFE32B2F1CFCEC3F00D0CEA1 /* Problem121To130.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem121To130.h; sourceTree = "<group>"; };
 		AFE32B301CFCEC3F00D0CEA1 /* Problem121To130.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem121To130.m; sourceTree = "<group>"; };
+		AFE32B3A1CFD181800D0CEA1 /* Problem41To50.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem41To50.h; sourceTree = "<group>"; };
+		AFE32B3B1CFD181800D0CEA1 /* Problem41To50.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem41To50.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				AFE32B1B1CFBB1D000D0CEA1 /* Problem21To30.m */,
 				AF407CEA1CFA7C2B00B6A543 /* Problem31To40.h */,
 				AF407CEB1CFA7C2B00B6A543 /* Problem31To40.m */,
+				AFE32B3A1CFD181800D0CEA1 /* Problem41To50.h */,
+				AFE32B3B1CFD181800D0CEA1 /* Problem41To50.m */,
 				AF407CF11CFAAE5E00B6A543 /* Problem101To110.h */,
 				AF407CF21CFAAE5E00B6A543 /* Problem101To110.m */,
 				AFE32B2F1CFCEC3F00D0CEA1 /* Problem121To130.h */,
@@ -212,6 +217,7 @@
 				AFE32B211CFBE8D100D0CEA1 /* Problem131To140.m in Sources */,
 				AF582FE91CF53469005E4938 /* Problem151To160.m in Sources */,
 				AF407CEC1CFA7C2B00B6A543 /* Problem31To40.m in Sources */,
+				AFE32B3C1CFD181800D0CEA1 /* Problem41To50.m in Sources */,
 				AFA17A8B1CE707AA0046E395 /* main.m in Sources */,
 				AFA17A931CE707BD0046E395 /* Problem1To10.m in Sources */,
 				AFE32B271CFC0BA700D0CEA1 /* Problem141To150.m in Sources */,

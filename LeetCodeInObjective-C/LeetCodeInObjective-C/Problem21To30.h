@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class ListNode;
 @interface Problem21To30 : NSObject
+
+- (ListNode *)mergeKLists: (NSArray<ListNode *> *)lists;
 
 @end
