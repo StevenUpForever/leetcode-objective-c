@@ -11,5 +11,6 @@
 @interface Problem31To40 : NSObject
 
 - (NSInteger)search: (NSArray *)A  target: (NSNumber *)target;
+- (BOOL)isValidSudoku: (NSArray<NSArray<NSString *> *> *)board;
 
 @end
