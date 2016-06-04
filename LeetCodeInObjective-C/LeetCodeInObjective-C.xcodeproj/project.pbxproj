@@ -13,6 +13,7 @@
 		AF582FEC1CF63771005E4938 /* OtherAlogrithms.m in Sources */ = {isa = PBXBuildFile; fileRef = AF582FEB1CF63771005E4938 /* OtherAlogrithms.m */; };
 		AF582FEF1CF6D713005E4938 /* Search.m in Sources */ = {isa = PBXBuildFile; fileRef = AF582FEE1CF6D713005E4938 /* Search.m */; };
 		AF582FF31CF6E09E005E4938 /* LinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = AF582FF21CF6E09E005E4938 /* LinkedList.m */; };
+		AF68C0431D02869C0039393D /* Problem51To60.m in Sources */ = {isa = PBXBuildFile; fileRef = AF68C0421D02869C0039393D /* Problem51To60.m */; };
 		AF948C941CE85E0D00411B66 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = AF948C931CE85E0D00411B66 /* ListNode.m */; };
 		AFA17A8B1CE707AA0046E395 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA17A8A1CE707AA0046E395 /* main.m */; };
 		AFA17A931CE707BD0046E395 /* Problem1To10.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA17A921CE707BD0046E395 /* Problem1To10.m */; };
@@ -50,6 +51,8 @@
 		AF582FEE1CF6D713005E4938 /* Search.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search.m; sourceTree = "<group>"; };
 		AF582FF11CF6E09E005E4938 /* LinkedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkedList.h; sourceTree = "<group>"; };
 		AF582FF21CF6E09E005E4938 /* LinkedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkedList.m; sourceTree = "<group>"; };
+		AF68C0411D02869C0039393D /* Problem51To60.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem51To60.h; sourceTree = "<group>"; };
+		AF68C0421D02869C0039393D /* Problem51To60.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem51To60.m; sourceTree = "<group>"; };
 		AF948C921CE85E0D00411B66 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		AF948C931CE85E0D00411B66 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		AFA17A871CE707AA0046E395 /* LeetCodeInObjective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCodeInObjective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +124,8 @@
 				AF407CEB1CFA7C2B00B6A543 /* Problem31To40.m */,
 				AFE32B3A1CFD181800D0CEA1 /* Problem41To50.h */,
 				AFE32B3B1CFD181800D0CEA1 /* Problem41To50.m */,
+				AF68C0411D02869C0039393D /* Problem51To60.h */,
+				AF68C0421D02869C0039393D /* Problem51To60.m */,
 				AF407CF11CFAAE5E00B6A543 /* Problem101To110.h */,
 				AF407CF21CFAAE5E00B6A543 /* Problem101To110.m */,
 				AFE32B2F1CFCEC3F00D0CEA1 /* Problem121To130.h */,
@@ -216,6 +221,7 @@
 				AFE32B1C1CFBB1D000D0CEA1 /* Problem21To30.m in Sources */,
 				AFE32B211CFBE8D100D0CEA1 /* Problem131To140.m in Sources */,
 				AF582FE91CF53469005E4938 /* Problem151To160.m in Sources */,
+				AF68C0431D02869C0039393D /* Problem51To60.m in Sources */,
 				AF407CEC1CFA7C2B00B6A543 /* Problem31To40.m in Sources */,
 				AFE32B3C1CFD181800D0CEA1 /* Problem41To50.m in Sources */,
 				AFA17A8B1CE707AA0046E395 /* main.m in Sources */,
