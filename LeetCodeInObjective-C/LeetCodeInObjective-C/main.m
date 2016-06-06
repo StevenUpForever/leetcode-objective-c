@@ -11,6 +11,7 @@
 #import "Problem41To50.h"
 #import "Problem151To160.h"
 #import "Sort.h"
+#import "Tree.h"
 #import "Search.h"
 #import "OtherAlogrithms.h"
 
@@ -44,6 +45,7 @@ int main(int argc, const char * argv[]) {
 //        Search *search = [[Search alloc]init];
 //        NSLog(@"%li", [search binarySearch:@[@1, @3, @5, @7, @9, @11] target:@3]);
         Problem41To50 *problem41To50 = [[Problem41To50 alloc]init];
+        
         NSLog(@"%@", [problem41To50 groupAnagrams:@[@"eat", @"tea", @"tan", @"ate", @"nat", @"bat"]]);
         
                 
