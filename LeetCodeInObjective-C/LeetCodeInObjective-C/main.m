@@ -47,7 +47,6 @@ int main(int argc, const char * argv[]) {
         Problem41To50 *problem41To50 = [[Problem41To50 alloc]init];
         
         NSLog(@"%@", [problem41To50 groupAnagrams:@[@"eat", @"tea", @"tan", @"ate", @"nat", @"bat"]]);
-        
                 
     }
     return 0;
