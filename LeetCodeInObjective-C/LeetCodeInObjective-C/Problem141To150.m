@@ -37,9 +37,9 @@
 //    while (head != nil) {
 //        if (tagDict[head.description] == nil) {
 //            [tagDict setObject:@1 forKey:head.description];
+//            head = head.next;
 //            continue;
 //        } else return YES;
-//        head = head.next;
 //    }
 //    return NO;
 //}
