@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class ListNode;
 @interface Problem141To150 : NSObject
+
+- (BOOL)hasCycle: (ListNode *)head;
 
 @end
 

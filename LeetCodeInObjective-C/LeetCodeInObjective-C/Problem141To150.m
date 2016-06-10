@@ -7,13 +7,54 @@
 //
 
 #import "Problem141To150.h"
+#import "ListNode.h"
 
 @implementation Problem141To150
+
+/*
+ 141. Linked List Cycle
+ Given a linked list, determine if it has a cycle in it.
+ 
+ Follow up:
+ Can you solve it without using extra space?
+ */
+- (BOOL)hasCycle: (ListNode *)head {
+    ListNode *slow = head;
+    ListNode *fast = head;
+    while (fast.next != nil && fast.next.next != nil) {
+        slow = slow.next;
+        fast = fast.next.next;
+        if (slow == fast) {
+            return YES;
+        }
+    }
+    return NO;
+}
+
+//- (BOOL)hasCycle: (ListNode *)head {
+//    if (head == nil) return NO;
+//    NSMutableDictionary *tagDict = [[NSMutableDictionary alloc]init];
+//    while (head != nil) {
+//        if (tagDict[head.description] == nil) {
+//            [tagDict setObject:@1 forKey:head.description];
+//            continue;
+//        } else return YES;
+//        head = head.next;
+//    }
+//    return NO;
+//}
 
 
 @end
     
 
+/*
+ 146. LRU Cache
+ Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and set.
+ 
+ get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
+ set(key, value) - Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.
+ */
 @interface LRUCache()
 
 @property (nonatomic, assign) NSInteger capacity;
