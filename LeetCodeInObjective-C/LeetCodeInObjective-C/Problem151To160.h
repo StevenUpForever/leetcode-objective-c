@@ -13,3 +13,12 @@
 - (NSString *)reverseWords: (NSString *)input;
 
 @end
+
+@interface MinStack : NSObject
+
+- (void)push: (NSInteger)x;
+- (void)pop;
+- (NSInteger)top;
+- (NSInteger)getMin;
+
+@end
