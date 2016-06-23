@@ -11,5 +11,6 @@
 @interface Problem121To130 : NSObject
 
 - (NSInteger)maxProfit: (NSArray *)prices;
+- (BOOL)isPalindrome: (NSString *)s;
 
 @end
