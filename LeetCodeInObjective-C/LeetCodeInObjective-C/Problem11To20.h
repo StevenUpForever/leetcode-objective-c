@@ -11,5 +11,6 @@
 @interface Problem11To20 : NSObject
 
 - (NSInteger)romanToInt: (NSString *)s;
+- (NSArray<NSString *> *)letterCombinations: (NSString *)digits;
 
 @end

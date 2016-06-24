@@ -34,4 +34,37 @@
     return result;
 }
 
+/*
+ Problem 17 Letter Combinations of a Phone Number:
+ Given a digit string, return all possible letter combinations that the number could represent.
+ 
+ A mapping of digit to letters (just like on the telephone buttons) is given below.
+ 
+ 
+ 
+ Input:Digit string "23"
+ Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+ */
+- (NSArray<NSString *> *)letterCombinations: (NSString *)digits {
+    NSMutableArray *result = [[NSMutableArray alloc]init];
+    if (digits.length == 0) {
+        return result;
+    }
+    NSArray *strs = @[@"", @"", @"abc", @"def", @"ghi", @"jkl", @"mno", @"pqrs", @"tuv", @"wxyz"];
+    [result addObject:@""];
+    for (NSInteger index1 = 0; index1 < strs.count; index1++) {
+        NSInteger num = [digits characterAtIndex:index1] - '0';
+        NSMutableArray<NSString *> *tempArray = [[NSMutableArray alloc]init];
+        for (NSInteger index2 = 0; index2 < [strs[num] length]; index2++) {
+            char currentChar = [strs[num] characterAtIndex:index2];
+            for (NSString *str in result) {
+                [tempArray addObject:[NSString stringWithFormat:@"%@%c", str, currentChar]];
+            }
+        }
+        result = tempArray;
+    }
+    return result;
+}
+
+
 @end
