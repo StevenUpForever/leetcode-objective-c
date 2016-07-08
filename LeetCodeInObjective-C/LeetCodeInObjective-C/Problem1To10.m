@@ -115,7 +115,6 @@
     } else if (index2 < num2.count) {
         [resultArray addObjectsFromArray:[num2 subarrayWithRange:NSMakeRange(index2, num2.count - index2)]];
     }
-    NSLog(@"%@", resultArray);
     NSInteger len = resultArray.count;
     return len % 2 == 0 ? (double)([resultArray[len/2] integerValue] + [resultArray[len/2 - 1] integerValue])/2 : (double)[resultArray[len/2] integerValue];
 }
@@ -142,6 +141,43 @@
         endIndex++;
     }
     return NSMakeRange(startIndex + 1, endIndex - startIndex - 1);
+}
+
+/*
+ Problem 6 Zigzag conversion:
+ The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+ 
+ P   A   H   N
+ A P L S I I G
+ Y   I   R
+ And then read line by line: "PAHNAPLSIIGYIR"
+ Write the code that will take a string and make this conversion given a number of rows:
+ 
+ string convert(string text, int nRows);
+ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
+ */
+- (NSString *)convert: (NSString *)s numRows: (int) numRows {
+    if (s == nil || s.length < 2) {
+        return s;
+    }
+    NSMutableArray *strArray = [[NSMutableArray alloc]init];
+    for (int index = 0; index < numRows; index++) {
+        [strArray addObject:[[NSMutableString alloc]init]];
+    }
+    int i = 0;
+    while (i < s.length) {
+        for (int appendIndex = 0; appendIndex < numRows && i < s.length; appendIndex++) {
+            [strArray[appendIndex] appendFormat:@"%c", [s characterAtIndex:i++]];
+        }
+        for (int appendIndex = numRows - 2; appendIndex > 0 && i < s.length; appendIndex--) {
+            [strArray[appendIndex] appendFormat:@"%c", [s characterAtIndex:i++]];
+        }
+    }
+    NSMutableString *result = [[NSMutableString alloc]init];
+    for (int index = 0; index < numRows; index++) {
+        [result appendString:strArray[index]];
+    }
+    return [result copy];
 }
 
 /*

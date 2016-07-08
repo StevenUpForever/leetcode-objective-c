@@ -16,6 +16,7 @@
 - (NSInteger)lengthOfLongestSubstring: (NSString *)s;
 - (double)findMedianSortedArrays: (NSArray<NSNumber *> *)num1 andNum2: (NSArray<NSNumber *> *)num2;
 - (NSString *)longestPalindrome: (NSString *)s;
+- (NSString *)convert: (NSString *)s numRows: (int) numRows;
 - (NSInteger)myAtoi: (NSString *)str;
 
 @end
