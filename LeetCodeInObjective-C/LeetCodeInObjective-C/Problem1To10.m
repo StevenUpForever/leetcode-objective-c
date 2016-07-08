@@ -181,6 +181,25 @@
 }
 
 /*
+ Problem 7 Reverse Integer:
+ Reverse digits of an integer.
+ 
+ Example1: x = 123, return 321
+ Example2: x = -123, return -321
+ */
+
+//Due to NSInteger type which means 32/64 bits, so needn't to care about max/min value of integer
+
+- (NSInteger)reverse: (NSInteger)x {
+    NSInteger result = 0;
+    while (x != 0) {
+        result = result * 10 + x % 10;
+        x /= 10;
+    }
+    return x < 0 ? -result : result;
+}
+
+/*
  8. String to Integer (atoi)
  Implement atoi to convert a string to an integer.
  
@@ -211,6 +230,25 @@
         result = result * 10 + tempNum;
     }
     return positiveNum * result;
+}
+
+/*
+ Problem 9 Palindrome Number:
+ Determine whether an integer is a palindrome. Do this without extra space.
+ */
+- (BOOL)isPalindrome: (int)x {
+    if (x > INT_MAX || x < 0) {
+        return NO;
+    }
+    if (x < 10) {
+        return YES;
+    }
+    int reverseNum = 0, num = x;
+    while (num < x) {
+        reverseNum = reverseNum * 10 + num % 10;
+        num /= 10;
+    }
+    return reverseNum == x || reverseNum/10 == x;
 }
 
 
