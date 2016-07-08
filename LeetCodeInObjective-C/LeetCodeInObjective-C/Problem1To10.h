@@ -20,5 +20,6 @@
 - (NSInteger)reverse: (NSInteger)x;
 - (NSInteger)myAtoi: (NSString *)str;
 - (BOOL)isPalindrome: (int)x;
+- (BOOL)isMatch: (NSString *)s strP: (NSString *)p;
 
 @end

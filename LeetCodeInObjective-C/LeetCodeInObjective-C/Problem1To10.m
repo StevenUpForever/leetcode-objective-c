@@ -251,6 +251,46 @@
     return reverseNum == x || reverseNum/10 == x;
 }
 
+/*
+ Problem 10 Regular Expression Matching:
+ Implement regular expression matching with support for '.' and '*'.
+ 
+ '.' Matches any single character.
+ '*' Matches zero or more of the preceding element.
+ 
+ The matching should cover the entire input string (not partial).
+ 
+ The function prototype should be:
+ bool isMatch(const char *s, const char *p)
+ 
+ Some examples:
+ isMatch("aa","a") → false
+ isMatch("aa","aa") → true
+ isMatch("aaa","aa") → false
+ isMatch("aa", "a*") → true
+ isMatch("aa", ".*") → true
+ isMatch("ab", ".*") → true
+ isMatch("aab", "c*a*b") → true
+ */
+
+- (BOOL)isMatch: (NSString *)s strP: (NSString *)p {
+    if (p.length == 0) {
+        return s.length == 0;
+    }
+    for (int i = 0; i < p.length; s = [s substringToIndex:i]) {
+        char c = [p characterAtIndex:i];
+        if (i + 1 > p.length || [p characterAtIndex:i + 1] != '*') {
+            return NO;
+        } else if ([self isMatch:s strP:[p substringToIndex:i + 2]]) {
+            return YES;
+        }
+        if (s.length == 0 || (c != '.' && c != [s characterAtIndex:0])) {
+            return NO;
+        }
+    }
+    return s.length == 0;
+}
+
 
 @end
 
