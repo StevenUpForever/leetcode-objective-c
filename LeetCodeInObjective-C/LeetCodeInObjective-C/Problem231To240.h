@@ -8,8 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class ListNode;
 @interface Problem231To240 : NSObject
 
+- (void)deleteNode: (ListNode *)node;
 - (BOOL)searchMatrix: (NSArray<NSArray *> *)matrix target: (NSNumber *)target;
 
 @end
