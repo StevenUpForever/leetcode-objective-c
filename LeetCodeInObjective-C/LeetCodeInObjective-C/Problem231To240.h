@@ -12,6 +12,7 @@
 @interface Problem231To240 : NSObject
 
 - (void)deleteNode: (ListNode *)node;
+- (NSArray *)productExceptSelf: (NSArray *)nums;
 - (BOOL)searchMatrix: (NSArray<NSArray *> *)matrix target: (NSNumber *)target;
 
 @end

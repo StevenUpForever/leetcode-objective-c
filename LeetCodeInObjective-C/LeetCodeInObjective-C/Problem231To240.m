@@ -32,6 +32,34 @@
 }
 
 /*
+ 238. Product of Array Except Self
+ Given an array of n integers where n > 1, nums, return an array output such that output[i] is equal to the product of all the elements of nums except nums[i].
+ 
+ Solve it without division and in O(n).
+ 
+ For example, given [1,2,3,4], return [24,12,8,6].
+ 
+ Follow up:
+ Could you solve it with constant space complexity? (Note: The output array does not count as extra space for the purpose of space complexity analysis.)
+ */
+
+//Best Solution from LeetCode discussion
+- (NSArray *)productExceptSelf: (NSArray *)nums {
+    NSInteger len = nums.count;
+    NSMutableArray *result = [[NSMutableArray alloc]init];
+    [result addObject:@1];
+    for (NSInteger index = 1; index < len; index++) {
+        [result addObject:[NSNumber numberWithInteger:[result[index - 1] integerValue] * [nums[index - 1] integerValue]]];
+    }
+    NSInteger tag = 1;
+    for (NSInteger index = len - 1; index >= 0; index--) {
+        result[index] = [NSNumber numberWithInteger:tag * [result[index] integerValue]];
+        tag *= [nums[index] integerValue];
+    }
+    return [result copy];
+}
+
+/*
  240. Search a 2D Matrix II
  Write an efficient algorithm that searches for a value in an m x n matrix. This matrix has the following properties:
  
