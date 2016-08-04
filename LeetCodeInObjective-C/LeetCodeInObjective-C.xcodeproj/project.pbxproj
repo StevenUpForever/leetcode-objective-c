@@ -30,6 +30,7 @@
 		AFE32B271CFC0BA700D0CEA1 /* Problem141To150.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B261CFC0BA700D0CEA1 /* Problem141To150.m */; };
 		AFE32B311CFCEC3F00D0CEA1 /* Problem121To130.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B301CFCEC3F00D0CEA1 /* Problem121To130.m */; };
 		AFE32B3C1CFD181800D0CEA1 /* Problem41To50.m in Sources */ = {isa = PBXBuildFile; fileRef = AFE32B3B1CFD181800D0CEA1 /* Problem41To50.m */; };
+		B26E5A711D53E75D00D84949 /* Problem281To290.m in Sources */ = {isa = PBXBuildFile; fileRef = B26E5A701D53E75D00D84949 /* Problem281To290.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -91,6 +92,8 @@
 		AFE32B301CFCEC3F00D0CEA1 /* Problem121To130.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem121To130.m; sourceTree = "<group>"; };
 		AFE32B3A1CFD181800D0CEA1 /* Problem41To50.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem41To50.h; sourceTree = "<group>"; };
 		AFE32B3B1CFD181800D0CEA1 /* Problem41To50.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem41To50.m; sourceTree = "<group>"; };
+		B26E5A6F1D53E75D00D84949 /* Problem281To290.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem281To290.h; sourceTree = "<group>"; };
+		B26E5A701D53E75D00D84949 /* Problem281To290.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem281To290.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +169,8 @@
 				AFBAE7E51D38C8600031421C /* Problem211To220.m */,
 				AF68C0461D02A1600039393D /* Problem231To240.h */,
 				AF68C0471D02A1600039393D /* Problem231To240.m */,
+				B26E5A6F1D53E75D00D84949 /* Problem281To290.h */,
+				B26E5A701D53E75D00D84949 /* Problem281To290.m */,
 				AF948C921CE85E0D00411B66 /* ListNode.h */,
 				AF948C931CE85E0D00411B66 /* ListNode.m */,
 				AFA17A8A1CE707AA0046E395 /* main.m */,
@@ -266,6 +271,7 @@
 				AFE32B311CFCEC3F00D0CEA1 /* Problem121To130.m in Sources */,
 				AF948C941CE85E0D00411B66 /* ListNode.m in Sources */,
 				AFBAE7E31D3770C60031421C /* Problem61To70.m in Sources */,
+				B26E5A711D53E75D00D84949 /* Problem281To290.m in Sources */,
 				AF582FEF1CF6D713005E4938 /* Search.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
