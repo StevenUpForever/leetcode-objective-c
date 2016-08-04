@@ -49,7 +49,6 @@
 
 @implementation ValidWordAbbr
 
-
 - (instancetype)initWithStrArray: (NSArray *)dictionary {
     self = [super init];
     if (self) {
