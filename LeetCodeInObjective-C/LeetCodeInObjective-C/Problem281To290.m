@@ -71,9 +71,7 @@
 }
 
 - (NSString *)convertString: (NSString *)str {
-    if (str.length < 2) {
-        return str;
-    }
+    if (str.length < 2) return str;
     return [NSString stringWithFormat:@"%c%li%c", [str characterAtIndex:0], str.length - 2, [str characterAtIndex:str.length - 1]];
 }
 
