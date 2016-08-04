@@ -11,6 +11,7 @@
 @class ListNode;
 @interface Problem231To240 : NSObject
 
+- (BOOL)isPowerOfTwo: (int)n;
 - (void)deleteNode: (ListNode *)node;
 - (NSArray *)productExceptSelf: (NSArray *)nums;
 - (BOOL)searchMatrix: (NSArray<NSArray *> *)matrix target: (NSNumber *)target;

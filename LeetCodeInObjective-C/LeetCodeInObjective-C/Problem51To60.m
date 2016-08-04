@@ -11,6 +11,40 @@
 @implementation Problem51To60
 
 /*
+ 54. Spiral Matrix
+ Given a matrix of m x n elements (m rows, n columns), return all elements of the matrix in spiral order.
+ 
+ For example,
+ Given the following matrix:
+ 
+ [
+ [ 1, 2, 3 ],
+ [ 4, 5, 6 ],
+ [ 7, 8, 9 ]
+ ]
+ You should return [1,2,3,6,9,8,7,4,5].
+ */
+- (NSArray *)spiralOrder: (NSArray<NSArray *> *)matrix {
+    NSMutableArray *result = [[NSMutableArray alloc]init];
+    if (matrix.count == 0) {
+        return result;
+    }
+    NSUInteger x = 0, y = 0;
+    NSUInteger lenX = matrix.count, lenY = matrix[0].count;
+    while (x < lenX && y < lenY) {
+        for (NSUInteger i = y; i < lenY; i++) [result addObject:matrix[x][i]];
+        x++;
+        for (NSUInteger j = x; j < lenX; j++) [result addObject:matrix[j][lenY - 1]];
+        lenY--;
+        for (NSUInteger m = lenY - 1; x < lenX && m >= y; m--) [result addObject:matrix[lenX - 1][m]];
+        lenX--;
+        for (NSUInteger n = lenX - 1; y < lenY && n >= x; n--) [result addObject:matrix[n][y]];
+        y++;
+    }
+    return result;
+}
+
+/*
  57. Insert Interval
  Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
  

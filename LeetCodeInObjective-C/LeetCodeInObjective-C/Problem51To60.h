@@ -11,6 +11,7 @@
 @class Interval;
 @interface Problem51To60 : NSObject
 
+- (NSArray *)spiralOrder: (NSArray<NSArray *> *)matrix;
 - (NSArray<Interval *> *)insert: (NSArray<Interval *> *)intervals newInterval: (Interval *)newInterval;
 
 @end
