@@ -10,6 +10,8 @@
 
 @interface Problem281To290 : NSObject
 
+- (void)moveZeroes: (NSArray *)nums;
+
 @end
 
 @interface ValidWordAbbr : NSObject
