@@ -10,6 +10,7 @@
 
 @interface Problem61To70 : NSObject
 
+- (NSString *)addBinary: (NSString *)a andB: (NSString *)b;
 - (NSInteger)climbStairs: (NSInteger)n;
 
 @end

@@ -10,4 +10,6 @@
 
 @interface Problem321To330 : NSObject
 
+- (int)maxSubarrayLen: (NSArray *)nums numK: (NSNumber *)k;
+
 @end
