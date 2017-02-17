@@ -10,6 +10,8 @@
 
 @interface Problem41To50 : NSObject
 
+- (BOOL)isMatch: (NSString *)s andP: (NSString *)p;
+
 - (NSArray<NSArray<NSString *> *> *)groupAnagrams: (NSArray<NSString *> *)strs;
 
 @end
