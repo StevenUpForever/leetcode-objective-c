@@ -71,7 +71,7 @@
 		AF948C931CE85E0D00411B66 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		AFA0B9A11D1CD06D0060F538 /* Problem11To20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem11To20.h; sourceTree = "<group>"; };
 		AFA0B9A21D1CD06D0060F538 /* Problem11To20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem11To20.m; sourceTree = "<group>"; };
-		AFA17A871CE707AA0046E395 /* LeetCodeInObjective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCodeInObjective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA17A871CE707AA0046E395 /* LeetCode_Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode_Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFA17A8A1CE707AA0046E395 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AFA17A911CE707BD0046E395 /* Problem1To10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Problem1To10.h; sourceTree = "<group>"; };
 		AFA17A921CE707BD0046E395 /* Problem1To10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Problem1To10.m; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 		AFA17A7E1CE707A90046E395 = {
 			isa = PBXGroup;
 			children = (
-				AFA17A891CE707AA0046E395 /* LeetCodeInObjective-C */,
+				AFA17A891CE707AA0046E395 /* LeetCode_Objective-C */,
 				AFA17A881CE707AA0046E395 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -132,12 +132,12 @@
 		AFA17A881CE707AA0046E395 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AFA17A871CE707AA0046E395 /* LeetCodeInObjective-C */,
+				AFA17A871CE707AA0046E395 /* LeetCode_Objective-C */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFA17A891CE707AA0046E395 /* LeetCodeInObjective-C */ = {
+		AFA17A891CE707AA0046E395 /* LeetCode_Objective-C */ = {
 			isa = PBXGroup;
 			children = (
 				AFA17A911CE707BD0046E395 /* Problem1To10.h */,
@@ -182,6 +182,7 @@
 				AF582FF01CF6E083005E4938 /* Data structure */,
 				AFA17A941CE707D10046E395 /* Algorithms */,
 			);
+			name = "LeetCode_Objective-C";
 			path = "LeetCodeInObjective-C";
 			sourceTree = "<group>";
 		};
@@ -201,9 +202,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AFA17A861CE707A90046E395 /* LeetCodeInObjective-C */ = {
+		AFA17A861CE707A90046E395 /* LeetCode_Objective-C */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AFA17A8E1CE707AA0046E395 /* Build configuration list for PBXNativeTarget "LeetCodeInObjective-C" */;
+			buildConfigurationList = AFA17A8E1CE707AA0046E395 /* Build configuration list for PBXNativeTarget "LeetCode_Objective-C" */;
 			buildPhases = (
 				AFA17A831CE707A90046E395 /* Sources */,
 				AFA17A841CE707A90046E395 /* Frameworks */,
@@ -213,9 +214,9 @@
 			);
 			dependencies = (
 			);
-			name = "LeetCodeInObjective-C";
+			name = "LeetCode_Objective-C";
 			productName = "LeetCodeInObjective-C";
-			productReference = AFA17A871CE707AA0046E395 /* LeetCodeInObjective-C */;
+			productReference = AFA17A871CE707AA0046E395 /* LeetCode_Objective-C */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -232,7 +233,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AFA17A821CE707A90046E395 /* Build configuration list for PBXProject "LeetCodeInObjective-C" */;
+			buildConfigurationList = AFA17A821CE707A90046E395 /* Build configuration list for PBXProject "LeetCode_Objective-C" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -244,7 +245,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AFA17A861CE707A90046E395 /* LeetCodeInObjective-C */,
+				AFA17A861CE707A90046E395 /* LeetCode_Objective-C */,
 			);
 		};
 /* End PBXProject section */
@@ -383,7 +384,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AFA17A821CE707A90046E395 /* Build configuration list for PBXProject "LeetCodeInObjective-C" */ = {
+		AFA17A821CE707A90046E395 /* Build configuration list for PBXProject "LeetCode_Objective-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFA17A8C1CE707AA0046E395 /* Debug */,
@@ -392,7 +393,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AFA17A8E1CE707AA0046E395 /* Build configuration list for PBXNativeTarget "LeetCodeInObjective-C" */ = {
+		AFA17A8E1CE707AA0046E395 /* Build configuration list for PBXNativeTarget "LeetCode_Objective-C" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AFA17A8F1CE707AA0046E395 /* Debug */,

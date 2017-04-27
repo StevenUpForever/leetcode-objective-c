@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LeetCodeInObjective-C.xcodeproj">
+      location = "self:LeetCode_Objective-C.xcodeproj">
    </FileRef>
 </Workspace>
