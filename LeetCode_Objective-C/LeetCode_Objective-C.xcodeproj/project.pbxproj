@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492E87F51F3D29BD00F65E80 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E87F41F3D29BD00F65E80 /* ListNode.m */; };
 		AF541C6C1EB2A89900DFEB7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF541C6B1EB2A89900DFEB7A /* main.m */; };
 		AF92A79A1EB2A92D008D435C /* Add_Two_Numbers.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92A7991EB2A92D008D435C /* Add_Two_Numbers.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		492E87F31F3D29BD00F65E80 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		492E87F41F3D29BD00F65E80 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		AF541C681EB2A89900DFEB7A /* LeetCode_Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode_Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF541C6B1EB2A89900DFEB7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF92A7981EB2A92D008D435C /* Add_Two_Numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Add_Two_Numbers.h; sourceTree = "<group>"; };
@@ -41,6 +44,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		492E87F21F3D29A200F65E80 /* PublicClass */ = {
+			isa = PBXGroup;
+			children = (
+				492E87F31F3D29BD00F65E80 /* ListNode.h */,
+				492E87F41F3D29BD00F65E80 /* ListNode.m */,
+			);
+			name = PublicClass;
+			sourceTree = "<group>";
+		};
 		AF541C5F1EB2A89900DFEB7A = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +72,7 @@
 		AF541C6A1EB2A89900DFEB7A /* LeetCode_Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				492E87F21F3D29A200F65E80 /* PublicClass */,
 				AF541C721EB2A8AA00DFEB7A /* Problem1To10 */,
 				AF541C6B1EB2A89900DFEB7A /* main.m */,
 			);
@@ -134,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF541C6C1EB2A89900DFEB7A /* main.m in Sources */,
+				492E87F51F3D29BD00F65E80 /* ListNode.m in Sources */,
 				AF92A79A1EB2A92D008D435C /* Add_Two_Numbers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
