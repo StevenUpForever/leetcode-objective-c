@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		492E87F51F3D29BD00F65E80 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E87F41F3D29BD00F65E80 /* ListNode.m */; };
 		492E87F81F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E87F71F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m */; };
+		492E87FB1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E87FA1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m */; };
 		AF541C6C1EB2A89900DFEB7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF541C6B1EB2A89900DFEB7A /* main.m */; };
 		AF92A79A1EB2A92D008D435C /* Add_Two_Numbers.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92A7991EB2A92D008D435C /* Add_Two_Numbers.m */; };
 /* End PBXBuildFile section */
@@ -30,6 +31,8 @@
 		492E87F41F3D29BD00F65E80 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		492E87F61F3D2C1D00F65E80 /* Longest_Palindromic_Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Longest_Palindromic_Substring.h; sourceTree = "<group>"; };
 		492E87F71F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Longest_Palindromic_Substring.m; sourceTree = "<group>"; };
+		492E87F91F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Longest_SubStr_NoRepeat.h; sourceTree = "<group>"; };
+		492E87FA1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Longest_SubStr_NoRepeat.m; sourceTree = "<group>"; };
 		AF541C681EB2A89900DFEB7A /* LeetCode_Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode_Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF541C6B1EB2A89900DFEB7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF92A7981EB2A92D008D435C /* Add_Two_Numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Add_Two_Numbers.h; sourceTree = "<group>"; };
@@ -87,6 +90,8 @@
 			children = (
 				AF92A7981EB2A92D008D435C /* Add_Two_Numbers.h */,
 				AF92A7991EB2A92D008D435C /* Add_Two_Numbers.m */,
+				492E87F91F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.h */,
+				492E87FA1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m */,
 				492E87F61F3D2C1D00F65E80 /* Longest_Palindromic_Substring.h */,
 				492E87F71F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m */,
 			);
@@ -154,6 +159,7 @@
 				AF541C6C1EB2A89900DFEB7A /* main.m in Sources */,
 				492E87F51F3D29BD00F65E80 /* ListNode.m in Sources */,
 				AF92A79A1EB2A92D008D435C /* Add_Two_Numbers.m in Sources */,
+				492E87FB1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m in Sources */,
 				492E87F81F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
