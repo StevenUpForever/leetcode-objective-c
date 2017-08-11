@@ -15,6 +15,7 @@
 		492E88041F3D765B00F65E80 /* Regular_Expression_Matching.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E88031F3D765B00F65E80 /* Regular_Expression_Matching.m */; };
 		492E88071F3D7BD300F65E80 /* Reverse_Integer.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E88061F3D7BD300F65E80 /* Reverse_Integer.m */; };
 		492E880A1F3D7D0700F65E80 /* String_to_Integer.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E88091F3D7D0700F65E80 /* String_to_Integer.m */; };
+		492E880D1F3D80DD00F65E80 /* Two_Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E880C1F3D80DD00F65E80 /* Two_Sum.m */; };
 		AF541C6C1EB2A89900DFEB7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF541C6B1EB2A89900DFEB7A /* main.m */; };
 		AF92A79A1EB2A92D008D435C /* Add_Two_Numbers.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92A7991EB2A92D008D435C /* Add_Two_Numbers.m */; };
 /* End PBXBuildFile section */
@@ -48,6 +49,8 @@
 		492E88061F3D7BD300F65E80 /* Reverse_Integer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reverse_Integer.m; sourceTree = "<group>"; };
 		492E88081F3D7D0700F65E80 /* String_to_Integer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String_to_Integer.h; sourceTree = "<group>"; };
 		492E88091F3D7D0700F65E80 /* String_to_Integer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String_to_Integer.m; sourceTree = "<group>"; };
+		492E880B1F3D80DD00F65E80 /* Two_Sum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Two_Sum.h; sourceTree = "<group>"; };
+		492E880C1F3D80DD00F65E80 /* Two_Sum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Two_Sum.m; sourceTree = "<group>"; };
 		AF541C681EB2A89900DFEB7A /* LeetCode_Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode_Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF541C6B1EB2A89900DFEB7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF92A7981EB2A92D008D435C /* Add_Two_Numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Add_Two_Numbers.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 		AF541C721EB2A8AA00DFEB7A /* Problem1To10 */ = {
 			isa = PBXGroup;
 			children = (
+				492E880B1F3D80DD00F65E80 /* Two_Sum.h */,
+				492E880C1F3D80DD00F65E80 /* Two_Sum.m */,
 				AF92A7981EB2A92D008D435C /* Add_Two_Numbers.h */,
 				AF92A7991EB2A92D008D435C /* Add_Two_Numbers.m */,
 				492E87F91F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.h */,
@@ -187,6 +192,7 @@
 				AF92A79A1EB2A92D008D435C /* Add_Two_Numbers.m in Sources */,
 				492E88071F3D7BD300F65E80 /* Reverse_Integer.m in Sources */,
 				492E88041F3D765B00F65E80 /* Regular_Expression_Matching.m in Sources */,
+				492E880D1F3D80DD00F65E80 /* Two_Sum.m in Sources */,
 				492E87FB1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m in Sources */,
 				492E87F81F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m in Sources */,
 				492E87FE1F3D311900F65E80 /* Median_Two_Sorted_Arrays.m in Sources */,
