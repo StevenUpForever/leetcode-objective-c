@@ -8,7 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+@class ListNode;
 @interface Add_Two_Numbers : NSObject
 
+- (ListNode *)addTwoNumbers: (ListNode *)l1 andTwo: (ListNode *)l2;
 
 @end
