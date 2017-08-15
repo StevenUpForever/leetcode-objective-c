@@ -10,4 +10,6 @@
 
 @interface FourSum : NSObject
 
+- (NSArray *)fourSum: (NSArray *)nums target: (NSInteger)target;
+
 @end
