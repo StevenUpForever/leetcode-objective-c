@@ -23,6 +23,7 @@
 		AF789E631F42B9EF00000029 /* Three_Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = AF789E621F42B9EF00000029 /* Three_Sum.m */; };
 		AF789E661F42C08800000029 /* Integer_to_Roman.m in Sources */ = {isa = PBXBuildFile; fileRef = AF789E651F42C08800000029 /* Integer_to_Roman.m */; };
 		AF789E691F4403DC00000029 /* Roman_to_Integer.m in Sources */ = {isa = PBXBuildFile; fileRef = AF789E681F4403DC00000029 /* Roman_to_Integer.m */; };
+		AF789E6C1F4405A400000029 /* Longest_Common_Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = AF789E6B1F4405A400000029 /* Longest_Common_Prefix.m */; };
 		AF92A79A1EB2A92D008D435C /* Add_Two_Numbers.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92A7991EB2A92D008D435C /* Add_Two_Numbers.m */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +72,8 @@
 		AF789E651F42C08800000029 /* Integer_to_Roman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Integer_to_Roman.m; sourceTree = "<group>"; };
 		AF789E671F4403DC00000029 /* Roman_to_Integer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Roman_to_Integer.h; sourceTree = "<group>"; };
 		AF789E681F4403DC00000029 /* Roman_to_Integer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Roman_to_Integer.m; sourceTree = "<group>"; };
+		AF789E6A1F4405A400000029 /* Longest_Common_Prefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Longest_Common_Prefix.h; sourceTree = "<group>"; };
+		AF789E6B1F4405A400000029 /* Longest_Common_Prefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Longest_Common_Prefix.m; sourceTree = "<group>"; };
 		AF92A7981EB2A92D008D435C /* Add_Two_Numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Add_Two_Numbers.h; sourceTree = "<group>"; };
 		AF92A7991EB2A92D008D435C /* Add_Two_Numbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Add_Two_Numbers.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -158,6 +161,8 @@
 				AF789E651F42C08800000029 /* Integer_to_Roman.m */,
 				AF789E671F4403DC00000029 /* Roman_to_Integer.h */,
 				AF789E681F4403DC00000029 /* Roman_to_Integer.m */,
+				AF789E6A1F4405A400000029 /* Longest_Common_Prefix.h */,
+				AF789E6B1F4405A400000029 /* Longest_Common_Prefix.m */,
 				AF789E611F42B9EF00000029 /* Three_Sum.h */,
 				AF789E621F42B9EF00000029 /* Three_Sum.m */,
 				AF789E5E1F42B99400000029 /* FourSum.h */,
@@ -237,6 +242,7 @@
 				AF789E661F42C08800000029 /* Integer_to_Roman.m in Sources */,
 				AF789E5A1F42B7E700000029 /* Container_With_Most_Water.m in Sources */,
 				492E87F81F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m in Sources */,
+				AF789E6C1F4405A400000029 /* Longest_Common_Prefix.m in Sources */,
 				AF789E631F42B9EF00000029 /* Three_Sum.m in Sources */,
 				492E87FE1F3D311900F65E80 /* Median_Two_Sorted_Arrays.m in Sources */,
 				492E88011F3D3B5700F65E80 /* Palindrome_Number.m in Sources */,
