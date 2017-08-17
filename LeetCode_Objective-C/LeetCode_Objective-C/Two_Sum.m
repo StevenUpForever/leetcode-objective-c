@@ -30,8 +30,8 @@
  */
 - (NSArray *)twoSumS1: (NSArray *)nums target: (NSInteger)target {
     NSMutableArray *res = [[NSMutableArray alloc]init];
-    for (int i = 0; i < nums.count - 1; i++) {
-        for (int j = i + 1; j < nums.count; j++) {
+    for (NSInteger i = 0; i < nums.count - 1; i++) {
+        for (NSInteger j = i + 1; j < nums.count; j++) {
             if ([nums[i] integerValue] + [nums[j] integerValue] == target) {
                 [res addObject:nums[i]];
                 [res addObject:nums[j]];
@@ -39,7 +39,7 @@
             }
         }
     }
-    return res;
+    return [res copy];
 }
 
 /**
@@ -52,16 +52,16 @@
 - (NSArray *)twoSumS2: (NSArray *)nums target: (NSInteger)target {
     NSMutableArray *res = [[NSMutableArray alloc]init];
     NSMutableDictionary *dict = [[NSMutableDictionary alloc]init];
-    for (int i = 0; i < nums.count; i++) {
+    for (NSInteger i = 0; i < nums.count; i++) {
         NSNumber *minus = [NSNumber numberWithInteger: target - [nums[i] integerValue]];
         if (dict[minus]) {
             [res addObject:nums[i]];
             [res addObject:minus];
-            return res;
+            return [res copy];
         } else dict[minus] = @1;
         
     }
-    return res;
+    return [res copy];
 }
 
 
