@@ -18,6 +18,7 @@
 		492E880D1F3D80DD00F65E80 /* Two_Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E880C1F3D80DD00F65E80 /* Two_Sum.m */; };
 		492E88101F3D884C00F65E80 /* ZigZag_Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E880F1F3D884C00F65E80 /* ZigZag_Conversion.m */; };
 		49912B9B1F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 49912B9A1F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.m */; };
+		49912B9E1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m in Sources */ = {isa = PBXBuildFile; fileRef = 49912B9D1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m */; };
 		AF541C6C1EB2A89900DFEB7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF541C6B1EB2A89900DFEB7A /* main.m */; };
 		AF789E5A1F42B7E700000029 /* Container_With_Most_Water.m in Sources */ = {isa = PBXBuildFile; fileRef = AF789E591F42B7E700000029 /* Container_With_Most_Water.m */; };
 		AF789E601F42B99400000029 /* FourSum.m in Sources */ = {isa = PBXBuildFile; fileRef = AF789E5F1F42B99400000029 /* FourSum.m */; };
@@ -63,6 +64,8 @@
 		492E880F1F3D884C00F65E80 /* ZigZag_Conversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZigZag_Conversion.m; sourceTree = "<group>"; };
 		49912B991F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Letter_Combinations_of_a_Phone_Number.h; sourceTree = "<group>"; };
 		49912B9A1F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Letter_Combinations_of_a_Phone_Number.m; sourceTree = "<group>"; };
+		49912B9C1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Remove_Nth_Node_From_End_of_List.h; sourceTree = "<group>"; };
+		49912B9D1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Remove_Nth_Node_From_End_of_List.m; sourceTree = "<group>"; };
 		AF541C681EB2A89900DFEB7A /* LeetCode_Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode_Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF541C6B1EB2A89900DFEB7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF789E581F42B7E700000029 /* Container_With_Most_Water.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container_With_Most_Water.h; sourceTree = "<group>"; };
@@ -172,6 +175,8 @@
 				49912B9A1F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.m */,
 				AF789E5E1F42B99400000029 /* FourSum.h */,
 				AF789E5F1F42B99400000029 /* FourSum.m */,
+				49912B9C1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.h */,
+				49912B9D1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m */,
 			);
 			name = Problem11To20;
 			sourceTree = "<group>";
@@ -243,6 +248,7 @@
 				492E88071F3D7BD300F65E80 /* Reverse_Integer.m in Sources */,
 				492E88041F3D765B00F65E80 /* Regular_Expression_Matching.m in Sources */,
 				492E880D1F3D80DD00F65E80 /* Two_Sum.m in Sources */,
+				49912B9E1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m in Sources */,
 				492E87FB1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m in Sources */,
 				AF789E661F42C08800000029 /* Integer_to_Roman.m in Sources */,
 				AF789E5A1F42B7E700000029 /* Container_With_Most_Water.m in Sources */,
