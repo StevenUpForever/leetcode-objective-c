@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4907D53B1F46BD3100178AF1 /* ThreeSum_Closest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4907D53A1F46BD3100178AF1 /* ThreeSum_Closest.m */; };
 		492E87F51F3D29BD00F65E80 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E87F41F3D29BD00F65E80 /* ListNode.m */; };
 		492E87F81F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E87F71F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m */; };
 		492E87FB1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E87FA1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m */; };
@@ -42,6 +43,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4907D5391F46BD3100178AF1 /* ThreeSum_Closest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeSum_Closest.h; sourceTree = "<group>"; };
+		4907D53A1F46BD3100178AF1 /* ThreeSum_Closest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeSum_Closest.m; sourceTree = "<group>"; };
 		492E87F31F3D29BD00F65E80 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		492E87F41F3D29BD00F65E80 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		492E87F61F3D2C1D00F65E80 /* Longest_Palindromic_Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Longest_Palindromic_Substring.h; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 				AF789E6B1F4405A400000029 /* Longest_Common_Prefix.m */,
 				AF789E611F42B9EF00000029 /* Three_Sum.h */,
 				AF789E621F42B9EF00000029 /* Three_Sum.m */,
+				4907D5391F46BD3100178AF1 /* ThreeSum_Closest.h */,
+				4907D53A1F46BD3100178AF1 /* ThreeSum_Closest.m */,
 				49912B991F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.h */,
 				49912B9A1F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.m */,
 				AF789E5E1F42B99400000029 /* FourSum.h */,
@@ -247,6 +252,7 @@
 				AF789E691F4403DC00000029 /* Roman_to_Integer.m in Sources */,
 				492E88071F3D7BD300F65E80 /* Reverse_Integer.m in Sources */,
 				492E88041F3D765B00F65E80 /* Regular_Expression_Matching.m in Sources */,
+				4907D53B1F46BD3100178AF1 /* ThreeSum_Closest.m in Sources */,
 				492E880D1F3D80DD00F65E80 /* Two_Sum.m in Sources */,
 				49912B9E1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m in Sources */,
 				492E87FB1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m in Sources */,
