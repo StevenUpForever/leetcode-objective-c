@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4907D53B1F46BD3100178AF1 /* ThreeSum_Closest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4907D53A1F46BD3100178AF1 /* ThreeSum_Closest.m */; };
+		4907D53E1F46BF9B00178AF1 /* Valid_Parentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 4907D53D1F46BF9B00178AF1 /* Valid_Parentheses.m */; };
 		492E87F51F3D29BD00F65E80 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E87F41F3D29BD00F65E80 /* ListNode.m */; };
 		492E87F81F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E87F71F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m */; };
 		492E87FB1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E87FA1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m */; };
@@ -45,6 +46,8 @@
 /* Begin PBXFileReference section */
 		4907D5391F46BD3100178AF1 /* ThreeSum_Closest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeSum_Closest.h; sourceTree = "<group>"; };
 		4907D53A1F46BD3100178AF1 /* ThreeSum_Closest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeSum_Closest.m; sourceTree = "<group>"; };
+		4907D53C1F46BF9B00178AF1 /* Valid_Parentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Valid_Parentheses.h; sourceTree = "<group>"; };
+		4907D53D1F46BF9B00178AF1 /* Valid_Parentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Valid_Parentheses.m; sourceTree = "<group>"; };
 		492E87F31F3D29BD00F65E80 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
 		492E87F41F3D29BD00F65E80 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		492E87F61F3D2C1D00F65E80 /* Longest_Palindromic_Substring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Longest_Palindromic_Substring.h; sourceTree = "<group>"; };
@@ -182,6 +185,8 @@
 				AF789E5F1F42B99400000029 /* FourSum.m */,
 				49912B9C1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.h */,
 				49912B9D1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m */,
+				4907D53C1F46BF9B00178AF1 /* Valid_Parentheses.h */,
+				4907D53D1F46BF9B00178AF1 /* Valid_Parentheses.m */,
 			);
 			name = Problem11To20;
 			sourceTree = "<group>";
@@ -249,6 +254,7 @@
 				492E87F51F3D29BD00F65E80 /* ListNode.m in Sources */,
 				492E88101F3D884C00F65E80 /* ZigZag_Conversion.m in Sources */,
 				AF92A79A1EB2A92D008D435C /* Add_Two_Numbers.m in Sources */,
+				4907D53E1F46BF9B00178AF1 /* Valid_Parentheses.m in Sources */,
 				AF789E691F4403DC00000029 /* Roman_to_Integer.m in Sources */,
 				492E88071F3D7BD300F65E80 /* Reverse_Integer.m in Sources */,
 				492E88041F3D765B00F65E80 /* Regular_Expression_Matching.m in Sources */,
