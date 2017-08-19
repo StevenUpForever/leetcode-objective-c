@@ -24,6 +24,7 @@
 		AF541C6C1EB2A89900DFEB7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF541C6B1EB2A89900DFEB7A /* main.m */; };
 		AF5F0FCD1F47F96100338C5A /* Divide_Two_Integers.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5F0FCC1F47F96100338C5A /* Divide_Two_Integers.m */; };
 		AF5F0FD01F47FE2000338C5A /* Generate_Parentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5F0FCF1F47FE2000338C5A /* Generate_Parentheses.m */; };
+		AF5F0FD31F47FF6F00338C5A /* Implement_strStr.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5F0FD21F47FF6F00338C5A /* Implement_strStr.m */; };
 		AF789E5A1F42B7E700000029 /* Container_With_Most_Water.m in Sources */ = {isa = PBXBuildFile; fileRef = AF789E591F42B7E700000029 /* Container_With_Most_Water.m */; };
 		AF789E601F42B99400000029 /* FourSum.m in Sources */ = {isa = PBXBuildFile; fileRef = AF789E5F1F42B99400000029 /* FourSum.m */; };
 		AF789E631F42B9EF00000029 /* Three_Sum.m in Sources */ = {isa = PBXBuildFile; fileRef = AF789E621F42B9EF00000029 /* Three_Sum.m */; };
@@ -80,6 +81,8 @@
 		AF5F0FCC1F47F96100338C5A /* Divide_Two_Integers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Divide_Two_Integers.m; sourceTree = "<group>"; };
 		AF5F0FCE1F47FE2000338C5A /* Generate_Parentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Generate_Parentheses.h; sourceTree = "<group>"; };
 		AF5F0FCF1F47FE2000338C5A /* Generate_Parentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Generate_Parentheses.m; sourceTree = "<group>"; };
+		AF5F0FD11F47FF6F00338C5A /* Implement_strStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Implement_strStr.h; sourceTree = "<group>"; };
+		AF5F0FD21F47FF6F00338C5A /* Implement_strStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Implement_strStr.m; sourceTree = "<group>"; };
 		AF789E581F42B7E700000029 /* Container_With_Most_Water.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Container_With_Most_Water.h; sourceTree = "<group>"; };
 		AF789E591F42B7E700000029 /* Container_With_Most_Water.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Container_With_Most_Water.m; sourceTree = "<group>"; };
 		AF789E5E1F42B99400000029 /* FourSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourSum.h; sourceTree = "<group>"; };
@@ -176,6 +179,8 @@
 			children = (
 				AF5F0FCE1F47FE2000338C5A /* Generate_Parentheses.h */,
 				AF5F0FCF1F47FE2000338C5A /* Generate_Parentheses.m */,
+				AF5F0FD11F47FF6F00338C5A /* Implement_strStr.h */,
+				AF5F0FD21F47FF6F00338C5A /* Implement_strStr.m */,
 				AF5F0FCB1F47F96100338C5A /* Divide_Two_Integers.h */,
 				AF5F0FCC1F47F96100338C5A /* Divide_Two_Integers.m */,
 			);
@@ -278,6 +283,7 @@
 				492E88071F3D7BD300F65E80 /* Reverse_Integer.m in Sources */,
 				492E88041F3D765B00F65E80 /* Regular_Expression_Matching.m in Sources */,
 				4907D53B1F46BD3100178AF1 /* ThreeSum_Closest.m in Sources */,
+				AF5F0FD31F47FF6F00338C5A /* Implement_strStr.m in Sources */,
 				492E880D1F3D80DD00F65E80 /* Two_Sum.m in Sources */,
 				49912B9E1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m in Sources */,
 				492E87FB1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m in Sources */,
