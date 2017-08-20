@@ -33,6 +33,7 @@
 		AF789E6C1F4405A400000029 /* Longest_Common_Prefix.m in Sources */ = {isa = PBXBuildFile; fileRef = AF789E6B1F4405A400000029 /* Longest_Common_Prefix.m */; };
 		AF92A79A1EB2A92D008D435C /* Add_Two_Numbers.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92A7991EB2A92D008D435C /* Add_Two_Numbers.m */; };
 		AFCC0E391F495177006F05DC /* Merge_Two_Sorted_Lists.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCC0E381F495177006F05DC /* Merge_Two_Sorted_Lists.m */; };
+		AFCC0E3C1F4952DF006F05DC /* Merge_k_Sorted_Lists.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCC0E3B1F4952DF006F05DC /* Merge_k_Sorted_Lists.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -100,6 +101,8 @@
 		AF92A7991EB2A92D008D435C /* Add_Two_Numbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Add_Two_Numbers.m; sourceTree = "<group>"; };
 		AFCC0E371F495177006F05DC /* Merge_Two_Sorted_Lists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merge_Two_Sorted_Lists.h; sourceTree = "<group>"; };
 		AFCC0E381F495177006F05DC /* Merge_Two_Sorted_Lists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merge_Two_Sorted_Lists.m; sourceTree = "<group>"; };
+		AFCC0E3A1F4952DF006F05DC /* Merge_k_Sorted_Lists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merge_k_Sorted_Lists.h; sourceTree = "<group>"; };
+		AFCC0E3B1F4952DF006F05DC /* Merge_k_Sorted_Lists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merge_k_Sorted_Lists.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,6 +187,8 @@
 				AFCC0E381F495177006F05DC /* Merge_Two_Sorted_Lists.m */,
 				AF5F0FCE1F47FE2000338C5A /* Generate_Parentheses.h */,
 				AF5F0FCF1F47FE2000338C5A /* Generate_Parentheses.m */,
+				AFCC0E3A1F4952DF006F05DC /* Merge_k_Sorted_Lists.h */,
+				AFCC0E3B1F4952DF006F05DC /* Merge_k_Sorted_Lists.m */,
 				AF5F0FD11F47FF6F00338C5A /* Implement_strStr.h */,
 				AF5F0FD21F47FF6F00338C5A /* Implement_strStr.m */,
 				AF5F0FCB1F47F96100338C5A /* Divide_Two_Integers.h */,
@@ -303,6 +308,7 @@
 				AF5F0FD01F47FE2000338C5A /* Generate_Parentheses.m in Sources */,
 				AF789E601F42B99400000029 /* FourSum.m in Sources */,
 				49912B9B1F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.m in Sources */,
+				AFCC0E3C1F4952DF006F05DC /* Merge_k_Sorted_Lists.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
