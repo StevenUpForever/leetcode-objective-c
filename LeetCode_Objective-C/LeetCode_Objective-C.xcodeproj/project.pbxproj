@@ -21,6 +21,7 @@
 		492E88101F3D884C00F65E80 /* ZigZag_Conversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 492E880F1F3D884C00F65E80 /* ZigZag_Conversion.m */; };
 		49912B9B1F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.m in Sources */ = {isa = PBXBuildFile; fileRef = 49912B9A1F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.m */; };
 		49912B9E1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m in Sources */ = {isa = PBXBuildFile; fileRef = 49912B9D1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m */; };
+		AF4A41471F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A41461F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.m */; };
 		AF541C6C1EB2A89900DFEB7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF541C6B1EB2A89900DFEB7A /* main.m */; };
 		AF5F0FCD1F47F96100338C5A /* Divide_Two_Integers.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5F0FCC1F47F96100338C5A /* Divide_Two_Integers.m */; };
 		AF5F0FD01F47FE2000338C5A /* Generate_Parentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = AF5F0FCF1F47FE2000338C5A /* Generate_Parentheses.m */; };
@@ -77,6 +78,8 @@
 		49912B9A1F455275001D11C5 /* Letter_Combinations_of_a_Phone_Number.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Letter_Combinations_of_a_Phone_Number.m; sourceTree = "<group>"; };
 		49912B9C1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Remove_Nth_Node_From_End_of_List.h; sourceTree = "<group>"; };
 		49912B9D1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Remove_Nth_Node_From_End_of_List.m; sourceTree = "<group>"; };
+		AF4A41451F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Remove_Dup_from_Sorted_Array.h; sourceTree = "<group>"; };
+		AF4A41461F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Remove_Dup_from_Sorted_Array.m; sourceTree = "<group>"; };
 		AF541C681EB2A89900DFEB7A /* LeetCode_Objective-C */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "LeetCode_Objective-C"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF541C6B1EB2A89900DFEB7A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AF5F0FCB1F47F96100338C5A /* Divide_Two_Integers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Divide_Two_Integers.h; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 				AF5F0FCF1F47FE2000338C5A /* Generate_Parentheses.m */,
 				AFCC0E3A1F4952DF006F05DC /* Merge_k_Sorted_Lists.h */,
 				AFCC0E3B1F4952DF006F05DC /* Merge_k_Sorted_Lists.m */,
+				AF4A41451F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.h */,
+				AF4A41461F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.m */,
 				AF5F0FD11F47FF6F00338C5A /* Implement_strStr.h */,
 				AF5F0FD21F47FF6F00338C5A /* Implement_strStr.m */,
 				AF5F0FCB1F47F96100338C5A /* Divide_Two_Integers.h */,
@@ -282,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4A41471F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.m in Sources */,
 				492E880A1F3D7D0700F65E80 /* String_to_Integer.m in Sources */,
 				AF541C6C1EB2A89900DFEB7A /* main.m in Sources */,
 				492E87F51F3D29BD00F65E80 /* ListNode.m in Sources */,
