@@ -36,6 +36,7 @@
 		AF92A79A1EB2A92D008D435C /* Add_Two_Numbers.m in Sources */ = {isa = PBXBuildFile; fileRef = AF92A7991EB2A92D008D435C /* Add_Two_Numbers.m */; };
 		AFCC0E391F495177006F05DC /* Merge_Two_Sorted_Lists.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCC0E381F495177006F05DC /* Merge_Two_Sorted_Lists.m */; };
 		AFCC0E3C1F4952DF006F05DC /* Merge_k_Sorted_Lists.m in Sources */ = {isa = PBXBuildFile; fileRef = AFCC0E3B1F4952DF006F05DC /* Merge_k_Sorted_Lists.m */; };
+		AFDBA3501F4BF0800009139E /* Reverse_Nodes_in_kGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = AFDBA34F1F4BF0800009139E /* Reverse_Nodes_in_kGroup.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +110,8 @@
 		AFCC0E381F495177006F05DC /* Merge_Two_Sorted_Lists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merge_Two_Sorted_Lists.m; sourceTree = "<group>"; };
 		AFCC0E3A1F4952DF006F05DC /* Merge_k_Sorted_Lists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Merge_k_Sorted_Lists.h; sourceTree = "<group>"; };
 		AFCC0E3B1F4952DF006F05DC /* Merge_k_Sorted_Lists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Merge_k_Sorted_Lists.m; sourceTree = "<group>"; };
+		AFDBA34E1F4BF0800009139E /* Reverse_Nodes_in_kGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reverse_Nodes_in_kGroup.h; sourceTree = "<group>"; };
+		AFDBA34F1F4BF0800009139E /* Reverse_Nodes_in_kGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reverse_Nodes_in_kGroup.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +198,8 @@
 				AF5F0FCF1F47FE2000338C5A /* Generate_Parentheses.m */,
 				AFCC0E3A1F4952DF006F05DC /* Merge_k_Sorted_Lists.h */,
 				AFCC0E3B1F4952DF006F05DC /* Merge_k_Sorted_Lists.m */,
+				AFDBA34E1F4BF0800009139E /* Reverse_Nodes_in_kGroup.h */,
+				AFDBA34F1F4BF0800009139E /* Reverse_Nodes_in_kGroup.m */,
 				AF4A41451F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.h */,
 				AF4A41461F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.m */,
 				AF4A41481F4AB8C900D0488E /* Remove_Element.h */,
@@ -311,6 +316,7 @@
 				49912B9E1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m in Sources */,
 				492E87FB1F3D2E1A00F65E80 /* Longest_SubStr_NoRepeat.m in Sources */,
 				AF789E661F42C08800000029 /* Integer_to_Roman.m in Sources */,
+				AFDBA3501F4BF0800009139E /* Reverse_Nodes_in_kGroup.m in Sources */,
 				AF789E5A1F42B7E700000029 /* Container_With_Most_Water.m in Sources */,
 				492E87F81F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m in Sources */,
 				AF789E6C1F4405A400000029 /* Longest_Common_Prefix.m in Sources */,
