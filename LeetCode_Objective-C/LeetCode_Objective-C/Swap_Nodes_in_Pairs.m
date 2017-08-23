@@ -63,6 +63,7 @@
     //Connect current pair of nodes to next recursion step
     head.next = [self swapPairsS2:next];
     next.next = head;
+    //This next finally, after call stack steps of recursion, is the first second node of the list
     return next;
 }
 
