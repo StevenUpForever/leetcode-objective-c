@@ -23,6 +23,7 @@
 		49912B9E1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m in Sources */ = {isa = PBXBuildFile; fileRef = 49912B9D1F455BE2001D11C5 /* Remove_Nth_Node_From_End_of_List.m */; };
 		49B39C781F4D55A300C67BD9 /* Swap_Nodes_in_Pairs.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B39C771F4D55A300C67BD9 /* Swap_Nodes_in_Pairs.m */; };
 		AF0443011F4BF4BC00D0F667 /* Substring_with_Concatenation_of_All_Words.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0443001F4BF4BC00D0F667 /* Substring_with_Concatenation_of_All_Words.m */; };
+		AF0443051F4E9B9600D0F667 /* Search_in_Rotated_Sorted_Array.m in Sources */ = {isa = PBXBuildFile; fileRef = AF0443041F4E9B9600D0F667 /* Search_in_Rotated_Sorted_Array.m */; };
 		AF4A41471F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A41461F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.m */; };
 		AF4A414A1F4AB8C900D0488E /* Remove_Element.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4A41491F4AB8C900D0488E /* Remove_Element.m */; };
 		AF541C6C1EB2A89900DFEB7A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF541C6B1EB2A89900DFEB7A /* main.m */; };
@@ -86,6 +87,8 @@
 		49B39C771F4D55A300C67BD9 /* Swap_Nodes_in_Pairs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swap_Nodes_in_Pairs.m; sourceTree = "<group>"; };
 		AF0442FF1F4BF4BC00D0F667 /* Substring_with_Concatenation_of_All_Words.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Substring_with_Concatenation_of_All_Words.h; sourceTree = "<group>"; };
 		AF0443001F4BF4BC00D0F667 /* Substring_with_Concatenation_of_All_Words.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Substring_with_Concatenation_of_All_Words.m; sourceTree = "<group>"; };
+		AF0443031F4E9B9600D0F667 /* Search_in_Rotated_Sorted_Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Search_in_Rotated_Sorted_Array.h; sourceTree = "<group>"; };
+		AF0443041F4E9B9600D0F667 /* Search_in_Rotated_Sorted_Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Search_in_Rotated_Sorted_Array.m; sourceTree = "<group>"; };
 		AF4A41451F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Remove_Dup_from_Sorted_Array.h; sourceTree = "<group>"; };
 		AF4A41461F4AB7B100D0488E /* Remove_Dup_from_Sorted_Array.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Remove_Dup_from_Sorted_Array.m; sourceTree = "<group>"; };
 		AF4A41481F4AB8C900D0488E /* Remove_Element.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Remove_Element.h; sourceTree = "<group>"; };
@@ -140,6 +143,15 @@
 			name = PublicClass;
 			sourceTree = "<group>";
 		};
+		AF0443021F4E9B6B00D0F667 /* Problem31To40 */ = {
+			isa = PBXGroup;
+			children = (
+				AF0443031F4E9B9600D0F667 /* Search_in_Rotated_Sorted_Array.h */,
+				AF0443041F4E9B9600D0F667 /* Search_in_Rotated_Sorted_Array.m */,
+			);
+			name = Problem31To40;
+			sourceTree = "<group>";
+		};
 		AF541C5F1EB2A89900DFEB7A = {
 			isa = PBXGroup;
 			children = (
@@ -159,10 +171,11 @@
 		AF541C6A1EB2A89900DFEB7A /* LeetCode_Objective-C */ = {
 			isa = PBXGroup;
 			children = (
-				492E87F21F3D29A200F65E80 /* PublicClass */,
 				AF541C721EB2A8AA00DFEB7A /* Problem1To10 */,
 				AF789E571F42B7C500000029 /* Problem11To20 */,
 				AF5F0FCA1F47F94100338C5A /* Problem21To30 */,
+				AF0443021F4E9B6B00D0F667 /* Problem31To40 */,
+				492E87F21F3D29A200F65E80 /* PublicClass */,
 				AF541C6B1EB2A89900DFEB7A /* main.m */,
 			);
 			path = "LeetCode_Objective-C";
@@ -332,6 +345,7 @@
 				492E87F81F3D2C1D00F65E80 /* Longest_Palindromic_Substring.m in Sources */,
 				49B39C781F4D55A300C67BD9 /* Swap_Nodes_in_Pairs.m in Sources */,
 				AF789E6C1F4405A400000029 /* Longest_Common_Prefix.m in Sources */,
+				AF0443051F4E9B9600D0F667 /* Search_in_Rotated_Sorted_Array.m in Sources */,
 				AF789E631F42B9EF00000029 /* Three_Sum.m in Sources */,
 				492E87FE1F3D311900F65E80 /* Median_Two_Sorted_Arrays.m in Sources */,
 				492E88011F3D3B5700F65E80 /* Palindrome_Number.m in Sources */,
