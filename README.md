@@ -1,4 +1,4 @@
-# LeetCode_Objective-C
+# leetcode-objective-c
 
 The LeetCode implementations in Objective-C sorted by number
 
