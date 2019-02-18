@@ -19,6 +19,16 @@
 		494C87EA221B6771008B7A60 /* Q4MedianTwoSortedArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87DD221B6771008B7A60 /* Q4MedianTwoSortedArrays.m */; };
 		494C87EB221B6771008B7A60 /* Q10RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87DF221B6771008B7A60 /* Q10RegularExpressionMatching.m */; };
 		494C87EF221B679F008B7A60 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87ED221B679F008B7A60 /* ListNode.m */; };
+		494C880F221B6E30008B7A60 /* Q20ValidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87FC221B6E2E008B7A60 /* Q20ValidParentheses.m */; };
+		494C8810221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87FD221B6E2E008B7A60 /* Q19RemoveNthNodeFromEndOfList.m */; };
+		494C8811221B6E30008B7A60 /* Q18FourSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87FF221B6E2E008B7A60 /* Q18FourSum.m */; };
+		494C8812221B6E30008B7A60 /* Q14LongestCommonPrefix.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8800221B6E2E008B7A60 /* Q14LongestCommonPrefix.m */; };
+		494C8813221B6E30008B7A60 /* Q15ThreeSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8802221B6E2E008B7A60 /* Q15ThreeSum.m */; };
+		494C8814221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8803221B6E2E008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m */; };
+		494C8815221B6E30008B7A60 /* Q16ThreeSumClosest.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8804221B6E2F008B7A60 /* Q16ThreeSumClosest.m */; };
+		494C8816221B6E30008B7A60 /* Q13RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8806221B6E2F008B7A60 /* Q13RomanToInteger.m */; };
+		494C8817221B6E30008B7A60 /* Q11ContainerWithMostWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8808221B6E2F008B7A60 /* Q11ContainerWithMostWater.m */; };
+		494C8818221B6E30008B7A60 /* Q12IntegerToRoman.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C880B221B6E2F008B7A60 /* Q12IntegerToRoman.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -58,6 +68,26 @@
 		494C87E1221B6771008B7A60 /* Q1TwoSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q1TwoSum.h; sourceTree = "<group>"; };
 		494C87ED221B679F008B7A60 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
 		494C87EE221B679F008B7A60 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+		494C87FB221B6E2D008B7A60 /* Q12IntegerToRoman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q12IntegerToRoman.h; sourceTree = "<group>"; };
+		494C87FC221B6E2E008B7A60 /* Q20ValidParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q20ValidParentheses.m; sourceTree = "<group>"; };
+		494C87FD221B6E2E008B7A60 /* Q19RemoveNthNodeFromEndOfList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q19RemoveNthNodeFromEndOfList.m; sourceTree = "<group>"; };
+		494C87FE221B6E2E008B7A60 /* Q11ContainerWithMostWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q11ContainerWithMostWater.h; sourceTree = "<group>"; };
+		494C87FF221B6E2E008B7A60 /* Q18FourSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q18FourSum.m; sourceTree = "<group>"; };
+		494C8800221B6E2E008B7A60 /* Q14LongestCommonPrefix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q14LongestCommonPrefix.m; sourceTree = "<group>"; };
+		494C8801221B6E2E008B7A60 /* Q15ThreeSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q15ThreeSum.h; sourceTree = "<group>"; };
+		494C8802221B6E2E008B7A60 /* Q15ThreeSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q15ThreeSum.m; sourceTree = "<group>"; };
+		494C8803221B6E2E008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q17LetterCombinationsOfAPhoneNumber.m; sourceTree = "<group>"; };
+		494C8804221B6E2F008B7A60 /* Q16ThreeSumClosest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q16ThreeSumClosest.m; sourceTree = "<group>"; };
+		494C8805221B6E2F008B7A60 /* Q13RomanToInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q13RomanToInteger.h; sourceTree = "<group>"; };
+		494C8806221B6E2F008B7A60 /* Q13RomanToInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q13RomanToInteger.m; sourceTree = "<group>"; };
+		494C8807221B6E2F008B7A60 /* Q18FourSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q18FourSum.h; sourceTree = "<group>"; };
+		494C8808221B6E2F008B7A60 /* Q11ContainerWithMostWater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q11ContainerWithMostWater.m; sourceTree = "<group>"; };
+		494C8809221B6E2F008B7A60 /* Q16ThreeSumClosest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q16ThreeSumClosest.h; sourceTree = "<group>"; };
+		494C880A221B6E2F008B7A60 /* Q14LongestCommonPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q14LongestCommonPrefix.h; sourceTree = "<group>"; };
+		494C880B221B6E2F008B7A60 /* Q12IntegerToRoman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q12IntegerToRoman.m; sourceTree = "<group>"; };
+		494C880C221B6E30008B7A60 /* Q20ValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q20ValidParentheses.h; sourceTree = "<group>"; };
+		494C880D221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q17LetterCombinationsOfAPhoneNumber.h; sourceTree = "<group>"; };
+		494C880E221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q19RemoveNthNodeFromEndOfList.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				494C87F0221B684E008B7A60 /* array */,
+				494C881A221B7023008B7A60 /* depth_first_search */,
 				494C87F6221B6AC4008B7A60 /* dp */,
 				494C87F1221B6905008B7A60 /* linkedlist */,
 				494C87F9221B6B3A008B7A60 /* math */,
@@ -114,8 +145,9 @@
 		494C87F0221B684E008B7A60 /* array */ = {
 			isa = PBXGroup;
 			children = (
-				494C87E1221B6771008B7A60 /* Q1TwoSum.h */,
-				494C87D3221B6771008B7A60 /* Q1TwoSum.m */,
+				494C880A221B6E2F008B7A60 /* Q14LongestCommonPrefix.h */,
+				494C8800221B6E2E008B7A60 /* Q14LongestCommonPrefix.m */,
+				494C8819221B6F70008B7A60 /* n_sum */,
 			);
 			path = array;
 			sourceTree = "<group>";
@@ -125,6 +157,8 @@
 			children = (
 				494C87CF221B6771008B7A60 /* Q2AddTwoNumbers.h */,
 				494C87CE221B6771008B7A60 /* Q2AddTwoNumbers.m */,
+				494C880E221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.h */,
+				494C87FD221B6E2E008B7A60 /* Q19RemoveNthNodeFromEndOfList.m */,
 			);
 			path = linkedlist;
 			sourceTree = "<group>";
@@ -157,6 +191,8 @@
 				494C87D1221B6771008B7A60 /* Q5LongestPalindromicSubstring.m */,
 				494C87D8221B6771008B7A60 /* Q9PalindromeNumber.h */,
 				494C87D6221B6771008B7A60 /* Q9PalindromeNumber.m */,
+				494C880C221B6E30008B7A60 /* Q20ValidParentheses.h */,
+				494C87FC221B6E2E008B7A60 /* Q20ValidParentheses.m */,
 			);
 			path = palindrome;
 			sourceTree = "<group>";
@@ -166,6 +202,8 @@
 			children = (
 				494C87D9221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.h */,
 				494C87D5221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m */,
+				494C87FB221B6E2D008B7A60 /* Q12IntegerToRoman.h */,
+				494C880B221B6E2F008B7A60 /* Q12IntegerToRoman.m */,
 			);
 			path = sliding_window;
 			sourceTree = "<group>";
@@ -182,6 +220,8 @@
 		494C87F7221B6AD2008B7A60 /* one_d_dp */ = {
 			isa = PBXGroup;
 			children = (
+				494C87FE221B6E2E008B7A60 /* Q11ContainerWithMostWater.h */,
+				494C8808221B6E2F008B7A60 /* Q11ContainerWithMostWater.m */,
 			);
 			path = one_d_dp;
 			sourceTree = "<group>";
@@ -209,8 +249,34 @@
 			children = (
 				494C87DA221B6771008B7A60 /* Q8StringToInteger.h */,
 				494C87D0221B6771008B7A60 /* Q8StringToInteger.m */,
+				494C8805221B6E2F008B7A60 /* Q13RomanToInteger.h */,
+				494C8806221B6E2F008B7A60 /* Q13RomanToInteger.m */,
 			);
 			path = string_integer_convert;
+			sourceTree = "<group>";
+		};
+		494C8819221B6F70008B7A60 /* n_sum */ = {
+			isa = PBXGroup;
+			children = (
+				494C87E1221B6771008B7A60 /* Q1TwoSum.h */,
+				494C87D3221B6771008B7A60 /* Q1TwoSum.m */,
+				494C8801221B6E2E008B7A60 /* Q15ThreeSum.h */,
+				494C8802221B6E2E008B7A60 /* Q15ThreeSum.m */,
+				494C8809221B6E2F008B7A60 /* Q16ThreeSumClosest.h */,
+				494C8804221B6E2F008B7A60 /* Q16ThreeSumClosest.m */,
+				494C8807221B6E2F008B7A60 /* Q18FourSum.h */,
+				494C87FF221B6E2E008B7A60 /* Q18FourSum.m */,
+			);
+			path = n_sum;
+			sourceTree = "<group>";
+		};
+		494C881A221B7023008B7A60 /* depth_first_search */ = {
+			isa = PBXGroup;
+			children = (
+				494C880D221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.h */,
+				494C8803221B6E2E008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m */,
+			);
+			path = depth_first_search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,15 +336,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				494C87E6221B6771008B7A60 /* Q1TwoSum.m in Sources */,
+				494C8815221B6E30008B7A60 /* Q16ThreeSumClosest.m in Sources */,
+				494C8810221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.m in Sources */,
+				494C8817221B6E30008B7A60 /* Q11ContainerWithMostWater.m in Sources */,
 				494C87E8221B6771008B7A60 /* Q9PalindromeNumber.m in Sources */,
+				494C8812221B6E30008B7A60 /* Q14LongestCommonPrefix.m in Sources */,
 				494C87C7221B6694008B7A60 /* main.m in Sources */,
+				494C8811221B6E30008B7A60 /* Q18FourSum.m in Sources */,
 				494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */,
 				494C87E3221B6771008B7A60 /* Q8StringToInteger.m in Sources */,
+				494C8816221B6E30008B7A60 /* Q13RomanToInteger.m in Sources */,
+				494C8818221B6E30008B7A60 /* Q12IntegerToRoman.m in Sources */,
 				494C87E4221B6771008B7A60 /* Q5LongestPalindromicSubstring.m in Sources */,
 				494C87E9221B6771008B7A60 /* Q6ZigZagConversion.m in Sources */,
+				494C8814221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m in Sources */,
+				494C8813221B6E30008B7A60 /* Q15ThreeSum.m in Sources */,
 				494C87EF221B679F008B7A60 /* ListNode.m in Sources */,
 				494C87E7221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				494C87E5221B6771008B7A60 /* Q7ReverseInteger.m in Sources */,
+				494C880F221B6E30008B7A60 /* Q20ValidParentheses.m in Sources */,
 				494C87EB221B6771008B7A60 /* Q10RegularExpressionMatching.m in Sources */,
 				494C87EA221B6771008B7A60 /* Q4MedianTwoSortedArrays.m in Sources */,
 			);
