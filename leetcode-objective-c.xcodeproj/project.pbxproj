@@ -29,6 +29,16 @@
 		494C8816221B6E30008B7A60 /* Q13RomanToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8806221B6E2F008B7A60 /* Q13RomanToInteger.m */; };
 		494C8817221B6E30008B7A60 /* Q11ContainerWithMostWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8808221B6E2F008B7A60 /* Q11ContainerWithMostWater.m */; };
 		494C8818221B6E30008B7A60 /* Q12IntegerToRoman.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C880B221B6E2F008B7A60 /* Q12IntegerToRoman.m */; };
+		494C882F221B71D5008B7A60 /* Q26RemoveDuplicatesFromSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C881E221B71D3008B7A60 /* Q26RemoveDuplicatesFromSortedArray.m */; };
+		494C8830221B71D5008B7A60 /* Q22GenerateParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C881F221B71D3008B7A60 /* Q22GenerateParentheses.m */; };
+		494C8831221B71D5008B7A60 /* Q21MergeTwoSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8821221B71D4008B7A60 /* Q21MergeTwoSortedLists.m */; };
+		494C8832221B71D5008B7A60 /* Q29DivideTwoIntegers.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8823221B71D4008B7A60 /* Q29DivideTwoIntegers.m */; };
+		494C8833221B71D5008B7A60 /* Q24SwapNodesInPairs.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8826221B71D4008B7A60 /* Q24SwapNodesInPairs.m */; };
+		494C8834221B71D5008B7A60 /* Q28ImplementStrStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8828221B71D4008B7A60 /* Q28ImplementStrStr.m */; };
+		494C8835221B71D5008B7A60 /* Q30SubstringWithConcatenationOfAllWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8829221B71D4008B7A60 /* Q30SubstringWithConcatenationOfAllWords.m */; };
+		494C8836221B71D5008B7A60 /* Q27RemoveElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C882A221B71D5008B7A60 /* Q27RemoveElement.m */; };
+		494C8837221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C882C221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m */; };
+		494C8838221B71D5008B7A60 /* Q23MergeKSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C882E221B71D5008B7A60 /* Q23MergeKSortedLists.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -88,6 +98,26 @@
 		494C880C221B6E30008B7A60 /* Q20ValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q20ValidParentheses.h; sourceTree = "<group>"; };
 		494C880D221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q17LetterCombinationsOfAPhoneNumber.h; sourceTree = "<group>"; };
 		494C880E221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q19RemoveNthNodeFromEndOfList.h; sourceTree = "<group>"; };
+		494C881B221B71D3008B7A60 /* Q26RemoveDuplicatesFromSortedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q26RemoveDuplicatesFromSortedArray.h; sourceTree = "<group>"; };
+		494C881C221B71D3008B7A60 /* Q30SubstringWithConcatenationOfAllWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q30SubstringWithConcatenationOfAllWords.h; sourceTree = "<group>"; };
+		494C881D221B71D3008B7A60 /* Q24SwapNodesInPairs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q24SwapNodesInPairs.h; sourceTree = "<group>"; };
+		494C881E221B71D3008B7A60 /* Q26RemoveDuplicatesFromSortedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q26RemoveDuplicatesFromSortedArray.m; sourceTree = "<group>"; };
+		494C881F221B71D3008B7A60 /* Q22GenerateParentheses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q22GenerateParentheses.m; sourceTree = "<group>"; };
+		494C8820221B71D4008B7A60 /* Q29DivideTwoIntegers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q29DivideTwoIntegers.h; sourceTree = "<group>"; };
+		494C8821221B71D4008B7A60 /* Q21MergeTwoSortedLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q21MergeTwoSortedLists.m; sourceTree = "<group>"; };
+		494C8822221B71D4008B7A60 /* Q21MergeTwoSortedLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q21MergeTwoSortedLists.h; sourceTree = "<group>"; };
+		494C8823221B71D4008B7A60 /* Q29DivideTwoIntegers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q29DivideTwoIntegers.m; sourceTree = "<group>"; };
+		494C8824221B71D4008B7A60 /* Q27RemoveElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q27RemoveElement.h; sourceTree = "<group>"; };
+		494C8825221B71D4008B7A60 /* Q25ReverseNodesInKGGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q25ReverseNodesInKGGroup.h; sourceTree = "<group>"; };
+		494C8826221B71D4008B7A60 /* Q24SwapNodesInPairs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q24SwapNodesInPairs.m; sourceTree = "<group>"; };
+		494C8827221B71D4008B7A60 /* Q22GenerateParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q22GenerateParentheses.h; sourceTree = "<group>"; };
+		494C8828221B71D4008B7A60 /* Q28ImplementStrStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q28ImplementStrStr.m; sourceTree = "<group>"; };
+		494C8829221B71D4008B7A60 /* Q30SubstringWithConcatenationOfAllWords.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q30SubstringWithConcatenationOfAllWords.m; sourceTree = "<group>"; };
+		494C882A221B71D5008B7A60 /* Q27RemoveElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q27RemoveElement.m; sourceTree = "<group>"; };
+		494C882B221B71D5008B7A60 /* Q28ImplementStrStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q28ImplementStrStr.h; sourceTree = "<group>"; };
+		494C882C221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q25ReverseNodesInKGGroup.m; sourceTree = "<group>"; };
+		494C882D221B71D5008B7A60 /* Q23MergeKSortedLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q23MergeKSortedLists.h; sourceTree = "<group>"; };
+		494C882E221B71D5008B7A60 /* Q23MergeKSortedLists.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q23MergeKSortedLists.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				494C87F0221B684E008B7A60 /* array */,
+				494C8839221B724A008B7A60 /* bit_operation */,
 				494C881A221B7023008B7A60 /* depth_first_search */,
 				494C87F6221B6AC4008B7A60 /* dp */,
 				494C87F1221B6905008B7A60 /* linkedlist */,
@@ -155,10 +186,16 @@
 		494C87F1221B6905008B7A60 /* linkedlist */ = {
 			isa = PBXGroup;
 			children = (
+				494C883C221B7577008B7A60 /* reverse */,
 				494C87CF221B6771008B7A60 /* Q2AddTwoNumbers.h */,
 				494C87CE221B6771008B7A60 /* Q2AddTwoNumbers.m */,
 				494C880E221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.h */,
 				494C87FD221B6E2E008B7A60 /* Q19RemoveNthNodeFromEndOfList.m */,
+				494C881B221B71D3008B7A60 /* Q26RemoveDuplicatesFromSortedArray.h */,
+				494C881E221B71D3008B7A60 /* Q26RemoveDuplicatesFromSortedArray.m */,
+				494C8824221B71D4008B7A60 /* Q27RemoveElement.h */,
+				494C882A221B71D5008B7A60 /* Q27RemoveElement.m */,
+				494C883B221B7374008B7A60 /* k_merge */,
 			);
 			path = linkedlist;
 			sourceTree = "<group>";
@@ -168,6 +205,8 @@
 			children = (
 				494C87DB221B6771008B7A60 /* Q6ZigZagConversion.h */,
 				494C87DC221B6771008B7A60 /* Q6ZigZagConversion.m */,
+				494C882B221B71D5008B7A60 /* Q28ImplementStrStr.h */,
+				494C8828221B71D4008B7A60 /* Q28ImplementStrStr.m */,
 				494C87F4221B69FC008B7A60 /* palindrome */,
 				494C87F5221B6A05008B7A60 /* sliding_window */,
 				494C87FA221B6BCB008B7A60 /* string_integer_convert */,
@@ -204,6 +243,8 @@
 				494C87D5221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m */,
 				494C87FB221B6E2D008B7A60 /* Q12IntegerToRoman.h */,
 				494C880B221B6E2F008B7A60 /* Q12IntegerToRoman.m */,
+				494C881C221B71D3008B7A60 /* Q30SubstringWithConcatenationOfAllWords.h */,
+				494C8829221B71D4008B7A60 /* Q30SubstringWithConcatenationOfAllWords.m */,
 			);
 			path = sliding_window;
 			sourceTree = "<group>";
@@ -273,10 +314,51 @@
 		494C881A221B7023008B7A60 /* depth_first_search */ = {
 			isa = PBXGroup;
 			children = (
+				494C883A221B7280008B7A60 /* all_subsets */,
 				494C880D221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.h */,
 				494C8803221B6E2E008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m */,
 			);
 			path = depth_first_search;
+			sourceTree = "<group>";
+		};
+		494C8839221B724A008B7A60 /* bit_operation */ = {
+			isa = PBXGroup;
+			children = (
+				494C8820221B71D4008B7A60 /* Q29DivideTwoIntegers.h */,
+				494C8823221B71D4008B7A60 /* Q29DivideTwoIntegers.m */,
+			);
+			path = bit_operation;
+			sourceTree = "<group>";
+		};
+		494C883A221B7280008B7A60 /* all_subsets */ = {
+			isa = PBXGroup;
+			children = (
+				494C8827221B71D4008B7A60 /* Q22GenerateParentheses.h */,
+				494C881F221B71D3008B7A60 /* Q22GenerateParentheses.m */,
+			);
+			path = all_subsets;
+			sourceTree = "<group>";
+		};
+		494C883B221B7374008B7A60 /* k_merge */ = {
+			isa = PBXGroup;
+			children = (
+				494C8822221B71D4008B7A60 /* Q21MergeTwoSortedLists.h */,
+				494C8821221B71D4008B7A60 /* Q21MergeTwoSortedLists.m */,
+				494C882D221B71D5008B7A60 /* Q23MergeKSortedLists.h */,
+				494C882E221B71D5008B7A60 /* Q23MergeKSortedLists.m */,
+			);
+			path = k_merge;
+			sourceTree = "<group>";
+		};
+		494C883C221B7577008B7A60 /* reverse */ = {
+			isa = PBXGroup;
+			children = (
+				494C881D221B71D3008B7A60 /* Q24SwapNodesInPairs.h */,
+				494C8826221B71D4008B7A60 /* Q24SwapNodesInPairs.m */,
+				494C8825221B71D4008B7A60 /* Q25ReverseNodesInKGGroup.h */,
+				494C882C221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m */,
+			);
+			path = reverse;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,23 +420,33 @@
 				494C87E6221B6771008B7A60 /* Q1TwoSum.m in Sources */,
 				494C8815221B6E30008B7A60 /* Q16ThreeSumClosest.m in Sources */,
 				494C8810221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.m in Sources */,
+				494C882F221B71D5008B7A60 /* Q26RemoveDuplicatesFromSortedArray.m in Sources */,
 				494C8817221B6E30008B7A60 /* Q11ContainerWithMostWater.m in Sources */,
 				494C87E8221B6771008B7A60 /* Q9PalindromeNumber.m in Sources */,
 				494C8812221B6E30008B7A60 /* Q14LongestCommonPrefix.m in Sources */,
 				494C87C7221B6694008B7A60 /* main.m in Sources */,
+				494C8837221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m in Sources */,
+				494C8838221B71D5008B7A60 /* Q23MergeKSortedLists.m in Sources */,
 				494C8811221B6E30008B7A60 /* Q18FourSum.m in Sources */,
 				494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */,
 				494C87E3221B6771008B7A60 /* Q8StringToInteger.m in Sources */,
 				494C8816221B6E30008B7A60 /* Q13RomanToInteger.m in Sources */,
+				494C8836221B71D5008B7A60 /* Q27RemoveElement.m in Sources */,
+				494C8835221B71D5008B7A60 /* Q30SubstringWithConcatenationOfAllWords.m in Sources */,
 				494C8818221B6E30008B7A60 /* Q12IntegerToRoman.m in Sources */,
 				494C87E4221B6771008B7A60 /* Q5LongestPalindromicSubstring.m in Sources */,
 				494C87E9221B6771008B7A60 /* Q6ZigZagConversion.m in Sources */,
 				494C8814221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m in Sources */,
 				494C8813221B6E30008B7A60 /* Q15ThreeSum.m in Sources */,
+				494C8834221B71D5008B7A60 /* Q28ImplementStrStr.m in Sources */,
 				494C87EF221B679F008B7A60 /* ListNode.m in Sources */,
+				494C8832221B71D5008B7A60 /* Q29DivideTwoIntegers.m in Sources */,
 				494C87E7221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				494C87E5221B6771008B7A60 /* Q7ReverseInteger.m in Sources */,
+				494C8833221B71D5008B7A60 /* Q24SwapNodesInPairs.m in Sources */,
 				494C880F221B6E30008B7A60 /* Q20ValidParentheses.m in Sources */,
+				494C8830221B71D5008B7A60 /* Q22GenerateParentheses.m in Sources */,
+				494C8831221B71D5008B7A60 /* Q21MergeTwoSortedLists.m in Sources */,
 				494C87EB221B6771008B7A60 /* Q10RegularExpressionMatching.m in Sources */,
 				494C87EA221B6771008B7A60 /* Q4MedianTwoSortedArrays.m in Sources */,
 			);
