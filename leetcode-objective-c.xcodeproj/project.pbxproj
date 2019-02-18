@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		494C87C7221B6694008B7A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87C6221B6694008B7A60 /* main.m */; };
+		494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87CE221B6771008B7A60 /* Q2AddTwoNumbers.m */; };
+		494C87E3221B6771008B7A60 /* Q8StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87D0221B6771008B7A60 /* Q8StringToInteger.m */; };
+		494C87E4221B6771008B7A60 /* Q5LongestPalindromicSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87D1221B6771008B7A60 /* Q5LongestPalindromicSubstring.m */; };
+		494C87E5221B6771008B7A60 /* Q7ReverseInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87D2221B6771008B7A60 /* Q7ReverseInteger.m */; };
+		494C87E6221B6771008B7A60 /* Q1TwoSum.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87D3221B6771008B7A60 /* Q1TwoSum.m */; };
+		494C87E7221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87D5221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m */; };
+		494C87E8221B6771008B7A60 /* Q9PalindromeNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87D6221B6771008B7A60 /* Q9PalindromeNumber.m */; };
+		494C87E9221B6771008B7A60 /* Q6ZigZagConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87DC221B6771008B7A60 /* Q6ZigZagConversion.m */; };
+		494C87EA221B6771008B7A60 /* Q4MedianTwoSortedArrays.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87DD221B6771008B7A60 /* Q4MedianTwoSortedArrays.m */; };
+		494C87EB221B6771008B7A60 /* Q10RegularExpressionMatching.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87DF221B6771008B7A60 /* Q10RegularExpressionMatching.m */; };
+		494C87EF221B679F008B7A60 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87ED221B679F008B7A60 /* ListNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		494C87C1221B6694008B7A60 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		494C87C3221B6694008B7A60 /* leetcode-objective-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-objective-c"; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C87C6221B6694008B7A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		494C87CE221B6771008B7A60 /* Q2AddTwoNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q2AddTwoNumbers.m; sourceTree = "<group>"; };
+		494C87CF221B6771008B7A60 /* Q2AddTwoNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q2AddTwoNumbers.h; sourceTree = "<group>"; };
+		494C87D0221B6771008B7A60 /* Q8StringToInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q8StringToInteger.m; sourceTree = "<group>"; };
+		494C87D1221B6771008B7A60 /* Q5LongestPalindromicSubstring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q5LongestPalindromicSubstring.m; sourceTree = "<group>"; };
+		494C87D2221B6771008B7A60 /* Q7ReverseInteger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q7ReverseInteger.m; sourceTree = "<group>"; };
+		494C87D3221B6771008B7A60 /* Q1TwoSum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q1TwoSum.m; sourceTree = "<group>"; };
+		494C87D4221B6771008B7A60 /* Q7ReverseInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q7ReverseInteger.h; sourceTree = "<group>"; };
+		494C87D5221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q3LongestSubstringWithoutRepeatingCharacters.m; sourceTree = "<group>"; };
+		494C87D6221B6771008B7A60 /* Q9PalindromeNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q9PalindromeNumber.m; sourceTree = "<group>"; };
+		494C87D7221B6771008B7A60 /* Q4MedianTwoSortedArrays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q4MedianTwoSortedArrays.h; sourceTree = "<group>"; };
+		494C87D8221B6771008B7A60 /* Q9PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q9PalindromeNumber.h; sourceTree = "<group>"; };
+		494C87D9221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q3LongestSubstringWithoutRepeatingCharacters.h; sourceTree = "<group>"; };
+		494C87DA221B6771008B7A60 /* Q8StringToInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q8StringToInteger.h; sourceTree = "<group>"; };
+		494C87DB221B6771008B7A60 /* Q6ZigZagConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q6ZigZagConversion.h; sourceTree = "<group>"; };
+		494C87DC221B6771008B7A60 /* Q6ZigZagConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q6ZigZagConversion.m; sourceTree = "<group>"; };
+		494C87DD221B6771008B7A60 /* Q4MedianTwoSortedArrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q4MedianTwoSortedArrays.m; sourceTree = "<group>"; };
+		494C87DE221B6771008B7A60 /* Q10RegularExpressionMatching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q10RegularExpressionMatching.h; sourceTree = "<group>"; };
+		494C87DF221B6771008B7A60 /* Q10RegularExpressionMatching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q10RegularExpressionMatching.m; sourceTree = "<group>"; };
+		494C87E0221B6771008B7A60 /* Q5LongestPalindromicSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q5LongestPalindromicSubstring.h; sourceTree = "<group>"; };
+		494C87E1221B6771008B7A60 /* Q1TwoSum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q1TwoSum.h; sourceTree = "<group>"; };
+		494C87ED221B679F008B7A60 /* ListNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListNode.m; sourceTree = "<group>"; };
+		494C87EE221B679F008B7A60 /* ListNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		494C87C0221B6694008B7A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		494C87BA221B6694008B7A60 = {
+			isa = PBXGroup;
+			children = (
+				494C87C5221B6694008B7A60 /* leetcode-objective-c */,
+				494C87C4221B6694008B7A60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		494C87C4221B6694008B7A60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				494C87C3221B6694008B7A60 /* leetcode-objective-c */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		494C87C5221B6694008B7A60 /* leetcode-objective-c */ = {
+			isa = PBXGroup;
+			children = (
+				494C87F0221B684E008B7A60 /* array */,
+				494C87F6221B6AC4008B7A60 /* dp */,
+				494C87F1221B6905008B7A60 /* linkedlist */,
+				494C87F9221B6B3A008B7A60 /* math */,
+				494C87F3221B697E008B7A60 /* recursion */,
+				494C87F2221B6913008B7A60 /* string */,
+				494C87EC221B678D008B7A60 /* public_class */,
+				494C87C6221B6694008B7A60 /* main.m */,
+			);
+			path = "leetcode-objective-c";
+			sourceTree = "<group>";
+		};
+		494C87EC221B678D008B7A60 /* public_class */ = {
+			isa = PBXGroup;
+			children = (
+				494C87EE221B679F008B7A60 /* ListNode.h */,
+				494C87ED221B679F008B7A60 /* ListNode.m */,
+			);
+			path = public_class;
+			sourceTree = "<group>";
+		};
+		494C87F0221B684E008B7A60 /* array */ = {
+			isa = PBXGroup;
+			children = (
+				494C87E1221B6771008B7A60 /* Q1TwoSum.h */,
+				494C87D3221B6771008B7A60 /* Q1TwoSum.m */,
+			);
+			path = array;
+			sourceTree = "<group>";
+		};
+		494C87F1221B6905008B7A60 /* linkedlist */ = {
+			isa = PBXGroup;
+			children = (
+				494C87CF221B6771008B7A60 /* Q2AddTwoNumbers.h */,
+				494C87CE221B6771008B7A60 /* Q2AddTwoNumbers.m */,
+			);
+			path = linkedlist;
+			sourceTree = "<group>";
+		};
+		494C87F2221B6913008B7A60 /* string */ = {
+			isa = PBXGroup;
+			children = (
+				494C87DB221B6771008B7A60 /* Q6ZigZagConversion.h */,
+				494C87DC221B6771008B7A60 /* Q6ZigZagConversion.m */,
+				494C87F4221B69FC008B7A60 /* palindrome */,
+				494C87F5221B6A05008B7A60 /* sliding_window */,
+				494C87FA221B6BCB008B7A60 /* string_integer_convert */,
+			);
+			path = string;
+			sourceTree = "<group>";
+		};
+		494C87F3221B697E008B7A60 /* recursion */ = {
+			isa = PBXGroup;
+			children = (
+				494C87D7221B6771008B7A60 /* Q4MedianTwoSortedArrays.h */,
+				494C87DD221B6771008B7A60 /* Q4MedianTwoSortedArrays.m */,
+			);
+			path = recursion;
+			sourceTree = "<group>";
+		};
+		494C87F4221B69FC008B7A60 /* palindrome */ = {
+			isa = PBXGroup;
+			children = (
+				494C87E0221B6771008B7A60 /* Q5LongestPalindromicSubstring.h */,
+				494C87D1221B6771008B7A60 /* Q5LongestPalindromicSubstring.m */,
+				494C87D8221B6771008B7A60 /* Q9PalindromeNumber.h */,
+				494C87D6221B6771008B7A60 /* Q9PalindromeNumber.m */,
+			);
+			path = palindrome;
+			sourceTree = "<group>";
+		};
+		494C87F5221B6A05008B7A60 /* sliding_window */ = {
+			isa = PBXGroup;
+			children = (
+				494C87D9221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.h */,
+				494C87D5221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m */,
+			);
+			path = sliding_window;
+			sourceTree = "<group>";
+		};
+		494C87F6221B6AC4008B7A60 /* dp */ = {
+			isa = PBXGroup;
+			children = (
+				494C87F7221B6AD2008B7A60 /* one_d_dp */,
+				494C87F8221B6ADA008B7A60 /* two_d_dp */,
+			);
+			path = dp;
+			sourceTree = "<group>";
+		};
+		494C87F7221B6AD2008B7A60 /* one_d_dp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = one_d_dp;
+			sourceTree = "<group>";
+		};
+		494C87F8221B6ADA008B7A60 /* two_d_dp */ = {
+			isa = PBXGroup;
+			children = (
+				494C87DE221B6771008B7A60 /* Q10RegularExpressionMatching.h */,
+				494C87DF221B6771008B7A60 /* Q10RegularExpressionMatching.m */,
+			);
+			path = two_d_dp;
+			sourceTree = "<group>";
+		};
+		494C87F9221B6B3A008B7A60 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				494C87D4221B6771008B7A60 /* Q7ReverseInteger.h */,
+				494C87D2221B6771008B7A60 /* Q7ReverseInteger.m */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		494C87FA221B6BCB008B7A60 /* string_integer_convert */ = {
+			isa = PBXGroup;
+			children = (
+				494C87DA221B6771008B7A60 /* Q8StringToInteger.h */,
+				494C87D0221B6771008B7A60 /* Q8StringToInteger.m */,
+			);
+			path = string_integer_convert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		494C87C2221B6694008B7A60 /* leetcode-objective-c */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 494C87CA221B6694008B7A60 /* Build configuration list for PBXNativeTarget "leetcode-objective-c" */;
+			buildPhases = (
+				494C87BF221B6694008B7A60 /* Sources */,
+				494C87C0221B6694008B7A60 /* Frameworks */,
+				494C87C1221B6694008B7A60 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "leetcode-objective-c";
+			productName = "leetcode-objective-c";
+			productReference = 494C87C3221B6694008B7A60 /* leetcode-objective-c */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		494C87BB221B6694008B7A60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = com.cj;
+				TargetAttributes = {
+					494C87C2221B6694008B7A60 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 494C87BE221B6694008B7A60 /* Build configuration list for PBXProject "leetcode-objective-c" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 494C87BA221B6694008B7A60;
+			productRefGroup = 494C87C4221B6694008B7A60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				494C87C2221B6694008B7A60 /* leetcode-objective-c */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		494C87BF221B6694008B7A60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494C87E6221B6771008B7A60 /* Q1TwoSum.m in Sources */,
+				494C87E8221B6771008B7A60 /* Q9PalindromeNumber.m in Sources */,
+				494C87C7221B6694008B7A60 /* main.m in Sources */,
+				494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */,
+				494C87E3221B6771008B7A60 /* Q8StringToInteger.m in Sources */,
+				494C87E4221B6771008B7A60 /* Q5LongestPalindromicSubstring.m in Sources */,
+				494C87E9221B6771008B7A60 /* Q6ZigZagConversion.m in Sources */,
+				494C87EF221B679F008B7A60 /* ListNode.m in Sources */,
+				494C87E7221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m in Sources */,
+				494C87E5221B6771008B7A60 /* Q7ReverseInteger.m in Sources */,
+				494C87EB221B6771008B7A60 /* Q10RegularExpressionMatching.m in Sources */,
+				494C87EA221B6771008B7A60 /* Q4MedianTwoSortedArrays.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		494C87C8221B6694008B7A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		494C87C9221B6694008B7A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		494C87CB221B6694008B7A60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJ3RV73778;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		494C87CC221B6694008B7A60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CJ3RV73778;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		494C87BE221B6694008B7A60 /* Build configuration list for PBXProject "leetcode-objective-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C87C8221B6694008B7A60 /* Debug */,
+				494C87C9221B6694008B7A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		494C87CA221B6694008B7A60 /* Build configuration list for PBXNativeTarget "leetcode-objective-c" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				494C87CB221B6694008B7A60 /* Debug */,
+				494C87CC221B6694008B7A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 494C87BB221B6694008B7A60 /* Project object */;
+}
