@@ -44,7 +44,23 @@
 		494C8847221B7E35008B7A60 /* Q528RandomPickWithWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8846221B7E35008B7A60 /* Q528RandomPickWithWeight.m */; };
 		494C884B221B8101008B7A60 /* Q56MergeIntervals.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C884A221B8101008B7A60 /* Q56MergeIntervals.m */; };
 		494C884E221B8129008B7A60 /* Interval.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C884D221B8129008B7A60 /* Interval.m */; };
+		494C8852221B8534008B7A60 /* Q146LRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
+		49C64C35221B9ABE000B8864 /* Q146LRUCacheTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C885F221B934E008B7A60 /* Q146LRUCacheTests.m */; };
+		49C64C38221B9E5C000B8864 /* Q146LRUCache.h in Sources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
+		49C64C39221B9E5C000B8864 /* Q146LRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
+		49C64C3A221B9E62000B8864 /* Q146LRUCache.h in Resources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
+		49C64C3B221B9E62000B8864 /* Q146LRUCache.m in Resources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49C64C36221B9B35000B8864 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 494C87BB221B6694008B7A60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 494C87C2221B6694008B7A60;
+			remoteInfo = "leetcode-objective-c";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		494C87C1221B6694008B7A60 /* CopyFiles */ = {
@@ -133,10 +149,22 @@
 		494C884A221B8101008B7A60 /* Q56MergeIntervals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q56MergeIntervals.m; sourceTree = "<group>"; };
 		494C884C221B8129008B7A60 /* Interval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interval.h; sourceTree = "<group>"; };
 		494C884D221B8129008B7A60 /* Interval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interval.m; sourceTree = "<group>"; };
+		494C8850221B8534008B7A60 /* Q146LRUCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q146LRUCache.h; sourceTree = "<group>"; };
+		494C8851221B8534008B7A60 /* Q146LRUCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q146LRUCache.m; sourceTree = "<group>"; };
+		494C885F221B934E008B7A60 /* Q146LRUCacheTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q146LRUCacheTests.m; sourceTree = "<group>"; };
+		49C64C2D221B9AB8000B8864 /* LeecodeObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeecodeObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49C64C31221B9AB8000B8864 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		494C87C0221B6694008B7A60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C64C2A221B9AB8000B8864 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -150,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				494C87C5221B6694008B7A60 /* leetcode-objective-c */,
+				49C64C2E221B9AB8000B8864 /* LeecodeObjectiveCTests */,
 				494C87C4221B6694008B7A60 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,6 +187,7 @@
 			isa = PBXGroup;
 			children = (
 				494C87C3221B6694008B7A60 /* leetcode-objective-c */,
+				49C64C2D221B9AB8000B8864 /* LeecodeObjectiveCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -168,6 +198,7 @@
 				494C87F0221B684E008B7A60 /* array */,
 				494C8843221B78FB008B7A60 /* binary_search */,
 				494C8839221B724A008B7A60 /* bit_operation */,
+				494C884F221B849C008B7A60 /* data_structure */,
 				494C881A221B7023008B7A60 /* depth_first_search */,
 				494C87F6221B6AC4008B7A60 /* dp */,
 				494C87F1221B6905008B7A60 /* linkedlist */,
@@ -410,6 +441,24 @@
 			path = interval;
 			sourceTree = "<group>";
 		};
+		494C884F221B849C008B7A60 /* data_structure */ = {
+			isa = PBXGroup;
+			children = (
+				494C8850221B8534008B7A60 /* Q146LRUCache.h */,
+				494C8851221B8534008B7A60 /* Q146LRUCache.m */,
+			);
+			path = data_structure;
+			sourceTree = "<group>";
+		};
+		49C64C2E221B9AB8000B8864 /* LeecodeObjectiveCTests */ = {
+			isa = PBXGroup;
+			children = (
+				494C885F221B934E008B7A60 /* Q146LRUCacheTests.m */,
+				49C64C31221B9AB8000B8864 /* Info.plist */,
+			);
+			path = LeecodeObjectiveCTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -430,6 +479,24 @@
 			productReference = 494C87C3221B6694008B7A60 /* leetcode-objective-c */;
 			productType = "com.apple.product-type.tool";
 		};
+		49C64C2C221B9AB8000B8864 /* LeecodeObjectiveCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49C64C34221B9AB8000B8864 /* Build configuration list for PBXNativeTarget "LeecodeObjectiveCTests" */;
+			buildPhases = (
+				49C64C29221B9AB8000B8864 /* Sources */,
+				49C64C2A221B9AB8000B8864 /* Frameworks */,
+				49C64C2B221B9AB8000B8864 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C64C37221B9B35000B8864 /* PBXTargetDependency */,
+			);
+			name = LeecodeObjectiveCTests;
+			productName = LeecodeObjectiveCTests;
+			productReference = 49C64C2D221B9AB8000B8864 /* LeecodeObjectiveCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -440,6 +507,9 @@
 				ORGANIZATIONNAME = com.cj;
 				TargetAttributes = {
 					494C87C2221B6694008B7A60 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					49C64C2C221B9AB8000B8864 = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -457,9 +527,22 @@
 			projectRoot = "";
 			targets = (
 				494C87C2221B6694008B7A60 /* leetcode-objective-c */,
+				49C64C2C221B9AB8000B8864 /* LeecodeObjectiveCTests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49C64C2B221B9AB8000B8864 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C64C3A221B9E62000B8864 /* Q146LRUCache.h in Resources */,
+				49C64C3B221B9E62000B8864 /* Q146LRUCache.m in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		494C87BF221B6694008B7A60 /* Sources */ = {
@@ -474,6 +557,7 @@
 				494C87E8221B6771008B7A60 /* Q9PalindromeNumber.m in Sources */,
 				494C8812221B6E30008B7A60 /* Q14LongestCommonPrefix.m in Sources */,
 				494C87C7221B6694008B7A60 /* main.m in Sources */,
+				494C8852221B8534008B7A60 /* Q146LRUCache.m in Sources */,
 				494C8837221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m in Sources */,
 				494C8838221B71D5008B7A60 /* Q23MergeKSortedLists.m in Sources */,
 				494C8811221B6E30008B7A60 /* Q18FourSum.m in Sources */,
@@ -506,7 +590,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		49C64C29221B9AB8000B8864 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49C64C38221B9E5C000B8864 /* Q146LRUCache.h in Sources */,
+				49C64C39221B9E5C000B8864 /* Q146LRUCache.m in Sources */,
+				49C64C35221B9ABE000B8864 /* Q146LRUCacheTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49C64C37221B9B35000B8864 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 494C87C2221B6694008B7A60 /* leetcode-objective-c */;
+			targetProxy = 49C64C36221B9B35000B8864 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		494C87C8221B6694008B7A60 /* Debug */ = {
@@ -625,7 +727,9 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ3RV73778;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
 		};
@@ -634,6 +738,42 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CJ3RV73778;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		49C64C32221B9AB8000B8864 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CJ3RV73778;
+				INFOPLIST_FILE = LeecodeObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cj.LeecodeObjectiveCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49C64C33221B9AB8000B8864 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = CJ3RV73778;
+				INFOPLIST_FILE = LeecodeObjectiveCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cj.LeecodeObjectiveCTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -655,6 +795,15 @@
 			buildConfigurations = (
 				494C87CB221B6694008B7A60 /* Debug */,
 				494C87CC221B6694008B7A60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49C64C34221B9AB8000B8864 /* Build configuration list for PBXNativeTarget "LeecodeObjectiveCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49C64C32221B9AB8000B8864 /* Debug */,
+				49C64C33221B9AB8000B8864 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
