@@ -41,6 +41,7 @@
 		494C8838221B71D5008B7A60 /* Q23MergeKSortedLists.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C882E221B71D5008B7A60 /* Q23MergeKSortedLists.m */; };
 		494C8841221B78CD008B7A60 /* Q33SearchInRotatedSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C883E221B78CD008B7A60 /* Q33SearchInRotatedSortedArray.m */; };
 		494C8842221B78CD008B7A60 /* Q35SearchInsertPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8840221B78CD008B7A60 /* Q35SearchInsertPosition.m */; };
+		494C8847221B7E35008B7A60 /* Q528RandomPickWithWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8846221B7E35008B7A60 /* Q528RandomPickWithWeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -124,6 +125,8 @@
 		494C883E221B78CD008B7A60 /* Q33SearchInRotatedSortedArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q33SearchInRotatedSortedArray.m; sourceTree = "<group>"; };
 		494C883F221B78CD008B7A60 /* Q33SearchInRotatedSortedArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Q33SearchInRotatedSortedArray.h; sourceTree = "<group>"; };
 		494C8840221B78CD008B7A60 /* Q35SearchInsertPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q35SearchInsertPosition.m; sourceTree = "<group>"; };
+		494C8845221B7E35008B7A60 /* Q528RandomPickWithWeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q528RandomPickWithWeight.h; sourceTree = "<group>"; };
+		494C8846221B7E35008B7A60 /* Q528RandomPickWithWeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q528RandomPickWithWeight.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -286,6 +289,7 @@
 		494C87F9221B6B3A008B7A60 /* math */ = {
 			isa = PBXGroup;
 			children = (
+				494C8844221B7E1D008B7A60 /* random */,
 				494C87D4221B6771008B7A60 /* Q7ReverseInteger.h */,
 				494C87D2221B6771008B7A60 /* Q7ReverseInteger.m */,
 			);
@@ -379,6 +383,15 @@
 			path = binary_search;
 			sourceTree = "<group>";
 		};
+		494C8844221B7E1D008B7A60 /* random */ = {
+			isa = PBXGroup;
+			children = (
+				494C8845221B7E35008B7A60 /* Q528RandomPickWithWeight.h */,
+				494C8846221B7E35008B7A60 /* Q528RandomPickWithWeight.m */,
+			);
+			path = random;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -452,6 +465,7 @@
 				494C8836221B71D5008B7A60 /* Q27RemoveElement.m in Sources */,
 				494C8835221B71D5008B7A60 /* Q30SubstringWithConcatenationOfAllWords.m in Sources */,
 				494C8818221B6E30008B7A60 /* Q12IntegerToRoman.m in Sources */,
+				494C8847221B7E35008B7A60 /* Q528RandomPickWithWeight.m in Sources */,
 				494C87E4221B6771008B7A60 /* Q5LongestPalindromicSubstring.m in Sources */,
 				494C87E9221B6771008B7A60 /* Q6ZigZagConversion.m in Sources */,
 				494C8814221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m in Sources */,
