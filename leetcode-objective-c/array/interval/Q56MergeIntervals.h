@@ -10,7 +10,10 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@class Interval;
 @interface Q56MergeIntervals : NSObject
+
+- (NSArray<Interval *> *)merge1: (NSArray<Interval *> *)intervals;
 
 @end
 

@@ -42,6 +42,8 @@
 		494C8841221B78CD008B7A60 /* Q33SearchInRotatedSortedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C883E221B78CD008B7A60 /* Q33SearchInRotatedSortedArray.m */; };
 		494C8842221B78CD008B7A60 /* Q35SearchInsertPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8840221B78CD008B7A60 /* Q35SearchInsertPosition.m */; };
 		494C8847221B7E35008B7A60 /* Q528RandomPickWithWeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8846221B7E35008B7A60 /* Q528RandomPickWithWeight.m */; };
+		494C884B221B8101008B7A60 /* Q56MergeIntervals.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C884A221B8101008B7A60 /* Q56MergeIntervals.m */; };
+		494C884E221B8129008B7A60 /* Interval.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C884D221B8129008B7A60 /* Interval.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -127,6 +129,10 @@
 		494C8840221B78CD008B7A60 /* Q35SearchInsertPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q35SearchInsertPosition.m; sourceTree = "<group>"; };
 		494C8845221B7E35008B7A60 /* Q528RandomPickWithWeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q528RandomPickWithWeight.h; sourceTree = "<group>"; };
 		494C8846221B7E35008B7A60 /* Q528RandomPickWithWeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q528RandomPickWithWeight.m; sourceTree = "<group>"; };
+		494C8849221B8101008B7A60 /* Q56MergeIntervals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q56MergeIntervals.h; sourceTree = "<group>"; };
+		494C884A221B8101008B7A60 /* Q56MergeIntervals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q56MergeIntervals.m; sourceTree = "<group>"; };
+		494C884C221B8129008B7A60 /* Interval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interval.h; sourceTree = "<group>"; };
+		494C884D221B8129008B7A60 /* Interval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interval.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -179,6 +185,8 @@
 			children = (
 				494C87EE221B679F008B7A60 /* ListNode.h */,
 				494C87ED221B679F008B7A60 /* ListNode.m */,
+				494C884C221B8129008B7A60 /* Interval.h */,
+				494C884D221B8129008B7A60 /* Interval.m */,
 			);
 			path = public_class;
 			sourceTree = "<group>";
@@ -186,6 +194,7 @@
 		494C87F0221B684E008B7A60 /* array */ = {
 			isa = PBXGroup;
 			children = (
+				494C8848221B80EB008B7A60 /* interval */,
 				494C880A221B6E2F008B7A60 /* Q14LongestCommonPrefix.h */,
 				494C8800221B6E2E008B7A60 /* Q14LongestCommonPrefix.m */,
 				494C8819221B6F70008B7A60 /* n_sum */,
@@ -392,6 +401,15 @@
 			path = random;
 			sourceTree = "<group>";
 		};
+		494C8848221B80EB008B7A60 /* interval */ = {
+			isa = PBXGroup;
+			children = (
+				494C8849221B8101008B7A60 /* Q56MergeIntervals.h */,
+				494C884A221B8101008B7A60 /* Q56MergeIntervals.m */,
+			);
+			path = interval;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -462,6 +480,7 @@
 				494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */,
 				494C87E3221B6771008B7A60 /* Q8StringToInteger.m in Sources */,
 				494C8816221B6E30008B7A60 /* Q13RomanToInteger.m in Sources */,
+				494C884B221B8101008B7A60 /* Q56MergeIntervals.m in Sources */,
 				494C8836221B71D5008B7A60 /* Q27RemoveElement.m in Sources */,
 				494C8835221B71D5008B7A60 /* Q30SubstringWithConcatenationOfAllWords.m in Sources */,
 				494C8818221B6E30008B7A60 /* Q12IntegerToRoman.m in Sources */,
@@ -470,6 +489,7 @@
 				494C87E9221B6771008B7A60 /* Q6ZigZagConversion.m in Sources */,
 				494C8814221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m in Sources */,
 				494C8813221B6E30008B7A60 /* Q15ThreeSum.m in Sources */,
+				494C884E221B8129008B7A60 /* Interval.m in Sources */,
 				494C8834221B71D5008B7A60 /* Q28ImplementStrStr.m in Sources */,
 				494C87EF221B679F008B7A60 /* ListNode.m in Sources */,
 				494C8842221B78CD008B7A60 /* Q35SearchInsertPosition.m in Sources */,

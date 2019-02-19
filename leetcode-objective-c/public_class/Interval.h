@@ -12,6 +12,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Interval : NSObject
 
+@property (nonatomic, assign) NSInteger start;
+@property (nonatomic, assign) NSInteger end;
+
+- (instancetype)initWithStart: (NSInteger) start end: (NSInteger)end;
+
 @end
 
 NS_ASSUME_NONNULL_END
