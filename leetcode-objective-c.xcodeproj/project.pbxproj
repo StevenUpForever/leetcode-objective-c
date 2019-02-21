@@ -51,6 +51,7 @@
 		49C64C3B221B9E62000B8864 /* Q146LRUCache.m in Resources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
 		49C64C47221E7651000B8864 /* Q127WordLadder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C46221E7651000B8864 /* Q127WordLadder.m */; };
 		49C64C50221E8830000B8864 /* Q139WordBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C4F221E8830000B8864 /* Q139WordBreak.m */; };
+		49C64C53221E8C6B000B8864 /* Q253MeetingRoomsII.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C52221E8C6B000B8864 /* Q253MeetingRoomsII.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -157,6 +158,8 @@
 		49C64C46221E7651000B8864 /* Q127WordLadder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q127WordLadder.m; sourceTree = "<group>"; };
 		49C64C4E221E8830000B8864 /* Q139WordBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q139WordBreak.h; sourceTree = "<group>"; };
 		49C64C4F221E8830000B8864 /* Q139WordBreak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q139WordBreak.m; sourceTree = "<group>"; };
+		49C64C51221E8C6B000B8864 /* Q253MeetingRoomsII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q253MeetingRoomsII.h; sourceTree = "<group>"; };
+		49C64C52221E8C6B000B8864 /* Q253MeetingRoomsII.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q253MeetingRoomsII.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -442,6 +445,8 @@
 			children = (
 				494C8849221B8101008B7A60 /* Q56MergeIntervals.h */,
 				494C884A221B8101008B7A60 /* Q56MergeIntervals.m */,
+				49C64C51221E8C6B000B8864 /* Q253MeetingRoomsII.h */,
+				49C64C52221E8C6B000B8864 /* Q253MeetingRoomsII.m */,
 			);
 			path = interval;
 			sourceTree = "<group>";
@@ -591,6 +596,7 @@
 				494C8833221B71D5008B7A60 /* Q24SwapNodesInPairs.m in Sources */,
 				494C880F221B6E30008B7A60 /* Q20ValidParentheses.m in Sources */,
 				494C8830221B71D5008B7A60 /* Q22GenerateParentheses.m in Sources */,
+				49C64C53221E8C6B000B8864 /* Q253MeetingRoomsII.m in Sources */,
 				494C8831221B71D5008B7A60 /* Q21MergeTwoSortedLists.m in Sources */,
 				494C87EB221B6771008B7A60 /* Q10RegularExpressionMatching.m in Sources */,
 				494C87EA221B6771008B7A60 /* Q4MedianTwoSortedArrays.m in Sources */,
