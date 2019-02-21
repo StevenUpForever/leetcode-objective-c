@@ -7,13 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Q127WordLadder.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSArray *arr;
-        for (NSString *str in arr) {
-            NSLog(@"%@", str);
-        }
+        Q127WordLadder *obj = [[Q127WordLadder alloc]init];
+        NSLog(@"%li", [obj ladderLength:@"hit" endWord:@"cog" wordList:@[@"hot",@"dot",@"dog",@"lot",@"log",@"cog"]]);
     }
     return 0;
 }

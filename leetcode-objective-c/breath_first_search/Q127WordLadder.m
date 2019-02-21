@@ -55,19 +55,23 @@
 
 - (NSInteger)ladderLength: (NSString *)beginWord endWord: (NSString *)endWord wordList: (NSArray<NSString *> *)wordList {
     NSMutableDictionary<NSString *, NSMutableArray<NSString *> *> *dict = [[NSMutableDictionary alloc]init];
-    for (NSInteger i = 0; i < wordList.count; i++) {
-        if (!dict[wordList[i]]) {
-            dict[wordList[i]] = [[NSMutableArray alloc]init];
+    NSMutableArray<NSString *> *mutCopy = [wordList mutableCopy];
+    [mutCopy addObject:beginWord];
+    for (NSInteger i = 0; i < mutCopy.count; i++) {
+        if (!dict[mutCopy[i]]) {
+            dict[mutCopy[i]] = [[NSMutableArray alloc]init];
         }
         for (NSInteger j = 0; j < i; j++) {
-            if ([self oneDistance:wordList[i] str2:wordList[j]]) {
-                [dict[wordList[i]] addObject:wordList[j]];
-                [dict[wordList[j]] addObject:wordList[i]];
+            if ([self oneDistance:mutCopy[i] str2:mutCopy[j]]) {
+                [dict[mutCopy[i]] addObject:mutCopy[j]];
+                [dict[mutCopy[j]] addObject:mutCopy[i]];
             }
         }
     }
+    NSLog(@"%@", dict[beginWord]);
     NSInteger step = 1;
     NSMutableArray<NSString *> *queue = [[NSMutableArray alloc]init];
+    NSMutableSet<NSString *> *set = [NSMutableSet new];
     [queue addObject:beginWord];
     while (queue.count != 0) {
         NSInteger size = queue.count;
@@ -78,7 +82,10 @@
                 if ([next isEqualToString:endWord]) {
                     return step;
                 }
-                [queue addObject:next];
+                if (![set containsObject:next]) {
+                    [queue addObject:next];
+                    [set addObject:next];
+                }
             }
         }
         step++;
@@ -87,20 +94,21 @@
 }
 
 - (BOOL)oneDistance: (NSString *)str1 str2: (NSString *)str2 {
-    int count[26];
+    int count[26] = {};
     for (NSInteger i = 0; i < str1.length; i++) {
         count[[str1 characterAtIndex:i] - 'a']++;
     }
+    printf("\n");
     for (NSInteger i = 0; i < str2.length; i++) {
         count[[str2 characterAtIndex:i] - 'a']--;
     }
     int diff = 0;
     for (int i = 0; i < 26; i++) {
-        if (count[i] != 0) {
+        if (count[i] == 1 || count[i] == -1) {
             diff++;
         }
     }
-    return diff == 1;
+    return diff == 2;
 }
 
 
