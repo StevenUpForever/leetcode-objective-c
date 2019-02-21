@@ -50,6 +50,7 @@
 		49C64C3A221B9E62000B8864 /* Q146LRUCache.h in Resources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
 		49C64C3B221B9E62000B8864 /* Q146LRUCache.m in Resources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
 		49C64C47221E7651000B8864 /* Q127WordLadder.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C46221E7651000B8864 /* Q127WordLadder.m */; };
+		49C64C50221E8830000B8864 /* Q139WordBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C4F221E8830000B8864 /* Q139WordBreak.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -154,6 +155,8 @@
 		49C64C2D221B9AB8000B8864 /* LeecodeObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeecodeObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C64C45221E7651000B8864 /* Q127WordLadder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q127WordLadder.h; sourceTree = "<group>"; };
 		49C64C46221E7651000B8864 /* Q127WordLadder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q127WordLadder.m; sourceTree = "<group>"; };
+		49C64C4E221E8830000B8864 /* Q139WordBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q139WordBreak.h; sourceTree = "<group>"; };
+		49C64C4F221E8830000B8864 /* Q139WordBreak.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q139WordBreak.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +316,8 @@
 			children = (
 				494C87FE221B6E2E008B7A60 /* Q11ContainerWithMostWater.h */,
 				494C8808221B6E2F008B7A60 /* Q11ContainerWithMostWater.m */,
+				49C64C4E221E8830000B8864 /* Q139WordBreak.h */,
+				49C64C4F221E8830000B8864 /* Q139WordBreak.m */,
 			);
 			path = one_d_dp;
 			sourceTree = "<group>";
@@ -582,6 +587,7 @@
 				494C87E7221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				494C8841221B78CD008B7A60 /* Q33SearchInRotatedSortedArray.m in Sources */,
 				494C87E5221B6771008B7A60 /* Q7ReverseInteger.m in Sources */,
+				49C64C50221E8830000B8864 /* Q139WordBreak.m in Sources */,
 				494C8833221B71D5008B7A60 /* Q24SwapNodesInPairs.m in Sources */,
 				494C880F221B6E30008B7A60 /* Q20ValidParentheses.m in Sources */,
 				494C8830221B71D5008B7A60 /* Q22GenerateParentheses.m in Sources */,

@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Q127WordLadder.h"
+#import "Q139WordBreak.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Q127WordLadder *obj = [[Q127WordLadder alloc]init];
-        NSLog(@"%li", [obj ladderLength:@"hit" endWord:@"cog" wordList:@[@"hot",@"dot",@"dog",@"lot",@"log",@"cog"]]);
+        Q139WordBreak *obj = [[Q139WordBreak alloc]init];
+        printf("%hhi", [obj wordBreak:@"leetcode" wordDict:@[@"leet", @"code"]]);
     }
     return 0;
 }
