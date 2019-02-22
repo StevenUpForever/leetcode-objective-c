@@ -53,6 +53,7 @@
 		49C64C50221E8830000B8864 /* Q139WordBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C4F221E8830000B8864 /* Q139WordBreak.m */; };
 		49C64C53221E8C6B000B8864 /* Q253MeetingRoomsII.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C52221E8C6B000B8864 /* Q253MeetingRoomsII.m */; };
 		49C64C94221F7BDA000B8864 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C93221F7BDA000B8864 /* TreeNode.m */; };
+		49C64C99221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C98221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -163,6 +164,8 @@
 		49C64C52221E8C6B000B8864 /* Q253MeetingRoomsII.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q253MeetingRoomsII.m; sourceTree = "<group>"; };
 		49C64C92221F7BDA000B8864 /* TreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNode.h; sourceTree = "<group>"; };
 		49C64C93221F7BDA000B8864 /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
+		49C64C97221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q236LowestCommonAncestorOfABinaryTree.h; sourceTree = "<group>"; };
+		49C64C98221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q236LowestCommonAncestorOfABinaryTree.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +217,7 @@
 				494C87F9221B6B3A008B7A60 /* math */,
 				494C87F3221B697E008B7A60 /* recursion */,
 				494C87F2221B6913008B7A60 /* string */,
+				49C64C95221F7C37000B8864 /* tree */,
 				494C87EC221B678D008B7A60 /* public_class */,
 				494C87C6221B6694008B7A60 /* main.m */,
 			);
@@ -474,6 +478,23 @@
 			path = breath_first_search;
 			sourceTree = "<group>";
 		};
+		49C64C95221F7C37000B8864 /* tree */ = {
+			isa = PBXGroup;
+			children = (
+				49C64C96221F7C49000B8864 /* post_order */,
+			);
+			path = tree;
+			sourceTree = "<group>";
+		};
+		49C64C96221F7C49000B8864 /* post_order */ = {
+			isa = PBXGroup;
+			children = (
+				49C64C97221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.h */,
+				49C64C98221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m */,
+			);
+			path = post_order;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -577,6 +598,7 @@
 				494C8838221B71D5008B7A60 /* Q23MergeKSortedLists.m in Sources */,
 				494C8811221B6E30008B7A60 /* Q18FourSum.m in Sources */,
 				494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */,
+				49C64C99221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m in Sources */,
 				494C87E3221B6771008B7A60 /* Q8StringToInteger.m in Sources */,
 				49C64C47221E7651000B8864 /* Q127WordLadder.m in Sources */,
 				494C8816221B6E30008B7A60 /* Q13RomanToInteger.m in Sources */,
