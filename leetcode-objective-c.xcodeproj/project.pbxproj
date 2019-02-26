@@ -54,6 +54,7 @@
 		49C64C53221E8C6B000B8864 /* Q253MeetingRoomsII.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C52221E8C6B000B8864 /* Q253MeetingRoomsII.m */; };
 		49C64C94221F7BDA000B8864 /* TreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C93221F7BDA000B8864 /* TreeNode.m */; };
 		49C64C99221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C98221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m */; };
+		49C64CA82224DD32000B8864 /* Q755PourWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64CA72224DD32000B8864 /* Q755PourWater.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +167,8 @@
 		49C64C93221F7BDA000B8864 /* TreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNode.m; sourceTree = "<group>"; };
 		49C64C97221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q236LowestCommonAncestorOfABinaryTree.h; sourceTree = "<group>"; };
 		49C64C98221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q236LowestCommonAncestorOfABinaryTree.m; sourceTree = "<group>"; };
+		49C64CA62224DD32000B8864 /* Q755PourWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q755PourWater.h; sourceTree = "<group>"; };
+		49C64CA72224DD32000B8864 /* Q755PourWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q755PourWater.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,6 +247,8 @@
 				494C880A221B6E2F008B7A60 /* Q14LongestCommonPrefix.h */,
 				494C8800221B6E2E008B7A60 /* Q14LongestCommonPrefix.m */,
 				494C8819221B6F70008B7A60 /* n_sum */,
+				49C64CA62224DD32000B8864 /* Q755PourWater.h */,
+				49C64CA72224DD32000B8864 /* Q755PourWater.m */,
 			);
 			path = array;
 			sourceTree = "<group>";
@@ -586,6 +591,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				494C87E6221B6771008B7A60 /* Q1TwoSum.m in Sources */,
+				49C64CA82224DD32000B8864 /* Q755PourWater.m in Sources */,
 				494C8815221B6E30008B7A60 /* Q16ThreeSumClosest.m in Sources */,
 				494C8810221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.m in Sources */,
 				494C882F221B71D5008B7A60 /* Q26RemoveDuplicatesFromSortedArray.m in Sources */,

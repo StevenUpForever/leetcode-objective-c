@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Q139WordBreak.h"
+#import "Q755PourWater.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Q139WordBreak *obj = [[Q139WordBreak alloc]init];
-        printf("%hhi", [obj wordBreak:@"leetcode" wordDict:@[@"leet", @"code"]]);
+        Q755PourWater *obj = [[Q755PourWater alloc]init];
+        NSLog(@"%@", [obj pourWater:@[@2,@1,@1,@2,@1,@2,@2] :4 :3]);
     }
     return 0;
 }

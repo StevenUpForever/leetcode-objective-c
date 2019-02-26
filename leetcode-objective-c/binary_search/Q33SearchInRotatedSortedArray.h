@@ -10,4 +10,6 @@
 
 @interface Q33SearchInRotatedSortedArray : NSObject
 
+- (NSInteger)search: (NSArray *)nums target: (NSNumber *)target;
+
 @end
