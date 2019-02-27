@@ -145,8 +145,7 @@
                 insertPlace = index;
             }
         }
-        if (insertPlace < K) mutHeights[insertPlace] = @(mutHeights[insertPlace].integerValue + 1);
-        else {
+        if (insertPlace == K) {
             index = K;
             while (index < mutHeights.count - 1 && mutHeights[index] >= mutHeights[index + 1]) {
                 index++;
@@ -154,8 +153,8 @@
                     insertPlace = index;
                 }
             }
-            mutHeights[insertPlace] = @(mutHeights[insertPlace].integerValue + 1);
         }
+        mutHeights[insertPlace] = @(mutHeights[insertPlace].integerValue + 1);
     }
     return [mutHeights copy];
 }
