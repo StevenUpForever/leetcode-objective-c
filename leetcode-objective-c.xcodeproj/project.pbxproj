@@ -45,6 +45,7 @@
 		494C884B221B8101008B7A60 /* Q56MergeIntervals.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C884A221B8101008B7A60 /* Q56MergeIntervals.m */; };
 		494C884E221B8129008B7A60 /* Interval.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C884D221B8129008B7A60 /* Interval.m */; };
 		494C8852221B8534008B7A60 /* Q146LRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
+		497BAF0622277A5300236127 /* Q787CheapestFlightsWithinKStops.m in Sources */ = {isa = PBXBuildFile; fileRef = 497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */; };
 		49C64C38221B9E5C000B8864 /* Q146LRUCache.h in Sources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
 		49C64C39221B9E5C000B8864 /* Q146LRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
 		49C64C3A221B9E62000B8864 /* Q146LRUCache.h in Resources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
@@ -156,6 +157,8 @@
 		494C884D221B8129008B7A60 /* Interval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interval.m; sourceTree = "<group>"; };
 		494C8850221B8534008B7A60 /* Q146LRUCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q146LRUCache.h; sourceTree = "<group>"; };
 		494C8851221B8534008B7A60 /* Q146LRUCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q146LRUCache.m; sourceTree = "<group>"; };
+		497BAF0422277A5300236127 /* Q787CheapestFlightsWithinKStops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q787CheapestFlightsWithinKStops.h; sourceTree = "<group>"; };
+		497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q787CheapestFlightsWithinKStops.m; sourceTree = "<group>"; };
 		49C64C2D221B9AB8000B8864 /* LeecodeObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeecodeObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C64C45221E7651000B8864 /* Q127WordLadder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q127WordLadder.h; sourceTree = "<group>"; };
 		49C64C46221E7651000B8864 /* Q127WordLadder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q127WordLadder.m; sourceTree = "<group>"; };
@@ -479,6 +482,8 @@
 			children = (
 				49C64C45221E7651000B8864 /* Q127WordLadder.h */,
 				49C64C46221E7651000B8864 /* Q127WordLadder.m */,
+				497BAF0422277A5300236127 /* Q787CheapestFlightsWithinKStops.h */,
+				497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */,
 			);
 			path = breath_first_search;
 			sourceTree = "<group>";
@@ -631,6 +636,7 @@
 				494C880F221B6E30008B7A60 /* Q20ValidParentheses.m in Sources */,
 				494C8830221B71D5008B7A60 /* Q22GenerateParentheses.m in Sources */,
 				49C64C53221E8C6B000B8864 /* Q253MeetingRoomsII.m in Sources */,
+				497BAF0622277A5300236127 /* Q787CheapestFlightsWithinKStops.m in Sources */,
 				494C8831221B71D5008B7A60 /* Q21MergeTwoSortedLists.m in Sources */,
 				494C87EB221B6771008B7A60 /* Q10RegularExpressionMatching.m in Sources */,
 				494C87EA221B6771008B7A60 /* Q4MedianTwoSortedArrays.m in Sources */,
