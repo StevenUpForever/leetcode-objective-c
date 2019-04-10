@@ -49,7 +49,7 @@ Solution:
     for (NSInteger i = 0, temp = 0; i < s.length; i++) {
         for (NSString * word in dict) {
             if ([[s substringFromIndex:i] hasPrefix:word]) {
-                //i + word.length for last vaild char fit end > i
+                //i + word.length for last valid char fit end > i
                 temp = MAX(temp, i + word.length);
             }
         }

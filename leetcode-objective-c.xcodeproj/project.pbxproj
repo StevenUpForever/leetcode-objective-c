@@ -61,6 +61,7 @@
 		49F0549A225D92A600AF6AA0 /* Q252MeetingRooms.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05499225D92A600AF6AA0 /* Q252MeetingRooms.m */; };
 		49F0549D225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F0549C225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m */; };
 		49F054A3225D95F600AF6AA0 /* Q616AddBoldTagInString.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F054A2225D95F600AF6AA0 /* Q616AddBoldTagInString.m */; };
+		49F054A6225DA57200AF6AA0 /* Q763PartitionLabels.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F054A5225DA57200AF6AA0 /* Q763PartitionLabels.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -187,6 +188,8 @@
 		49F0549C225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q406QueueReconstructionByHeight.m; sourceTree = "<group>"; };
 		49F054A1225D95F600AF6AA0 /* Q616AddBoldTagInString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q616AddBoldTagInString.h; sourceTree = "<group>"; };
 		49F054A2225D95F600AF6AA0 /* Q616AddBoldTagInString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q616AddBoldTagInString.m; sourceTree = "<group>"; };
+		49F054A4225DA57200AF6AA0 /* Q763PartitionLabels.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q763PartitionLabels.h; sourceTree = "<group>"; };
+		49F054A5225DA57200AF6AA0 /* Q763PartitionLabels.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q763PartitionLabels.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -488,6 +491,8 @@
 				49F0549C225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m */,
 				49F054A1225D95F600AF6AA0 /* Q616AddBoldTagInString.h */,
 				49F054A2225D95F600AF6AA0 /* Q616AddBoldTagInString.m */,
+				49F054A4225DA57200AF6AA0 /* Q763PartitionLabels.h */,
+				49F054A5225DA57200AF6AA0 /* Q763PartitionLabels.m */,
 			);
 			path = interval;
 			sourceTree = "<group>";
@@ -651,6 +656,7 @@
 				494C8837221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m in Sources */,
 				494C8838221B71D5008B7A60 /* Q23MergeKSortedLists.m in Sources */,
 				494C8811221B6E30008B7A60 /* Q18FourSum.m in Sources */,
+				49F054A6225DA57200AF6AA0 /* Q763PartitionLabels.m in Sources */,
 				49F0549D225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m in Sources */,
 				494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */,
 				49C64C99221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m in Sources */,
