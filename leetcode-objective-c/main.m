@@ -11,8 +11,6 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Q755PourWater *obj = [[Q755PourWater alloc]init];
-        NSLog(@"%@", [obj pourWater:@[@2,@1,@1,@2,@1,@2,@2] :4 :3]);
     }
     return 0;
 }
