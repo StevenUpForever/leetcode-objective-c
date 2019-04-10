@@ -57,6 +57,7 @@
 		49C64C99221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C98221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m */; };
 		49C64CA82224DD32000B8864 /* Q755PourWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64CA72224DD32000B8864 /* Q755PourWater.m */; };
 		49F05494225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05493225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m */; };
+		49F05497225D913500AF6AA0 /* Q57InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05496225D913500AF6AA0 /* Q57InsertInterval.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,6 +176,8 @@
 		49C64CA72224DD32000B8864 /* Q755PourWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q755PourWater.m; sourceTree = "<group>"; };
 		49F05492225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q957PrisonCellsAfterNDays.h; sourceTree = "<group>"; };
 		49F05493225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q957PrisonCellsAfterNDays.m; sourceTree = "<group>"; };
+		49F05495225D913500AF6AA0 /* Q57InsertInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q57InsertInterval.h; sourceTree = "<group>"; };
+		49F05496225D913500AF6AA0 /* Q57InsertInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q57InsertInterval.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -466,6 +469,8 @@
 			children = (
 				494C8849221B8101008B7A60 /* Q56MergeIntervals.h */,
 				494C884A221B8101008B7A60 /* Q56MergeIntervals.m */,
+				49F05495225D913500AF6AA0 /* Q57InsertInterval.h */,
+				49F05496225D913500AF6AA0 /* Q57InsertInterval.m */,
 				49C64C51221E8C6B000B8864 /* Q253MeetingRoomsII.h */,
 				49C64C52221E8C6B000B8864 /* Q253MeetingRoomsII.m */,
 			);
@@ -619,6 +624,7 @@
 				494C87E6221B6771008B7A60 /* Q1TwoSum.m in Sources */,
 				49C64CA82224DD32000B8864 /* Q755PourWater.m in Sources */,
 				494C8815221B6E30008B7A60 /* Q16ThreeSumClosest.m in Sources */,
+				49F05497225D913500AF6AA0 /* Q57InsertInterval.m in Sources */,
 				494C8810221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.m in Sources */,
 				494C882F221B71D5008B7A60 /* Q26RemoveDuplicatesFromSortedArray.m in Sources */,
 				494C8817221B6E30008B7A60 /* Q11ContainerWithMostWater.m in Sources */,
