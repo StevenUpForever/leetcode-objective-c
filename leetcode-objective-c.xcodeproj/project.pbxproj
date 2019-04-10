@@ -59,6 +59,7 @@
 		49F05494225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05493225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m */; };
 		49F05497225D913500AF6AA0 /* Q57InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05496225D913500AF6AA0 /* Q57InsertInterval.m */; };
 		49F0549A225D92A600AF6AA0 /* Q252MeetingRooms.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05499225D92A600AF6AA0 /* Q252MeetingRooms.m */; };
+		49F0549D225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F0549C225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -181,6 +182,8 @@
 		49F05496225D913500AF6AA0 /* Q57InsertInterval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q57InsertInterval.m; sourceTree = "<group>"; };
 		49F05498225D92A600AF6AA0 /* Q252MeetingRooms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q252MeetingRooms.h; sourceTree = "<group>"; };
 		49F05499225D92A600AF6AA0 /* Q252MeetingRooms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q252MeetingRooms.m; sourceTree = "<group>"; };
+		49F0549B225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q406QueueReconstructionByHeight.h; sourceTree = "<group>"; };
+		49F0549C225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q406QueueReconstructionByHeight.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -478,6 +481,8 @@
 				49F05499225D92A600AF6AA0 /* Q252MeetingRooms.m */,
 				49C64C51221E8C6B000B8864 /* Q253MeetingRoomsII.h */,
 				49C64C52221E8C6B000B8864 /* Q253MeetingRoomsII.m */,
+				49F0549B225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.h */,
+				49F0549C225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m */,
 			);
 			path = interval;
 			sourceTree = "<group>";
@@ -640,6 +645,7 @@
 				494C8837221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m in Sources */,
 				494C8838221B71D5008B7A60 /* Q23MergeKSortedLists.m in Sources */,
 				494C8811221B6E30008B7A60 /* Q18FourSum.m in Sources */,
+				49F0549D225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m in Sources */,
 				494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */,
 				49C64C99221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m in Sources */,
 				49F0549A225D92A600AF6AA0 /* Q252MeetingRooms.m in Sources */,
