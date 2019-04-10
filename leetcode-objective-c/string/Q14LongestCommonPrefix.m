@@ -13,7 +13,7 @@
 //Difficulty: easy
 //TAG: Google
 //TAG: Apple
-//TAG: array
+//TAG: string
 
 /**
  * 14. Longest Common Prefix
