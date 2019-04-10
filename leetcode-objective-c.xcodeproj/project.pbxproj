@@ -60,6 +60,7 @@
 		49F05497225D913500AF6AA0 /* Q57InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05496225D913500AF6AA0 /* Q57InsertInterval.m */; };
 		49F0549A225D92A600AF6AA0 /* Q252MeetingRooms.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05499225D92A600AF6AA0 /* Q252MeetingRooms.m */; };
 		49F0549D225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F0549C225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m */; };
+		49F054A3225D95F600AF6AA0 /* Q616AddBoldTagInString.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F054A2225D95F600AF6AA0 /* Q616AddBoldTagInString.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -184,6 +185,8 @@
 		49F05499225D92A600AF6AA0 /* Q252MeetingRooms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q252MeetingRooms.m; sourceTree = "<group>"; };
 		49F0549B225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q406QueueReconstructionByHeight.h; sourceTree = "<group>"; };
 		49F0549C225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q406QueueReconstructionByHeight.m; sourceTree = "<group>"; };
+		49F054A1225D95F600AF6AA0 /* Q616AddBoldTagInString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q616AddBoldTagInString.h; sourceTree = "<group>"; };
+		49F054A2225D95F600AF6AA0 /* Q616AddBoldTagInString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q616AddBoldTagInString.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -483,6 +486,8 @@
 				49C64C52221E8C6B000B8864 /* Q253MeetingRoomsII.m */,
 				49F0549B225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.h */,
 				49F0549C225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m */,
+				49F054A1225D95F600AF6AA0 /* Q616AddBoldTagInString.h */,
+				49F054A2225D95F600AF6AA0 /* Q616AddBoldTagInString.m */,
 			);
 			path = interval;
 			sourceTree = "<group>";
@@ -640,6 +645,7 @@
 				494C8817221B6E30008B7A60 /* Q11ContainerWithMostWater.m in Sources */,
 				494C87E8221B6771008B7A60 /* Q9PalindromeNumber.m in Sources */,
 				494C8812221B6E30008B7A60 /* Q14LongestCommonPrefix.m in Sources */,
+				49F054A3225D95F600AF6AA0 /* Q616AddBoldTagInString.m in Sources */,
 				494C87C7221B6694008B7A60 /* main.m in Sources */,
 				494C8852221B8534008B7A60 /* Q146LRUCache.m in Sources */,
 				494C8837221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m in Sources */,
