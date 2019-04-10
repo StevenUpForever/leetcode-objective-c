@@ -11,6 +11,8 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        NSArray *arr;
+        NSLog(@"%@", arr.firstObject);
     }
     return 0;
 }
