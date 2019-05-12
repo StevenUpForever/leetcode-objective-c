@@ -2,7 +2,7 @@
 //  Q253MeetingRoomsII.m
 //  leetcode-objective-c
 //
-//  Created by Chengzhi Jia on 2/20/19.
+//  Created by Chengzhi Jia on 5/11/19.
 //  Copyright © 2019 com.cj. All rights reserved.
 //
 
@@ -30,17 +30,17 @@
  */
 
 /*
-* Solution:
-* Don't need to consider every interval as a single interval but two numbers, start and end, gather all starts
-* and ends
-*
-* sort starts and ends in ascending order
-* compare start and end, if start < end, need room, room++
-* otherwise move end try to find the end > start
-*
-* Time: O(n + 2nlogn + 2n) = O(nlogn)
-* Space: O(n)
-*/
+ * Solution:
+ * Don't need to consider every interval as a single interval but two numbers, start and end, gather all starts
+ * and ends
+ *
+ * sort starts and ends in ascending order
+ * compare start and end, if start < end, need room, room++
+ * otherwise move end try to find the end > start
+ *
+ * Time: O(n + 2nlogn + 2n) = O(nlogn)
+ * Space: O(n)
+ */
 
 - (NSInteger)minMeetingRooms: (NSArray<Interval *> *)intervals {
     NSMutableArray<NSNumber *> *start = [NSMutableArray new],
