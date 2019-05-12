@@ -46,6 +46,7 @@
 		494C884E221B8129008B7A60 /* Interval.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C884D221B8129008B7A60 /* Interval.m */; };
 		494C8852221B8534008B7A60 /* Q146LRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
 		497BAF0622277A5300236127 /* Q787CheapestFlightsWithinKStops.m in Sources */ = {isa = PBXBuildFile; fileRef = 497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */; };
+		498AB1DF2287B6030054F867 /* Q301RemoveInvalidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */; };
 		49C64C38221B9E5C000B8864 /* Q146LRUCache.h in Sources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
 		49C64C39221B9E5C000B8864 /* Q146LRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
 		49C64C3A221B9E62000B8864 /* Q146LRUCache.h in Resources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
@@ -165,6 +166,8 @@
 		494C8851221B8534008B7A60 /* Q146LRUCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q146LRUCache.m; sourceTree = "<group>"; };
 		497BAF0422277A5300236127 /* Q787CheapestFlightsWithinKStops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q787CheapestFlightsWithinKStops.h; sourceTree = "<group>"; };
 		497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q787CheapestFlightsWithinKStops.m; sourceTree = "<group>"; };
+		498AB1DD2287B6030054F867 /* Q301RemoveInvalidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q301RemoveInvalidParentheses.h; sourceTree = "<group>"; };
+		498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q301RemoveInvalidParentheses.m; sourceTree = "<group>"; };
 		49C64C2D221B9AB8000B8864 /* LeecodeObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeecodeObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C64C45221E7651000B8864 /* Q127WordLadder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q127WordLadder.h; sourceTree = "<group>"; };
 		49C64C46221E7651000B8864 /* Q127WordLadder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q127WordLadder.m; sourceTree = "<group>"; };
@@ -512,6 +515,8 @@
 				49E17924222847100011AD9B /* topological_sort */,
 				49C64C45221E7651000B8864 /* Q127WordLadder.h */,
 				49C64C46221E7651000B8864 /* Q127WordLadder.m */,
+				498AB1DD2287B6030054F867 /* Q301RemoveInvalidParentheses.h */,
+				498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */,
 				497BAF0422277A5300236127 /* Q787CheapestFlightsWithinKStops.h */,
 				497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */,
 			);
@@ -646,6 +651,7 @@
 				494C8815221B6E30008B7A60 /* Q16ThreeSumClosest.m in Sources */,
 				49F05497225D913500AF6AA0 /* Q57InsertInterval.m in Sources */,
 				494C8810221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.m in Sources */,
+				498AB1DF2287B6030054F867 /* Q301RemoveInvalidParentheses.m in Sources */,
 				494C882F221B71D5008B7A60 /* Q26RemoveDuplicatesFromSortedArray.m in Sources */,
 				494C8817221B6E30008B7A60 /* Q11ContainerWithMostWater.m in Sources */,
 				494C87E8221B6771008B7A60 /* Q9PalindromeNumber.m in Sources */,
