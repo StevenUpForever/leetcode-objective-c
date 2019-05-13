@@ -16,6 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic) TreeNode *left;
 @property (nonatomic) TreeNode *right;
 
+- (instancetype)initWithVal: (NSInteger)val;
+
 @end
 
 NS_ASSUME_NONNULL_END
