@@ -10,6 +10,7 @@
 		49092A0C22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49092A0B22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m */; };
 		492C48C6228941770013CD5E /* Q621TaskScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C48C5228941770013CD5E /* Q621TaskScheduler.m */; };
 		492C48C92289DBDC0013CD5E /* Q560SubarraySumEqualsK.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C48C82289DBDC0013CD5E /* Q560SubarraySumEqualsK.m */; };
+		492C48CF2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C48CE2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m */; };
 		494C87C7221B6694008B7A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87C6221B6694008B7A60 /* main.m */; };
 		494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87CE221B6771008B7A60 /* Q2AddTwoNumbers.m */; };
 		494C87E3221B6771008B7A60 /* Q8StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87D0221B6771008B7A60 /* Q8StringToInteger.m */; };
@@ -99,6 +100,8 @@
 		492C48C5228941770013CD5E /* Q621TaskScheduler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q621TaskScheduler.m; sourceTree = "<group>"; };
 		492C48C72289DBDC0013CD5E /* Q560SubarraySumEqualsK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q560SubarraySumEqualsK.h; sourceTree = "<group>"; };
 		492C48C82289DBDC0013CD5E /* Q560SubarraySumEqualsK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q560SubarraySumEqualsK.m; sourceTree = "<group>"; };
+		492C48CD2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q953VerifyingAnAlienDictionary.h; sourceTree = "<group>"; };
+		492C48CE2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q953VerifyingAnAlienDictionary.m; sourceTree = "<group>"; };
 		494C87C3221B6694008B7A60 /* leetcode-objective-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-objective-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494C87C6221B6694008B7A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		494C87CE221B6771008B7A60 /* Q2AddTwoNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q2AddTwoNumbers.m; sourceTree = "<group>"; };
@@ -339,6 +342,8 @@
 				494C87DC221B6771008B7A60 /* Q6ZigZagConversion.m */,
 				494C882B221B71D5008B7A60 /* Q28ImplementStrStr.h */,
 				494C8828221B71D4008B7A60 /* Q28ImplementStrStr.m */,
+				492C48CD2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.h */,
+				492C48CE2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m */,
 			);
 			path = string;
 			sourceTree = "<group>";
@@ -711,6 +716,7 @@
 				49C64C99221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m in Sources */,
 				49F0549A225D92A600AF6AA0 /* Q252MeetingRooms.m in Sources */,
 				494C87E3221B6771008B7A60 /* Q8StringToInteger.m in Sources */,
+				492C48CF2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m in Sources */,
 				49C64C47221E7651000B8864 /* Q127WordLadder.m in Sources */,
 				49F05494225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m in Sources */,
 				494C8816221B6E30008B7A60 /* Q13RomanToInteger.m in Sources */,
