@@ -55,6 +55,7 @@
 		497BAF0622277A5300236127 /* Q787CheapestFlightsWithinKStops.m in Sources */ = {isa = PBXBuildFile; fileRef = 497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */; };
 		498AB1DF2287B6030054F867 /* Q301RemoveInvalidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */; };
 		49C08862228A83680017BA8F /* Q403FrogJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C08861228A83680017BA8F /* Q403FrogJump.m */; };
+		49C08868228A889B0017BA8F /* Q206ReverseLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C08867228A889B0017BA8F /* Q206ReverseLinkedList.m */; };
 		49C64C38221B9E5C000B8864 /* Q146LRUCache.h in Sources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
 		49C64C39221B9E5C000B8864 /* Q146LRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
 		49C64C3A221B9E62000B8864 /* Q146LRUCache.h in Resources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
@@ -194,6 +195,8 @@
 		498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q301RemoveInvalidParentheses.m; sourceTree = "<group>"; };
 		49C08860228A83680017BA8F /* Q403FrogJump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q403FrogJump.h; sourceTree = "<group>"; };
 		49C08861228A83680017BA8F /* Q403FrogJump.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q403FrogJump.m; sourceTree = "<group>"; };
+		49C08866228A889B0017BA8F /* Q206ReverseLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q206ReverseLinkedList.h; sourceTree = "<group>"; };
+		49C08867228A889B0017BA8F /* Q206ReverseLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q206ReverseLinkedList.m; sourceTree = "<group>"; };
 		49C64C2D221B9AB8000B8864 /* LeecodeObjectiveCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeecodeObjectiveCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49C64C45221E7651000B8864 /* Q127WordLadder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q127WordLadder.h; sourceTree = "<group>"; };
 		49C64C46221E7651000B8864 /* Q127WordLadder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q127WordLadder.m; sourceTree = "<group>"; };
@@ -520,6 +523,8 @@
 				494C8826221B71D4008B7A60 /* Q24SwapNodesInPairs.m */,
 				494C8825221B71D4008B7A60 /* Q25ReverseNodesInKGGroup.h */,
 				494C882C221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m */,
+				49C08866228A889B0017BA8F /* Q206ReverseLinkedList.h */,
+				49C08867228A889B0017BA8F /* Q206ReverseLinkedList.m */,
 			);
 			path = reverse;
 			sourceTree = "<group>";
@@ -768,6 +773,7 @@
 				494C8833221B71D5008B7A60 /* Q24SwapNodesInPairs.m in Sources */,
 				49C90BD22287B8A700600AB0 /* Q273IntegerToEnglishWords.m in Sources */,
 				49C64C94221F7BDA000B8864 /* TreeNode.m in Sources */,
+				49C08868228A889B0017BA8F /* Q206ReverseLinkedList.m in Sources */,
 				494C880F221B6E30008B7A60 /* Q20ValidParentheses.m in Sources */,
 				494C8830221B71D5008B7A60 /* Q22GenerateParentheses.m in Sources */,
 				49C64C53221E8C6B000B8864 /* Q253MeetingRoomsII.m in Sources */,
