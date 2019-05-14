@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		49092A0C22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49092A0B22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m */; };
+		490F7421228A7B6A00449ABA /* Q311SparseMatrixMultiplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 490F7420228A7B6A00449ABA /* Q311SparseMatrixMultiplication.m */; };
 		492C48C6228941770013CD5E /* Q621TaskScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C48C5228941770013CD5E /* Q621TaskScheduler.m */; };
 		492C48C92289DBDC0013CD5E /* Q560SubarraySumEqualsK.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C48C82289DBDC0013CD5E /* Q560SubarraySumEqualsK.m */; };
 		492C48CF2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C48CE2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m */; };
@@ -98,6 +99,8 @@
 /* Begin PBXFileReference section */
 		49092A0A22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q297SerializeAndDeserializeBinaryTree.h; sourceTree = "<group>"; };
 		49092A0B22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q297SerializeAndDeserializeBinaryTree.m; sourceTree = "<group>"; };
+		490F741F228A7B6A00449ABA /* Q311SparseMatrixMultiplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q311SparseMatrixMultiplication.h; sourceTree = "<group>"; };
+		490F7420228A7B6A00449ABA /* Q311SparseMatrixMultiplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q311SparseMatrixMultiplication.m; sourceTree = "<group>"; };
 		492C48C4228941770013CD5E /* Q621TaskScheduler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q621TaskScheduler.h; sourceTree = "<group>"; };
 		492C48C5228941770013CD5E /* Q621TaskScheduler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q621TaskScheduler.m; sourceTree = "<group>"; };
 		492C48C72289DBDC0013CD5E /* Q560SubarraySumEqualsK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q560SubarraySumEqualsK.h; sourceTree = "<group>"; };
@@ -428,6 +431,8 @@
 				494C8844221B7E1D008B7A60 /* random */,
 				494C87D4221B6771008B7A60 /* Q7ReverseInteger.h */,
 				494C87D2221B6771008B7A60 /* Q7ReverseInteger.m */,
+				490F741F228A7B6A00449ABA /* Q311SparseMatrixMultiplication.h */,
+				490F7420228A7B6A00449ABA /* Q311SparseMatrixMultiplication.m */,
 			);
 			path = math;
 			sourceTree = "<group>";
@@ -720,6 +725,7 @@
 				494C8852221B8534008B7A60 /* Q146LRUCache.m in Sources */,
 				494C8837221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m in Sources */,
 				49092A0C22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m in Sources */,
+				490F7421228A7B6A00449ABA /* Q311SparseMatrixMultiplication.m in Sources */,
 				494C8838221B71D5008B7A60 /* Q23MergeKSortedLists.m in Sources */,
 				494C8811221B6E30008B7A60 /* Q18FourSum.m in Sources */,
 				49F054A6225DA57200AF6AA0 /* Q763PartitionLabels.m in Sources */,
