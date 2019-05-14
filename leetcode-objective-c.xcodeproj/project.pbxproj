@@ -11,6 +11,7 @@
 		492C48C6228941770013CD5E /* Q621TaskScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C48C5228941770013CD5E /* Q621TaskScheduler.m */; };
 		492C48C92289DBDC0013CD5E /* Q560SubarraySumEqualsK.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C48C82289DBDC0013CD5E /* Q560SubarraySumEqualsK.m */; };
 		492C48CF2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C48CE2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m */; };
+		4930B422228A79D40008C16B /* Q53MaximumSubarray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4930B421228A79D40008C16B /* Q53MaximumSubarray.m */; };
 		494C87C7221B6694008B7A60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87C6221B6694008B7A60 /* main.m */; };
 		494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87CE221B6771008B7A60 /* Q2AddTwoNumbers.m */; };
 		494C87E3221B6771008B7A60 /* Q8StringToInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C87D0221B6771008B7A60 /* Q8StringToInteger.m */; };
@@ -103,6 +104,8 @@
 		492C48C82289DBDC0013CD5E /* Q560SubarraySumEqualsK.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q560SubarraySumEqualsK.m; sourceTree = "<group>"; };
 		492C48CD2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q953VerifyingAnAlienDictionary.h; sourceTree = "<group>"; };
 		492C48CE2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q953VerifyingAnAlienDictionary.m; sourceTree = "<group>"; };
+		4930B420228A79D40008C16B /* Q53MaximumSubarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q53MaximumSubarray.h; sourceTree = "<group>"; };
+		4930B421228A79D40008C16B /* Q53MaximumSubarray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q53MaximumSubarray.m; sourceTree = "<group>"; };
 		494C87C3221B6694008B7A60 /* leetcode-objective-c */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "leetcode-objective-c"; sourceTree = BUILT_PRODUCTS_DIR; };
 		494C87C6221B6694008B7A60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		494C87CE221B6771008B7A60 /* Q2AddTwoNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Q2AddTwoNumbers.m; sourceTree = "<group>"; };
@@ -402,6 +405,8 @@
 				494C8808221B6E2F008B7A60 /* Q11ContainerWithMostWater.m */,
 				49E595D5228A74CA00B4FBD2 /* Q42TrappingRainWater.h */,
 				49E595D6228A74CA00B4FBD2 /* Q42TrappingRainWater.m */,
+				4930B420228A79D40008C16B /* Q53MaximumSubarray.h */,
+				4930B421228A79D40008C16B /* Q53MaximumSubarray.m */,
 				49C64C4E221E8830000B8864 /* Q139WordBreak.h */,
 				49C64C4F221E8830000B8864 /* Q139WordBreak.m */,
 			);
@@ -668,6 +673,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 494C87BA221B6694008B7A60;
 			productRefGroup = 494C87C4221B6694008B7A60 /* Products */;
@@ -740,6 +746,7 @@
 				494C884E221B8129008B7A60 /* Interval.m in Sources */,
 				494C8834221B71D5008B7A60 /* Q28ImplementStrStr.m in Sources */,
 				494C87EF221B679F008B7A60 /* ListNode.m in Sources */,
+				4930B422228A79D40008C16B /* Q53MaximumSubarray.m in Sources */,
 				494C8842221B78CD008B7A60 /* Q35SearchInsertPosition.m in Sources */,
 				494C8832221B71D5008B7A60 /* Q29DivideTwoIntegers.m in Sources */,
 				494C87E7221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m in Sources */,
