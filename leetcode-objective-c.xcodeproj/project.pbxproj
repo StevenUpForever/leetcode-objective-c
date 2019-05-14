@@ -63,6 +63,7 @@
 		49C64C99221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C98221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m */; };
 		49C64CA82224DD32000B8864 /* Q755PourWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64CA72224DD32000B8864 /* Q755PourWater.m */; };
 		49C90BD22287B8A700600AB0 /* Q273IntegerToEnglishWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C90BD12287B8A700600AB0 /* Q273IntegerToEnglishWords.m */; };
+		49E595D7228A74CA00B4FBD2 /* Q42TrappingRainWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E595D6228A74CA00B4FBD2 /* Q42TrappingRainWater.m */; };
 		49F05494225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05493225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m */; };
 		49F05497225D913500AF6AA0 /* Q57InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05496225D913500AF6AA0 /* Q57InsertInterval.m */; };
 		49F0549A225D92A600AF6AA0 /* Q252MeetingRooms.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05499225D92A600AF6AA0 /* Q252MeetingRooms.m */; };
@@ -199,6 +200,8 @@
 		49C64CA72224DD32000B8864 /* Q755PourWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q755PourWater.m; sourceTree = "<group>"; };
 		49C90BD02287B8A700600AB0 /* Q273IntegerToEnglishWords.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q273IntegerToEnglishWords.h; sourceTree = "<group>"; };
 		49C90BD12287B8A700600AB0 /* Q273IntegerToEnglishWords.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q273IntegerToEnglishWords.m; sourceTree = "<group>"; };
+		49E595D5228A74CA00B4FBD2 /* Q42TrappingRainWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q42TrappingRainWater.h; sourceTree = "<group>"; };
+		49E595D6228A74CA00B4FBD2 /* Q42TrappingRainWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q42TrappingRainWater.m; sourceTree = "<group>"; };
 		49F05492225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q957PrisonCellsAfterNDays.h; sourceTree = "<group>"; };
 		49F05493225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q957PrisonCellsAfterNDays.m; sourceTree = "<group>"; };
 		49F05495225D913500AF6AA0 /* Q57InsertInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q57InsertInterval.h; sourceTree = "<group>"; };
@@ -397,6 +400,8 @@
 			children = (
 				494C87FE221B6E2E008B7A60 /* Q11ContainerWithMostWater.h */,
 				494C8808221B6E2F008B7A60 /* Q11ContainerWithMostWater.m */,
+				49E595D5228A74CA00B4FBD2 /* Q42TrappingRainWater.h */,
+				49E595D6228A74CA00B4FBD2 /* Q42TrappingRainWater.m */,
 				49C64C4E221E8830000B8864 /* Q139WordBreak.h */,
 				49C64C4F221E8830000B8864 /* Q139WordBreak.m */,
 			);
@@ -702,6 +707,7 @@
 				494C8817221B6E30008B7A60 /* Q11ContainerWithMostWater.m in Sources */,
 				494C87E8221B6771008B7A60 /* Q9PalindromeNumber.m in Sources */,
 				494C8812221B6E30008B7A60 /* Q14LongestCommonPrefix.m in Sources */,
+				49E595D7228A74CA00B4FBD2 /* Q42TrappingRainWater.m in Sources */,
 				492C48C6228941770013CD5E /* Q621TaskScheduler.m in Sources */,
 				49F054A3225D95F600AF6AA0 /* Q616AddBoldTagInString.m in Sources */,
 				494C87C7221B6694008B7A60 /* main.m in Sources */,
