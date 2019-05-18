@@ -387,8 +387,6 @@
 		494C87F3221B697E008B7A60 /* recursion */ = {
 			isa = PBXGroup;
 			children = (
-				494C87D7221B6771008B7A60 /* Q4MedianTwoSortedArrays.h */,
-				494C87DD221B6771008B7A60 /* Q4MedianTwoSortedArrays.m */,
 			);
 			path = recursion;
 			sourceTree = "<group>";
@@ -502,6 +500,8 @@
 			isa = PBXGroup;
 			children = (
 				494C883A221B7280008B7A60 /* all_subsets */,
+				494C87D7221B6771008B7A60 /* Q4MedianTwoSortedArrays.h */,
+				494C87DD221B6771008B7A60 /* Q4MedianTwoSortedArrays.m */,
 				494C880D221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.h */,
 				494C8803221B6E2E008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m */,
 			);
