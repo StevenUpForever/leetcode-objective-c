@@ -7,12 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Q755PourWater.h"
+#import "Q282ExpressionAddOperators.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        NSArray *arr;
-        NSLog(@"%@", arr.firstObject);
+        Q282ExpressionAddOperators *obj = [Q282ExpressionAddOperators new];
+        NSLog(@"%@", [obj addOperators:@"00" target:0]);
     }
     return 0;
 }
