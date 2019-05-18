@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		490200AC2290C98200AACF26 /* Q269AlienDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 490200AB2290C98200AACF26 /* Q269AlienDictionary.m */; };
 		4904B5CD2290C268005267DE /* Q238ProductOfArrayExceptSelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904B5CC2290C268005267DE /* Q238ProductOfArrayExceptSelf.m */; };
 		4904B5D02290C4E0005267DE /* Q282ExpressionAddOperators.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904B5CF2290C4E0005267DE /* Q282ExpressionAddOperators.m */; };
 		49092A0C22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49092A0B22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m */; };
@@ -103,6 +104,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		490200AA2290C98200AACF26 /* Q269AlienDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q269AlienDictionary.h; sourceTree = "<group>"; };
+		490200AB2290C98200AACF26 /* Q269AlienDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q269AlienDictionary.m; sourceTree = "<group>"; };
 		4904B5CB2290C268005267DE /* Q238ProductOfArrayExceptSelf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q238ProductOfArrayExceptSelf.h; sourceTree = "<group>"; };
 		4904B5CC2290C268005267DE /* Q238ProductOfArrayExceptSelf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q238ProductOfArrayExceptSelf.m; sourceTree = "<group>"; };
 		4904B5CE2290C4E0005267DE /* Q282ExpressionAddOperators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q282ExpressionAddOperators.h; sourceTree = "<group>"; };
@@ -258,6 +261,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		490200A22290C94E00AACF26 /* topological_sort */ = {
+			isa = PBXGroup;
+			children = (
+				490200AA2290C98200AACF26 /* Q269AlienDictionary.h */,
+				490200AB2290C98200AACF26 /* Q269AlienDictionary.m */,
+			);
+			path = topological_sort;
+			sourceTree = "<group>";
+		};
+		490200A32290C95800AACF26 /* sort */ = {
+			isa = PBXGroup;
+			children = (
+				490200A22290C94E00AACF26 /* topological_sort */,
+			);
+			path = sort;
+			sourceTree = "<group>";
+		};
 		4904B5CA2290C256005267DE /* pre_sum */ = {
 			isa = PBXGroup;
 			children = (
@@ -342,6 +362,7 @@
 		494C87F0221B684E008B7A60 /* array */ = {
 			isa = PBXGroup;
 			children = (
+				490200A32290C95800AACF26 /* sort */,
 				4904B5CA2290C256005267DE /* pre_sum */,
 				49F05491225D8ED300AF6AA0 /* cycle */,
 				494C8848221B80EB008B7A60 /* interval */,
@@ -795,6 +816,7 @@
 				494C87E4221B6771008B7A60 /* Q5LongestPalindromicSubstring.m in Sources */,
 				492C48C92289DBDC0013CD5E /* Q560SubarraySumEqualsK.m in Sources */,
 				494C87E9221B6771008B7A60 /* Q6ZigZagConversion.m in Sources */,
+				490200AC2290C98200AACF26 /* Q269AlienDictionary.m in Sources */,
 				494C8814221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m in Sources */,
 				494C8813221B6E30008B7A60 /* Q15ThreeSum.m in Sources */,
 				494C884E221B8129008B7A60 /* Interval.m in Sources */,
