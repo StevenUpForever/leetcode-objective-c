@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4904B5CD2290C268005267DE /* Q238ProductOfArrayExceptSelf.m in Sources */ = {isa = PBXBuildFile; fileRef = 4904B5CC2290C268005267DE /* Q238ProductOfArrayExceptSelf.m */; };
 		49092A0C22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49092A0B22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m */; };
 		490F7421228A7B6A00449ABA /* Q311SparseMatrixMultiplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 490F7420228A7B6A00449ABA /* Q311SparseMatrixMultiplication.m */; };
 		492C48C6228941770013CD5E /* Q621TaskScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = 492C48C5228941770013CD5E /* Q621TaskScheduler.m */; };
@@ -101,6 +102,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4904B5CB2290C268005267DE /* Q238ProductOfArrayExceptSelf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q238ProductOfArrayExceptSelf.h; sourceTree = "<group>"; };
+		4904B5CC2290C268005267DE /* Q238ProductOfArrayExceptSelf.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q238ProductOfArrayExceptSelf.m; sourceTree = "<group>"; };
 		49092A0A22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q297SerializeAndDeserializeBinaryTree.h; sourceTree = "<group>"; };
 		49092A0B22893B9A0058A0FB /* Q297SerializeAndDeserializeBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q297SerializeAndDeserializeBinaryTree.m; sourceTree = "<group>"; };
 		490F741F228A7B6A00449ABA /* Q311SparseMatrixMultiplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q311SparseMatrixMultiplication.h; sourceTree = "<group>"; };
@@ -252,6 +255,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4904B5CA2290C256005267DE /* pre_sum */ = {
+			isa = PBXGroup;
+			children = (
+				4904B5CB2290C268005267DE /* Q238ProductOfArrayExceptSelf.h */,
+				4904B5CC2290C268005267DE /* Q238ProductOfArrayExceptSelf.m */,
+			);
+			path = pre_sum;
+			sourceTree = "<group>";
+		};
 		49092A0922893B7F0058A0FB /* reconstruct */ = {
 			isa = PBXGroup;
 			children = (
@@ -327,6 +339,7 @@
 		494C87F0221B684E008B7A60 /* array */ = {
 			isa = PBXGroup;
 			children = (
+				4904B5CA2290C256005267DE /* pre_sum */,
 				49F05491225D8ED300AF6AA0 /* cycle */,
 				494C8848221B80EB008B7A60 /* interval */,
 				494C8819221B6F70008B7A60 /* n_sum */,
@@ -799,6 +812,7 @@
 				497BAF0622277A5300236127 /* Q787CheapestFlightsWithinKStops.m in Sources */,
 				494C8831221B71D5008B7A60 /* Q21MergeTwoSortedLists.m in Sources */,
 				494C87EB221B6771008B7A60 /* Q10RegularExpressionMatching.m in Sources */,
+				4904B5CD2290C268005267DE /* Q238ProductOfArrayExceptSelf.m in Sources */,
 				494C87EA221B6771008B7A60 /* Q4MedianTwoSortedArrays.m in Sources */,
 				4966B1FC2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m in Sources */,
 			);
