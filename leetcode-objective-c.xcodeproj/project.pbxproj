@@ -52,6 +52,8 @@
 		494C884E221B8129008B7A60 /* Interval.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C884D221B8129008B7A60 /* Interval.m */; };
 		494C8852221B8534008B7A60 /* Q146LRUCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 494C8851221B8534008B7A60 /* Q146LRUCache.m */; };
 		4965694522893E9300B73D46 /* Q67AddBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4965694422893E9300B73D46 /* Q67AddBinary.m */; };
+		4966B1FC2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4966B1FB2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m */; };
+		4966B2002290BFF4003163E1 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 4966B1FF2290BFF4003163E1 /* Node.m */; };
 		497BAF0622277A5300236127 /* Q787CheapestFlightsWithinKStops.m in Sources */ = {isa = PBXBuildFile; fileRef = 497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */; };
 		498AB1DF2287B6030054F867 /* Q301RemoveInvalidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */; };
 		49C08862228A83680017BA8F /* Q403FrogJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C08861228A83680017BA8F /* Q403FrogJump.m */; };
@@ -189,6 +191,10 @@
 		494C8851221B8534008B7A60 /* Q146LRUCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q146LRUCache.m; sourceTree = "<group>"; };
 		4965694322893E9300B73D46 /* Q67AddBinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q67AddBinary.h; sourceTree = "<group>"; };
 		4965694422893E9300B73D46 /* Q67AddBinary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q67AddBinary.m; sourceTree = "<group>"; };
+		4966B1FA2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.h; sourceTree = "<group>"; };
+		4966B1FB2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m; sourceTree = "<group>"; };
+		4966B1FE2290BFF4003163E1 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
+		4966B1FF2290BFF4003163E1 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
 		497BAF0422277A5300236127 /* Q787CheapestFlightsWithinKStops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q787CheapestFlightsWithinKStops.h; sourceTree = "<group>"; };
 		497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q787CheapestFlightsWithinKStops.m; sourceTree = "<group>"; };
 		498AB1DD2287B6030054F867 /* Q301RemoveInvalidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q301RemoveInvalidParentheses.h; sourceTree = "<group>"; };
@@ -312,6 +318,8 @@
 				494C884D221B8129008B7A60 /* Interval.m */,
 				49C64C92221F7BDA000B8864 /* TreeNode.h */,
 				49C64C93221F7BDA000B8864 /* TreeNode.m */,
+				4966B1FE2290BFF4003163E1 /* Node.h */,
+				4966B1FF2290BFF4003163E1 /* Node.m */,
 			);
 			path = public_class;
 			sourceTree = "<group>";
@@ -579,6 +587,15 @@
 			path = data_structure;
 			sourceTree = "<group>";
 		};
+		4966B1FD2290BFCF003163E1 /* in_order */ = {
+			isa = PBXGroup;
+			children = (
+				4966B1FA2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.h */,
+				4966B1FB2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m */,
+			);
+			path = in_order;
+			sourceTree = "<group>";
+		};
 		49C64C44221E7637000B8864 /* breath_first_search */ = {
 			isa = PBXGroup;
 			children = (
@@ -596,6 +613,7 @@
 		49C64C95221F7C37000B8864 /* tree */ = {
 			isa = PBXGroup;
 			children = (
+				4966B1FD2290BFCF003163E1 /* in_order */,
 				49C64C96221F7C49000B8864 /* post_order */,
 				49092A0922893B7F0058A0FB /* reconstruct */,
 			);
@@ -718,6 +736,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4966B2002290BFF4003163E1 /* Node.m in Sources */,
 				494C87E6221B6771008B7A60 /* Q1TwoSum.m in Sources */,
 				49C64CA82224DD32000B8864 /* Q755PourWater.m in Sources */,
 				494C8815221B6E30008B7A60 /* Q16ThreeSumClosest.m in Sources */,
@@ -781,6 +800,7 @@
 				494C8831221B71D5008B7A60 /* Q21MergeTwoSortedLists.m in Sources */,
 				494C87EB221B6771008B7A60 /* Q10RegularExpressionMatching.m in Sources */,
 				494C87EA221B6771008B7A60 /* Q4MedianTwoSortedArrays.m in Sources */,
+				4966B1FC2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
