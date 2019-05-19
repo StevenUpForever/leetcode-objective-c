@@ -65,6 +65,7 @@
 		497BAF0622277A5300236127 /* Q787CheapestFlightsWithinKStops.m in Sources */ = {isa = PBXBuildFile; fileRef = 497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */; };
 		498AB1DF2287B6030054F867 /* Q301RemoveInvalidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */; };
 		4994D6E52290D43C00DF445A /* Q278FirstBadVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994D6E42290D43C00DF445A /* Q278FirstBadVersion.m */; };
+		49A47FE92292211000B0101D /* Q125ValidPalindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A47FE82292211000B0101D /* Q125ValidPalindrome.m */; };
 		49C08862228A83680017BA8F /* Q403FrogJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C08861228A83680017BA8F /* Q403FrogJump.m */; };
 		49C08868228A889B0017BA8F /* Q206ReverseLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C08867228A889B0017BA8F /* Q206ReverseLinkedList.m */; };
 		49C64C38221B9E5C000B8864 /* Q146LRUCache.h in Sources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
@@ -227,6 +228,8 @@
 		498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q301RemoveInvalidParentheses.m; sourceTree = "<group>"; };
 		4994D6E32290D43C00DF445A /* Q278FirstBadVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q278FirstBadVersion.h; sourceTree = "<group>"; };
 		4994D6E42290D43C00DF445A /* Q278FirstBadVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q278FirstBadVersion.m; sourceTree = "<group>"; };
+		49A47FE72292211000B0101D /* Q125ValidPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q125ValidPalindrome.h; sourceTree = "<group>"; };
+		49A47FE82292211000B0101D /* Q125ValidPalindrome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q125ValidPalindrome.m; sourceTree = "<group>"; };
 		49C08860228A83680017BA8F /* Q403FrogJump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q403FrogJump.h; sourceTree = "<group>"; };
 		49C08861228A83680017BA8F /* Q403FrogJump.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q403FrogJump.m; sourceTree = "<group>"; };
 		49C08866228A889B0017BA8F /* Q206ReverseLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q206ReverseLinkedList.h; sourceTree = "<group>"; };
@@ -456,6 +459,8 @@
 				494C87D6221B6771008B7A60 /* Q9PalindromeNumber.m */,
 				494C880C221B6E30008B7A60 /* Q20ValidParentheses.h */,
 				494C87FC221B6E2E008B7A60 /* Q20ValidParentheses.m */,
+				49A47FE72292211000B0101D /* Q125ValidPalindrome.h */,
+				49A47FE82292211000B0101D /* Q125ValidPalindrome.m */,
 			);
 			path = palindrome;
 			sourceTree = "<group>";
@@ -842,6 +847,7 @@
 				490F7421228A7B6A00449ABA /* Q311SparseMatrixMultiplication.m in Sources */,
 				494C8838221B71D5008B7A60 /* Q23MergeKSortedLists.m in Sources */,
 				494C8811221B6E30008B7A60 /* Q18FourSum.m in Sources */,
+				49A47FE92292211000B0101D /* Q125ValidPalindrome.m in Sources */,
 				49F054A6225DA57200AF6AA0 /* Q763PartitionLabels.m in Sources */,
 				49F0549D225D93CF00AF6AA0 /* Q406QueueReconstructionByHeight.m in Sources */,
 				494C87E2221B6771008B7A60 /* Q2AddTwoNumbers.m in Sources */,
