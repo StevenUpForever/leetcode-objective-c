@@ -12,7 +12,8 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Q282ExpressionAddOperators *obj = [Q282ExpressionAddOperators new];
-        NSLog(@"%@", [obj addOperators:@"00" target:0]);
+        NSNumber *obj2;
+        NSLog(@"%li", obj2.integerValue);
     }
     return 0;
 }
