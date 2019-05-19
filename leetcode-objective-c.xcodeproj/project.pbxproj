@@ -78,6 +78,7 @@
 		49C64C99221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64C98221F7C66000B8864 /* Q236LowestCommonAncestorOfABinaryTree.m */; };
 		49C64CA82224DD32000B8864 /* Q755PourWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64CA72224DD32000B8864 /* Q755PourWater.m */; };
 		49C90BD22287B8A700600AB0 /* Q273IntegerToEnglishWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C90BD12287B8A700600AB0 /* Q273IntegerToEnglishWords.m */; };
+		49CD109D22921DFD003F46BC /* Q76MinimumWindowSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CD109C22921DFD003F46BC /* Q76MinimumWindowSubstring.m */; };
 		49E595D7228A74CA00B4FBD2 /* Q42TrappingRainWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E595D6228A74CA00B4FBD2 /* Q42TrappingRainWater.m */; };
 		49F05494225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05493225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m */; };
 		49F05497225D913500AF6AA0 /* Q57InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05496225D913500AF6AA0 /* Q57InsertInterval.m */; };
@@ -245,6 +246,8 @@
 		49C64CA72224DD32000B8864 /* Q755PourWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q755PourWater.m; sourceTree = "<group>"; };
 		49C90BD02287B8A700600AB0 /* Q273IntegerToEnglishWords.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q273IntegerToEnglishWords.h; sourceTree = "<group>"; };
 		49C90BD12287B8A700600AB0 /* Q273IntegerToEnglishWords.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q273IntegerToEnglishWords.m; sourceTree = "<group>"; };
+		49CD109B22921DFD003F46BC /* Q76MinimumWindowSubstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q76MinimumWindowSubstring.h; sourceTree = "<group>"; };
+		49CD109C22921DFD003F46BC /* Q76MinimumWindowSubstring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q76MinimumWindowSubstring.m; sourceTree = "<group>"; };
 		49E595D5228A74CA00B4FBD2 /* Q42TrappingRainWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q42TrappingRainWater.h; sourceTree = "<group>"; };
 		49E595D6228A74CA00B4FBD2 /* Q42TrappingRainWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q42TrappingRainWater.m; sourceTree = "<group>"; };
 		49F05492225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q957PrisonCellsAfterNDays.h; sourceTree = "<group>"; };
@@ -466,6 +469,8 @@
 				494C880B221B6E2F008B7A60 /* Q12IntegerToRoman.m */,
 				494C881C221B71D3008B7A60 /* Q30SubstringWithConcatenationOfAllWords.h */,
 				494C8829221B71D4008B7A60 /* Q30SubstringWithConcatenationOfAllWords.m */,
+				49CD109B22921DFD003F46BC /* Q76MinimumWindowSubstring.h */,
+				49CD109C22921DFD003F46BC /* Q76MinimumWindowSubstring.m */,
 			);
 			path = sliding_window;
 			sourceTree = "<group>";
@@ -871,6 +876,7 @@
 				494C87E7221B6771008B7A60 /* Q3LongestSubstringWithoutRepeatingCharacters.m in Sources */,
 				494C8841221B78CD008B7A60 /* Q33SearchInRotatedSortedArray.m in Sources */,
 				494C87E5221B6771008B7A60 /* Q7ReverseInteger.m in Sources */,
+				49CD109D22921DFD003F46BC /* Q76MinimumWindowSubstring.m in Sources */,
 				49C64C50221E8830000B8864 /* Q139WordBreak.m in Sources */,
 				494C8833221B71D5008B7A60 /* Q24SwapNodesInPairs.m in Sources */,
 				4969D7362290E3BC00F00383 /* Q317ShortestDistanceFromAllBuildings.m in Sources */,

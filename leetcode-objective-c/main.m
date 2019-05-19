@@ -7,13 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Q282ExpressionAddOperators.h"
+#import "Q76MinimumWindowSubstring.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Q282ExpressionAddOperators *obj = [Q282ExpressionAddOperators new];
-        NSNumber *obj2;
-        NSLog(@"%li", obj2.integerValue);
+        Q76MinimumWindowSubstring *obj = [Q76MinimumWindowSubstring new];
+        NSLog(@"%@", [obj minWindow:@"ADOBECODEBANC" t:@"ABC"]);
+//        NSLog(@"%li", obj2.integerValue);
     }
     return 0;
 }
