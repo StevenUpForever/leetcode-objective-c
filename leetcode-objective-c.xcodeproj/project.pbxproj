@@ -61,6 +61,7 @@
 		4966B2002290BFF4003163E1 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 4966B1FF2290BFF4003163E1 /* Node.m */; };
 		497BAF0622277A5300236127 /* Q787CheapestFlightsWithinKStops.m in Sources */ = {isa = PBXBuildFile; fileRef = 497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */; };
 		498AB1DF2287B6030054F867 /* Q301RemoveInvalidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */; };
+		4994D6E52290D43C00DF445A /* Q278FirstBadVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994D6E42290D43C00DF445A /* Q278FirstBadVersion.m */; };
 		49C08862228A83680017BA8F /* Q403FrogJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C08861228A83680017BA8F /* Q403FrogJump.m */; };
 		49C08868228A889B0017BA8F /* Q206ReverseLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C08867228A889B0017BA8F /* Q206ReverseLinkedList.m */; };
 		49C64C38221B9E5C000B8864 /* Q146LRUCache.h in Sources */ = {isa = PBXBuildFile; fileRef = 494C8850221B8534008B7A60 /* Q146LRUCache.h */; };
@@ -214,6 +215,8 @@
 		497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q787CheapestFlightsWithinKStops.m; sourceTree = "<group>"; };
 		498AB1DD2287B6030054F867 /* Q301RemoveInvalidParentheses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q301RemoveInvalidParentheses.h; sourceTree = "<group>"; };
 		498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q301RemoveInvalidParentheses.m; sourceTree = "<group>"; };
+		4994D6E32290D43C00DF445A /* Q278FirstBadVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q278FirstBadVersion.h; sourceTree = "<group>"; };
+		4994D6E42290D43C00DF445A /* Q278FirstBadVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q278FirstBadVersion.m; sourceTree = "<group>"; };
 		49C08860228A83680017BA8F /* Q403FrogJump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q403FrogJump.h; sourceTree = "<group>"; };
 		49C08861228A83680017BA8F /* Q403FrogJump.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q403FrogJump.m; sourceTree = "<group>"; };
 		49C08866228A889B0017BA8F /* Q206ReverseLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q206ReverseLinkedList.h; sourceTree = "<group>"; };
@@ -591,6 +594,8 @@
 				494C883E221B78CD008B7A60 /* Q33SearchInRotatedSortedArray.m */,
 				494C883D221B78CD008B7A60 /* Q35SearchInsertPosition.h */,
 				494C8840221B78CD008B7A60 /* Q35SearchInsertPosition.m */,
+				4994D6E32290D43C00DF445A /* Q278FirstBadVersion.h */,
+				4994D6E42290D43C00DF445A /* Q278FirstBadVersion.m */,
 			);
 			path = binary_search;
 			sourceTree = "<group>";
@@ -786,6 +791,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4966B2002290BFF4003163E1 /* Node.m in Sources */,
+				4994D6E52290D43C00DF445A /* Q278FirstBadVersion.m in Sources */,
 				494C87E6221B6771008B7A60 /* Q1TwoSum.m in Sources */,
 				49C64CA82224DD32000B8864 /* Q755PourWater.m in Sources */,
 				494C8815221B6E30008B7A60 /* Q16ThreeSumClosest.m in Sources */,
