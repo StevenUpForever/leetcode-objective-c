@@ -68,6 +68,7 @@
 		4997B97822934B2900B585AA /* Q678ValidParenthesisString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997B97722934B2900B585AA /* Q678ValidParenthesisString.m */; };
 		4997B97B22934D3C00B585AA /* Q543DiameterOfBinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997B97A22934D3C00B585AA /* Q543DiameterOfBinaryTree.m */; };
 		49A374D3229353B700B240DE /* Q334IncreasingTripletSubsequence.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A374D2229353B700B240DE /* Q334IncreasingTripletSubsequence.m */; };
+		49A374D7229354D600B240DE /* Q257BinaryTreePaths.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A374D6229354D600B240DE /* Q257BinaryTreePaths.m */; };
 		49A47FE92292211000B0101D /* Q125ValidPalindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A47FE82292211000B0101D /* Q125ValidPalindrome.m */; };
 		49A47FED2292227A00B0101D /* Q785IsGraphBipartite.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A47FEC2292227A00B0101D /* Q785IsGraphBipartite.m */; };
 		49C08862228A83680017BA8F /* Q403FrogJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C08861228A83680017BA8F /* Q403FrogJump.m */; };
@@ -238,6 +239,8 @@
 		4997B97A22934D3C00B585AA /* Q543DiameterOfBinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q543DiameterOfBinaryTree.m; sourceTree = "<group>"; };
 		49A374D1229353B700B240DE /* Q334IncreasingTripletSubsequence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q334IncreasingTripletSubsequence.h; sourceTree = "<group>"; };
 		49A374D2229353B700B240DE /* Q334IncreasingTripletSubsequence.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q334IncreasingTripletSubsequence.m; sourceTree = "<group>"; };
+		49A374D5229354D600B240DE /* Q257BinaryTreePaths.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q257BinaryTreePaths.h; sourceTree = "<group>"; };
+		49A374D6229354D600B240DE /* Q257BinaryTreePaths.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q257BinaryTreePaths.m; sourceTree = "<group>"; };
 		49A47FE72292211000B0101D /* Q125ValidPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q125ValidPalindrome.h; sourceTree = "<group>"; };
 		49A47FE82292211000B0101D /* Q125ValidPalindrome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q125ValidPalindrome.m; sourceTree = "<group>"; };
 		49A47FEB2292227A00B0101D /* Q785IsGraphBipartite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q785IsGraphBipartite.h; sourceTree = "<group>"; };
@@ -696,6 +699,15 @@
 			path = stack;
 			sourceTree = "<group>";
 		};
+		49A374D4229354B800B240DE /* pre_order */ = {
+			isa = PBXGroup;
+			children = (
+				49A374D5229354D600B240DE /* Q257BinaryTreePaths.h */,
+				49A374D6229354D600B240DE /* Q257BinaryTreePaths.m */,
+			);
+			path = pre_order;
+			sourceTree = "<group>";
+		};
 		49C64C44221E7637000B8864 /* breath_first_search */ = {
 			isa = PBXGroup;
 			children = (
@@ -716,6 +728,7 @@
 			isa = PBXGroup;
 			children = (
 				4923B7EF229212210061BF52 /* level_order */,
+				49A374D4229354B800B240DE /* pre_order */,
 				4966B1FD2290BFCF003163E1 /* in_order */,
 				49C64C96221F7C49000B8864 /* post_order */,
 				49092A0922893B7F0058A0FB /* reconstruct */,
@@ -883,6 +896,7 @@
 				494C8816221B6E30008B7A60 /* Q13RomanToInteger.m in Sources */,
 				494C884B221B8101008B7A60 /* Q56MergeIntervals.m in Sources */,
 				494C8836221B71D5008B7A60 /* Q27RemoveElement.m in Sources */,
+				49A374D7229354D600B240DE /* Q257BinaryTreePaths.m in Sources */,
 				494C8835221B71D5008B7A60 /* Q30SubstringWithConcatenationOfAllWords.m in Sources */,
 				4965694522893E9300B73D46 /* Q67AddBinary.m in Sources */,
 				494C8818221B6E30008B7A60 /* Q12IntegerToRoman.m in Sources */,
