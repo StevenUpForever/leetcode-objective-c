@@ -65,6 +65,7 @@
 		497BAF0622277A5300236127 /* Q787CheapestFlightsWithinKStops.m in Sources */ = {isa = PBXBuildFile; fileRef = 497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */; };
 		498AB1DF2287B6030054F867 /* Q301RemoveInvalidParentheses.m in Sources */ = {isa = PBXBuildFile; fileRef = 498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */; };
 		4994D6E52290D43C00DF445A /* Q278FirstBadVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = 4994D6E42290D43C00DF445A /* Q278FirstBadVersion.m */; };
+		4997B97822934B2900B585AA /* Q678ValidParenthesisString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997B97722934B2900B585AA /* Q678ValidParenthesisString.m */; };
 		49A47FE92292211000B0101D /* Q125ValidPalindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A47FE82292211000B0101D /* Q125ValidPalindrome.m */; };
 		49A47FED2292227A00B0101D /* Q785IsGraphBipartite.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A47FEC2292227A00B0101D /* Q785IsGraphBipartite.m */; };
 		49C08862228A83680017BA8F /* Q403FrogJump.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C08861228A83680017BA8F /* Q403FrogJump.m */; };
@@ -229,6 +230,8 @@
 		498AB1DE2287B6030054F867 /* Q301RemoveInvalidParentheses.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q301RemoveInvalidParentheses.m; sourceTree = "<group>"; };
 		4994D6E32290D43C00DF445A /* Q278FirstBadVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q278FirstBadVersion.h; sourceTree = "<group>"; };
 		4994D6E42290D43C00DF445A /* Q278FirstBadVersion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q278FirstBadVersion.m; sourceTree = "<group>"; };
+		4997B97622934B2900B585AA /* Q678ValidParenthesisString.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q678ValidParenthesisString.h; sourceTree = "<group>"; };
+		4997B97722934B2900B585AA /* Q678ValidParenthesisString.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q678ValidParenthesisString.m; sourceTree = "<group>"; };
 		49A47FE72292211000B0101D /* Q125ValidPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q125ValidPalindrome.h; sourceTree = "<group>"; };
 		49A47FE82292211000B0101D /* Q125ValidPalindrome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q125ValidPalindrome.m; sourceTree = "<group>"; };
 		49A47FEB2292227A00B0101D /* Q785IsGraphBipartite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q785IsGraphBipartite.h; sourceTree = "<group>"; };
@@ -373,8 +376,8 @@
 				492C48C32289415D0013CD5E /* greedy */,
 				494C87F1221B6905008B7A60 /* linkedlist */,
 				494C87F9221B6B3A008B7A60 /* math */,
-				494C87F3221B697E008B7A60 /* recursion */,
 				494C87F2221B6913008B7A60 /* string */,
+				4997B97522934B1800B585AA /* stack */,
 				49C64C95221F7C37000B8864 /* tree */,
 				494C87EC221B678D008B7A60 /* public_class */,
 				494C87C6221B6694008B7A60 /* main.m */,
@@ -444,13 +447,6 @@
 				492C48CE2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m */,
 			);
 			path = string;
-			sourceTree = "<group>";
-		};
-		494C87F3221B697E008B7A60 /* recursion */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = recursion;
 			sourceTree = "<group>";
 		};
 		494C87F4221B69FC008B7A60 /* palindrome */ = {
@@ -683,6 +679,15 @@
 			path = in_order;
 			sourceTree = "<group>";
 		};
+		4997B97522934B1800B585AA /* stack */ = {
+			isa = PBXGroup;
+			children = (
+				4997B97622934B2900B585AA /* Q678ValidParenthesisString.h */,
+				4997B97722934B2900B585AA /* Q678ValidParenthesisString.m */,
+			);
+			path = stack;
+			sourceTree = "<group>";
+		};
 		49C64C44221E7637000B8864 /* breath_first_search */ = {
 			isa = PBXGroup;
 			children = (
@@ -876,6 +881,7 @@
 				494C87E9221B6771008B7A60 /* Q6ZigZagConversion.m in Sources */,
 				490200AC2290C98200AACF26 /* Q269AlienDictionary.m in Sources */,
 				494C8814221B6E30008B7A60 /* Q17LetterCombinationsOfAPhoneNumber.m in Sources */,
+				4997B97822934B2900B585AA /* Q678ValidParenthesisString.m in Sources */,
 				4923B7F522921B7C0061BF52 /* Q158ReadNCharsRead4II.m in Sources */,
 				494C8813221B6E30008B7A60 /* Q15ThreeSum.m in Sources */,
 				494C884E221B8129008B7A60 /* Interval.m in Sources */,
