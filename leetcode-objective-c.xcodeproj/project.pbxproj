@@ -87,6 +87,7 @@
 		49C64CA82224DD32000B8864 /* Q755PourWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C64CA72224DD32000B8864 /* Q755PourWater.m */; };
 		49C90BD22287B8A700600AB0 /* Q273IntegerToEnglishWords.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C90BD12287B8A700600AB0 /* Q273IntegerToEnglishWords.m */; };
 		49CD109D22921DFD003F46BC /* Q76MinimumWindowSubstring.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CD109C22921DFD003F46BC /* Q76MinimumWindowSubstring.m */; };
+		49CE490B22939CC100BAECF8 /* Q92ReverseLinkedListII.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CE490A22939CC100BAECF8 /* Q92ReverseLinkedListII.m */; };
 		49E595D7228A74CA00B4FBD2 /* Q42TrappingRainWater.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E595D6228A74CA00B4FBD2 /* Q42TrappingRainWater.m */; };
 		49F05494225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05493225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m */; };
 		49F05497225D913500AF6AA0 /* Q57InsertInterval.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F05496225D913500AF6AA0 /* Q57InsertInterval.m */; };
@@ -272,6 +273,8 @@
 		49C90BD12287B8A700600AB0 /* Q273IntegerToEnglishWords.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q273IntegerToEnglishWords.m; sourceTree = "<group>"; };
 		49CD109B22921DFD003F46BC /* Q76MinimumWindowSubstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q76MinimumWindowSubstring.h; sourceTree = "<group>"; };
 		49CD109C22921DFD003F46BC /* Q76MinimumWindowSubstring.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q76MinimumWindowSubstring.m; sourceTree = "<group>"; };
+		49CE490922939CC100BAECF8 /* Q92ReverseLinkedListII.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q92ReverseLinkedListII.h; sourceTree = "<group>"; };
+		49CE490A22939CC100BAECF8 /* Q92ReverseLinkedListII.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q92ReverseLinkedListII.m; sourceTree = "<group>"; };
 		49E595D5228A74CA00B4FBD2 /* Q42TrappingRainWater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q42TrappingRainWater.h; sourceTree = "<group>"; };
 		49E595D6228A74CA00B4FBD2 /* Q42TrappingRainWater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q42TrappingRainWater.m; sourceTree = "<group>"; };
 		49F05492225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q957PrisonCellsAfterNDays.h; sourceTree = "<group>"; };
@@ -631,6 +634,8 @@
 				494C8826221B71D4008B7A60 /* Q24SwapNodesInPairs.m */,
 				494C8825221B71D4008B7A60 /* Q25ReverseNodesInKGGroup.h */,
 				494C882C221B71D5008B7A60 /* Q25ReverseNodesInKGGroup.m */,
+				49CE490922939CC100BAECF8 /* Q92ReverseLinkedListII.h */,
+				49CE490A22939CC100BAECF8 /* Q92ReverseLinkedListII.m */,
 				49C08866228A889B0017BA8F /* Q206ReverseLinkedList.h */,
 				49C08867228A889B0017BA8F /* Q206ReverseLinkedList.m */,
 			);
@@ -902,6 +907,7 @@
 				494C87E3221B6771008B7A60 /* Q8StringToInteger.m in Sources */,
 				492C48CF2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m in Sources */,
 				49C64C47221E7651000B8864 /* Q127WordLadder.m in Sources */,
+				49CE490B22939CC100BAECF8 /* Q92ReverseLinkedListII.m in Sources */,
 				49F05494225D8F2E00AF6AA0 /* Q957PrisonCellsAfterNDays.m in Sources */,
 				494C8816221B6E30008B7A60 /* Q13RomanToInteger.m in Sources */,
 				494C884B221B8101008B7A60 /* Q56MergeIntervals.m in Sources */,
