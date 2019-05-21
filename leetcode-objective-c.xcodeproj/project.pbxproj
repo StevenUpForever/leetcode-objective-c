@@ -61,6 +61,7 @@
 		4965694522893E9300B73D46 /* Q67AddBinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4965694422893E9300B73D46 /* Q67AddBinary.m */; };
 		4966B1FC2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4966B1FB2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m */; };
 		4966B2002290BFF4003163E1 /* Node.m in Sources */ = {isa = PBXBuildFile; fileRef = 4966B1FF2290BFF4003163E1 /* Node.m */; };
+		4968BDE92293A3BA00CC7E7C /* Q161OneEditDistance.m in Sources */ = {isa = PBXBuildFile; fileRef = 4968BDE82293A3BA00CC7E7C /* Q161OneEditDistance.m */; };
 		4969D7362290E3BC00F00383 /* Q317ShortestDistanceFromAllBuildings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4969D7352290E3BC00F00383 /* Q317ShortestDistanceFromAllBuildings.m */; };
 		497BAF0622277A5300236127 /* Q787CheapestFlightsWithinKStops.m in Sources */ = {isa = PBXBuildFile; fileRef = 497BAF0522277A5300236127 /* Q787CheapestFlightsWithinKStops.m */; };
 		497EEC34229383B1007108B0 /* Q263UglyNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 497EEC33229383B1007108B0 /* Q263UglyNumber.m */; };
@@ -228,6 +229,8 @@
 		4966B1FB2290BFCB003163E1 /* Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q426ConvertBinarySearchTreeToSortedDoublyLinkedList.m; sourceTree = "<group>"; };
 		4966B1FE2290BFF4003163E1 /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 		4966B1FF2290BFF4003163E1 /* Node.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Node.m; sourceTree = "<group>"; };
+		4968BDE72293A3BA00CC7E7C /* Q161OneEditDistance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q161OneEditDistance.h; sourceTree = "<group>"; };
+		4968BDE82293A3BA00CC7E7C /* Q161OneEditDistance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q161OneEditDistance.m; sourceTree = "<group>"; };
 		4969D7342290E3BC00F00383 /* Q317ShortestDistanceFromAllBuildings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q317ShortestDistanceFromAllBuildings.h; sourceTree = "<group>"; };
 		4969D7352290E3BC00F00383 /* Q317ShortestDistanceFromAllBuildings.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Q317ShortestDistanceFromAllBuildings.m; sourceTree = "<group>"; };
 		497BAF0422277A5300236127 /* Q787CheapestFlightsWithinKStops.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Q787CheapestFlightsWithinKStops.h; sourceTree = "<group>"; };
@@ -465,6 +468,8 @@
 				494C8828221B71D4008B7A60 /* Q28ImplementStrStr.m */,
 				492C48CD2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.h */,
 				492C48CE2289DE1F0013CD5E /* Q953VerifyingAnAlienDictionary.m */,
+				4968BDE72293A3BA00CC7E7C /* Q161OneEditDistance.h */,
+				4968BDE82293A3BA00CC7E7C /* Q161OneEditDistance.m */,
 			);
 			path = string;
 			sourceTree = "<group>";
@@ -877,6 +882,7 @@
 				49C64CA82224DD32000B8864 /* Q755PourWater.m in Sources */,
 				494C8815221B6E30008B7A60 /* Q16ThreeSumClosest.m in Sources */,
 				49F05497225D913500AF6AA0 /* Q57InsertInterval.m in Sources */,
+				4968BDE92293A3BA00CC7E7C /* Q161OneEditDistance.m in Sources */,
 				494C8810221B6E30008B7A60 /* Q19RemoveNthNodeFromEndOfList.m in Sources */,
 				490200AF2290CE8000AACF26 /* Q973KClosestPointsToOrigin.m in Sources */,
 				498AB1DF2287B6030054F867 /* Q301RemoveInvalidParentheses.m in Sources */,
